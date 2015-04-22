@@ -1,0 +1,281 @@
+#########################################
+########## Directory Structure ##########
+#########################################
+
+# the raw directory contains the raw .CSV files downloaded directly from the android devices
+# the structure for this folder is raw -> project name -> week number -> group color -> output-from-CyberTracker.CSV
+# the names of the .CSV files can be anything
+- raw 
+	- Crabs
+		- Week_1
+			- blue
+			- green
+			- red
+			- yellow
+		- Week_2
+			- blue
+			- green
+			- red
+			- yellow
+
+	- Mangroves_Community
+		- Week_1
+			- blue
+			- green
+			- red
+			- yellow
+		- Week_2
+			- blue
+			- green
+			- red
+			- yellow
+	
+	- Mangroves_Herbivory
+		- Week_1
+			- blue
+			- green
+			- red
+			- yellow
+		- Week_2
+			- blue
+			- green
+			- red
+			- yellow
+	
+	- Spiders
+		- Week_1
+			- blue
+			- green
+			- red
+			- yellow
+		- Week_2
+			- blue
+			- green
+			- red
+			- yellow
+	
+	- Vegetation_Assessment
+		- Week_1
+			- blue
+			- green
+			- red
+			- yellow
+		- Week_2
+			- blue
+			- green
+			- red
+			- yellow
+
+# the cleaned directory contains the version of each sub-groups data after they have dealt with issues via the formatter program
+# the directory strucutre is similar to that of the raw directory
+# the structure for this folder is cleaned -> project name -> week number -> group color -> sub-groups-name.csv
+# the names of the .csv files correspond to the names of the sub-groups
+- cleaned
+	- Crabs
+		- Week_1
+			- blue
+			- green
+			- red
+			- yellow
+		- Week_2
+			- blue
+			- green
+			- red
+			- yellow
+
+	- Mangroves_Community
+		- Week_1
+			- blue
+			- green
+			- red
+			- yellow
+		- Week_2
+			- blue
+			- green
+			- red
+			- yellow
+	
+	- Mangroves_Herbivory
+		- Week_1
+			- blue
+			- green
+			- red
+			- yellow
+		- Week_2
+			- blue
+			- green
+			- red
+			- yellow
+	
+	- Spiders
+		- Week_1
+			- blue
+			- green
+			- red
+			- yellow
+		- Week_2
+			- blue
+			- green
+			- red
+			- yellow
+	
+	- Vegetation_Assessment
+		- Week_1
+			- blue
+			- green
+			- red
+			- yellow
+		- Week_2
+			- blue
+			- green
+			- red
+			- yellow
+
+# the formatted directory contains the version of each sub-groups data after they cleaned data has been formatted ready for the viweer program
+# the directory strucutre is similar to that of the raw and cleaned directories
+# the structure for this folder is formatted -> project name -> week number -> group color -> sub-groups-name.csv
+# the names of the .csv files correspond to the names of the sub-groups
+- formatted
+	- Crabs
+		- Week_1
+			- blue
+			- green
+			- red
+			- yellow
+		- Week_2
+			- blue
+			- green
+			- red
+			- yellow
+
+	- Mangroves_Community
+		- Week_1
+			- blue
+			- green
+			- red
+			- yellow
+		- Week_2
+			- blue
+			- green
+			- red
+			- yellow
+	
+	- Mangroves_Herbivory
+		- Week_1
+			- blue
+			- green
+			- red
+			- yellow
+		- Week_2
+			- blue
+			- green
+			- red
+			- yellow
+	
+	- Spiders
+		- Week_1
+			- blue
+			- green
+			- red
+			- yellow
+		- Week_2
+			- blue
+			- green
+			- red
+			- yellow
+	
+	- Vegetation_Assessment
+		- Week_1
+			- blue
+			- green
+			- red
+			- yellow
+		- Week_2
+			- blue
+			- green
+			- red
+			- yellow
+			
+
+# the compiled directory contains spreadsheets with all the formatted data collected for each day
+# the structure for this folder is formatted -> project name -> week number -> group-color.csv
+- compiled
+	- Crabs
+		- Week_1
+			- group_blue_data.csv
+			- group_green_data.csv
+			- group_red_data.csv
+			- group_yellow_data.csv
+		- Week_2
+			- group_blue_data.csv
+			- group_green_data.csv
+			- group_red_data.csv
+			- group_yellow_data.csv
+
+	- Mangroves_Community
+		- Week_1
+			- group_blue_data.csv
+			- group_green_data.csv
+			- group_red_data.csv
+			- group_yellow_data.csv
+		- Week_2
+			- group_blue_data.csv
+			- group_green_data.csv
+			- group_red_data.csv
+			- group_yellow_data.csv
+	
+	- Mangroves_Herbivory
+		- Week_1
+			- group_blue_data.csv
+			- group_green_data.csv
+			- group_red_data.csv
+			- group_yellow_data.csv
+		- Week_2
+			- group_blue_data.csv
+			- group_green_data.csv
+			- group_red_data.csv
+			- group_yellow_data.csv
+	
+	- Spiders
+		- Week_1
+			- group_blue_data.csv
+			- group_green_data.csv
+			- group_red_data.csv
+			- group_yellow_data.csv
+		- Week_2
+			- group_blue_data.csv
+			- group_green_data.csv
+			- group_red_data.csv
+			- group_yellow_data.csv
+	
+	- Vegetation_Assessment
+		- Week_1
+			- group_blue_data.csv
+			- group_green_data.csv
+			- group_red_data.csv
+			- group_yellow_data.csv
+		- Week_2
+			- group_blue_data.csv
+			- group_green_data.csv
+			- group_red_data.csv
+			- group_yellow_data.csv
+			
+# the master directory contains an archive of all the complete datasets for each project ever created
+# the explorer program is set to automatically load the most recently generated file
+# the directory structure is master -> project name -> master_date-time.csv
+
+- master
+	- Crabs
+		- master-date-time.csv
+	
+	- Mangroves_Community
+		- master-date-time.csv
+	
+	- Mangroves_Herbivory
+		- master-date-time.csv
+	
+	- Spiders
+		- master-date-time.csv
+
+	- Vegetation_Assessment
+		- master-date-time.csv

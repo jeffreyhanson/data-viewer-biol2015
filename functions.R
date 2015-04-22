@@ -1,15 +1,15 @@
 ### html functions
 selectInput_CUST=function (inputId, label, choices, selected = NULL, multiple = FALSE, selectize = TRUE, width = NULL, size = NULL, widgetId=NULL) {
-	choices <- choicesWithNames(choices)
+	choices <- shiny:::choicesWithNames(choices)
 	if (is.null(selected)) {
 	if (!multiple) 
-		selected <- firstChoice(choices)
+		selected <- shiny:::firstChoice(choices)
 	}
-	else selected <- validateSelected(selected, choices, inputId)
+	else selected <- shiny:::validateSelected(selected, choices, inputId)
 	if (!is.null(size) && selectize) {
 		stop("'size' argument is incompatible with 'selectize=TRUE'.")
 	}
-	selectTag <- tags$select(id = inputId, class = if (!selectize) "form-control", size = size, selectOptions(choices, selected))
+	selectTag <- tags$select(id = inputId, class = if (!selectize) "form-control", size = size, shiny:::selectOptions(choices, selected))
 	if (multiple) 
 	selectTag$attribs$multiple <- "multiple"
 	res <- div(
@@ -17,13 +17,13 @@ selectInput_CUST=function (inputId, label, choices, selected = NULL, multiple = 
 			widgetId,
 		class = "form-group shiny-input-container",
 		style = if (!is.null(width))
-			paste0("width: ", validateCssUnit(width)),
-		controlLabel(inputId, label), 
+			paste0("width: ", shiny:::validateCssUnit(width)),
+		shiny:::controlLabel(inputId, label), 
 		div(selectTag)
 	)
     if (!selectize) 
         return(res)
-    return(selectizeIt(inputId, res, NULL, nonempty = !multiple && !("" %in% choices)))
+    return(shiny:::selectizeIt(inputId, res, NULL, nonempty = !multiple && !("" %in% choices)))
 }
 
 ### assorted functions
@@ -39,6 +39,9 @@ is.empty=function(x) {
 	return(length(x)==0)
 }
 
+is.validchr=function(x) {
+	return(length(x)>0 && nchar(x)>0 && !identical(x, '----'))
+}
 
 
 

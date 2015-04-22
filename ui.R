@@ -16,13 +16,19 @@ shinyUI(fluidPage(
 		sidebarLayout(
 			sidebarPanel(
 				tabsetPanel(type = "tabs", 
-					tabPanel("load_data_PNL",
+					tabPanel(value="load_data_PNL", title="Load data",
 						div(
-							selectInput("week_number_CHR", "Week Number:", choices=week_numbers_VCHR, selected="week 1"),
+							br(),
 							selectInput("project_name_CHR", "Project:", choices=project_names_VCHR, selected="mangrove herbivory"),
-							checkboxInput("group_subset_BOOL", 'load data for specific group?', value = FALSE),
-							selectInput_CUST("group_color_CHR", "Group Colour:", choices=group_colors_VCHR, selected="blue", multiple=-FALSE, widgetId="group_color_WDGT"),
-							selectInput_CUST("group_names_VCHR", "Group Name:", choices=group_colors_VCHR, selected="blue", multiple=FALSE, widgetId="group_names_WDGT", selectize=TRUE),
+							checkboxInput("group_subset_BOOL", ' load data for specific group?', value = FALSE),
+							conditionalPanel(
+								condition="input.group_subset_BOOL == true",
+								div(
+									selectInput("week_number_CHR", "Week Number:", choices=week_numbers_VCHR, selected="week 1"),
+									selectInput("group_color_CHR", "Group Colour:", choices=group_colors_VCHR, selected="blue", multiple=-FALSE),
+									selectInput("group_names_VCHR", "Group Name:", choices=c(''), selected="blue", multiple=FALSE, selectize=TRUE)
+								)
+							),
 							div(class="center", 
 								tags$button(
 									id="load_data_BTN",
@@ -35,38 +41,37 @@ shinyUI(fluidPage(
 							bsAlert("alert")
 						)
 					),
-					tabPanel("vars_PNL",
+					tabPanel(value="vars_PNL", title="Variables",
 						div(
+							br(),
 							div(
-								h2('Variables'),
-								textInput("response_CHR", label="Response variable:", value=""),
-								textInput("predictor1_CHR", label="Predictor variable:", value=""),
-								textInput("predictor2_CHR", label="Predictor variable:", value="")
+								selectInput("response_CHR", label="Response variable:", choices=c('')),
+								selectInput("predictor1_CHR", label="Predictor variable:", choices=c('')),
+								selectInput("predictor2_CHR", label="Predictor variable:", choices=c(''))
 							),
 							div(
-								h2('Model Parameters'),
 								selectInput("family_CHR", label="Error distribution:", choices=c(
-									gaussian='Gaussian', 
-									poisson='Poisson', 
-									binomial='binomial', 
-									quasipoisson='quasi-Poisson'),
-									negativebinomial='negative binomial'
-								),
-							),
+									"Gaussian"="gaussian", 
+									"Poisson"="poisson", 
+									"binomial"="binomial", 
+									"quasi-Poisson"="quasipoisson",
+									"negative binomial"="negativebinomial"
+								))
+							)
 						)
 					),
-					tabPanel("opts_PNL",
+					tabPanel(value="opts_PNL", title="Options",
 						div(
+							br(),
 							div(
-								h2('Plot Options'),
 								textInput("main_CHR", label="title:", value=""),
 								textInput("ylab_CHR", label="y-axis label:", value=""),
-								textInput("xlab_CHR", label="x-axis label:", value=""),
-							)
+								textInput("xlab_CHR", label="x-axis label:", value="")
+							),
 							conditionalPanel(
 								condition="output.plot_type == 'histogram'",
 								div(
-									sliderInput("nbins_INT", label="number bins:", min=1, max=10, round=TRUE)
+									sliderInput("nbins_INT", label="number bins:", min=1, max=10, value=5, round=TRUE)
 								)
 							),
 							div(style="visibility:hidden",h5(textOutput('plot_type')))
@@ -76,18 +81,18 @@ shinyUI(fluidPage(
 			),
 			mainPanel(
 				conditionalPanel(
-					condition="output.panel_mode == 'plot'",
+					condition="output.panel_mode == 'active'",
 					tabsetPanel(type = "tabs", 
-						tabPanel("plot_PNL",
+						tabPanel(value="plot_PNL", title="Plot",
 							plotOutput("main_PLOT")
 						), 
-						tabPanel("diagnostics_PNL",
-							plotOutput("diagnostic_PLOT")
+						tabPanel(value="diagnostics_PNL", title="Diagnostics",
+							plotOutput("diagnostics_PLOT")
 						),
-						tabPanel("model_PNL"
+						tabPanel(value="model_PNL", title="Results",
 							textOutput("model_TXT")
 						),
-						tabPanel("data_PNL",
+						tabPanel(value="data_PNL", title="Data",
 							dataTableOutput(outputId="data_DF")
 						)
 					)
