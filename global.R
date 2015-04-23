@@ -1,5 +1,5 @@
  ## set gobal options
- options(stringsAsFactors=TRUE, shiny.error=traceback)
+ options(stringsAsFactors=TRUE, shiny.error=traceback, width=10000)
 
 ## Load dependencies
 library(zoo)
@@ -13,6 +13,8 @@ library(dplyr)
 library(testthat)
 library(ggplot2)
 library(ggfortify)
+library(multcomp)
+library(plotrix)
 
 ## Set global parameters
 # dir params

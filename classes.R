@@ -54,18 +54,12 @@ MANAGER=setRefClass("MANAGER",
 		
 		#### disk interface methods
 		loadProjectDataFromFile=function() {
-			print(3.1)
 			currPTH=dir(file.path("master", .activeProjectName_CHR), '^.*.csv', ignore.case=TRUE, full.names=TRUE)
-			print(currPTH)
-			print(3.2)
 			if (length(currPTH)>0) {
-				print(3.3)
 				.fullData_DF<<-fread(sort(currPTH, decreasing=TRUE)[1])
-				print(3.4)
 				return(TRUE)
 			} else {
 				.fullData_DF<<-data.table(0)
-				print(3.5)
 				return(FALSE)
 			}
 		},
@@ -160,126 +154,163 @@ MANAGER=setRefClass("MANAGER",
 		### model methods
 		fitModel=function() {
 			# construct formula
-			print('fitting model')
 			if (!is.validchr(.predictorVariable1_CHR)) {
-				.model_FRM<<-as.formula(paste0('`',.responseVariable_CHR,'`~ 1'))
+				.model_FRM<<-as.formula(paste0(make.names(.responseVariable_CHR),'~1'))
 			} else {
-				if (is.validchr(.predictorVariable2_CHR)) {
-					.model_FRM<<-reformulate(response=.responseVariable_CHR, termlabels=.predictorVariable1_CHR)
+				if (!is.validchr(.predictorVariable2_CHR)) {
+					.model_FRM<<-reformulate(response=make.names(.responseVariable_CHR), termlabels=make.names(.predictorVariable1_CHR))
 				} else {
-					if (is.numeric(.activeData_DF[[.predictorVariable2_CHR]]) & !is.numeric(.activeData_DF[[.predictorVariable1_CHR]])) {
+					if (is.numeric(.activeData_DF[[.predictorVariable2_CHR]]) && !is.numeric(.activeData_DF[[.predictorVariable1_CHR]])) {
 						tmp=.predictorVariable1_CHR
 						.predictorVariable1_CHR<<-.predictorVariable2_CHR
 						.predictorVariable2_CHR<<-tmp
 					}
-					.model_FRM<<-reformulate(response=.responseVariable_CHR, termlabels=c(.predictorVariable1_CHR, .predictorVariable2_CHR, paste0(.predictorVariable1_CHR, ':', .predictorVariable2_CHR)))
+					.model_FRM<<-reformulate(response=make.names(.responseVariable_CHR), termlabels=c(make.names(.predictorVariable1_CHR), make.names(.predictorVariable2_CHR), paste0(make.names(.predictorVariable1_CHR), ':', make.names(.predictorVariable2_CHR))))
 				}
 			}
-			# run model
-			.model_GLM<<-glm(.model_FRM, data=.activeData_DF, family=.responseFamily_CHR)
+			# run model			
+			tmpDF=as.data.frame(.activeData_DF)
+			names(tmpDF)=make.names(names(tmpDF))
+			.model_GLM<<-glm(.model_FRM, data=tmpDF, family=.responseFamily_CHR)
 		},
 		
 		### export methods
 		plot=function() {
-			print('plotting data')
+			# prepare data
+			tmpDF=as.data.frame(.activeData_DF)
+			setnames(tmpDF, names(tmpDF), make.names(names(tmpDF)))
+			
 			# no predictor variable plots
 			if (!is.validchr(.predictorVariable1_CHR)) {
 				# histogram plot
-				pos=unname(predict(.model_GLM, newdata=data.frame(1), type='response'))
-				print('pos')
-				print(pos)
-				x=ggplot(.activeData_DF, aes(x=.activeData_DF[[.responseVariable_CHR]])) +
-					geom_histogram(
-						aes(y=..density..),
-						binwidth=abs(diff(range(.activeData_DF[[.responseVariable_CHR]])))/.nbins_DBL,
-						fill='grey'
-					) +
-					geom_density(
-						alpha=.2,
-						fill="blue"
-					) +
-					geom_vline(aes(xintercept=pos), color="blue", linetype="dashed", size=1) +
-					xlab(.responseVariable_CHR) +
-					ylab("Density") +
-					theme_classic()
-				x$plot_env=environment()
-				print(x)
+				ggplot2Wrapper(
+					ggplot(tmpDF, aes(x=tmpDF[[make.names(.responseVariable_CHR)]])) +
+						geom_histogram(
+							aes(y=..density..),
+							binwidth=abs(diff(range(tmpDF[[make.names(.responseVariable_CHR)]])))/.nbins_DBL,
+							fill='blue',
+							alpha=0.2
+						) +
+						geom_density(
+							fill="transparent"
+						) +
+						geom_vline(
+							aes(xintercept=unname(predict(.model_GLM, newdata=data.frame(1), type='response'))),
+							color="blue",
+							linetype="dashed",
+							size=1
+						) +
+						xlab(.responseVariable_CHR) +
+						ylab("Density") +
+						theme_classic()
+				)
 			}
 			
 			# single predictor variable plots
 			if (is.validchr(.predictorVariable1_CHR) & !is.validchr(.predictorVariable2_CHR)) {
-				if (is.numeric(.activeData_DF[[.predictorVariable1_CHR]])) {
+				if (is.numeric(tmpDF[[make.names(.predictorVariable1_CHR)]])) {
 					# regression plot
-					x=ggplot(.activeData_DF, aes_string(x=.responseVariable_CHR, y=.predictorVariable2_CHR)) +
-						geom_point(shape=1) +
-						geom_smooth(method="glm", family=.responseFamily_CHR) +
-						theme_classic()
-					x$plot_env=environment()
-					print(x)
+					setnames(tmpDF, make.names(c(.responseVariable_CHR,.predictorVariable1_CHR)), c('resp_var', 'pred_var'))
+					ggplot2Wrapper(
+						ggplot(tmpDF, aes(x=pred_var, y=resp_var)) +
+							geom_point(shape=1) +
+							geom_smooth(method="glm", family=.responseFamily_CHR) +
+							xlab(.predictorVariable1_CHR) +
+							ylab(.responseVariable_CHR) +
+							theme_classic()
+					)
 				} else {
 					# make predictions
-					predDF=data.frame(.predictorVariable1_CHR=unique(.activeData_DF[[.predictorVariable1_CHR]]))
-					names(predDF)=.predictorVariable1_CHR
-					tmpDF=predict(.model_GLM, se.fit=TRUE)
-					predDF[[.responseVariable_CHR]]=tmpDF$fit
+					predDF=data.frame(.predictorVariable1_CHR=unique(.model_GLM$model[[make.names(.predictorVariable1_CHR)]]))
+					names(predDF)=make.names(.predictorVariable1_CHR)
+					tmpDF=predict(.model_GLM, newdata=predDF, se.fit=TRUE)
+					predDF$resp_var=tmpDF$fit
 					predDF$upper=tmpDF$fit+tmpDF$se.fit
 					predDF$lower=tmpDF$fit-tmpDF$se.fit
-					
+					names(predDF)[1]='pred_var'
 					# bar plot
-					x=ggplot(.activeData_DF, aes_string(x=.predictorVariable1_CHR, y=.responseVariable_CHR)) + 
-						geom_bar(position=position_dodge(), stat="identity") +
-						geom_errorbar(aes(ymin=predDF$lower, ymax=perdDF$upper), position=position_dodge(.9)) +
-						theme_classic()
-					x$plot_env=environment()
-					print(x)
-
+					ggplot2Wrapper(
+						ggplot(predDF, aes(x=pred_var, y=resp_var)) + 
+							geom_bar(position=position_dodge(), stat="identity", fill="blue", alpha=0.2) +
+							geom_errorbar(aes(ymin=predDF$lower, ymax=predDF$upper), position=position_dodge(.9), width=0.5) +
+							xlab(.predictorVariable1_CHR) +
+							ylab(.responseVariable_CHR) +
+							theme_classic()
+					)
 				}
-			} 
+			}
 			
 			# two predictor variable plots
 			if (is.validchr(.predictorVariable1_CHR) & is.validchr(.predictorVariable2_CHR)) {
 				if (is.numeric(.activeData_DF[[.predictorVariable1_CHR]])) {
-					# ancova plot
-					stop('not finished')
+					## ancova plot
+					# make plot
+					ggplot2Wrapper(
+						ggplot(tmpDF, aes_string(x = make.names(.predictorVariable1_CHR), y = make.names(.responseVariable_CHR), color = make.names(.predictorVariable2_CHR))) +
+							scale_color_discrete(name= .predictorVariable2_CHR) +
+							geom_point() +
+							geom_smooth(method = "glm", family=.responseFamily_CHR) +
+							xlab(.predictorVariable1_CHR) +
+							ylab(.responseVariable_CHR) +
+							theme_classic()
+					)
 				} else {
-					#two-way anova bar plot
-					stop('not finished')
+					## two-way anova bar plot
+					# make predictions
+					comb_MTX=laply(strsplit(unique(paste0(.model_GLM$model[[make.names(.predictorVariable1_CHR)]],'%%%SEP%%%',.model_GLM$model[[make.names(.predictorVariable2_CHR)]])),'%%%SEP%%%'), function(x) {return(x)})
+					predDF=data.frame(
+						pred1_var=comb_MTX[,1],
+						pred2_var=comb_MTX[,2]
+					
+					)
+					names(predDF)=make.names(c(.predictorVariable1_CHR,.predictorVariable2_CHR))
+					tmpDF=predict(.model_GLM, newdata=predDF, se.fit=TRUE)
+					predDF$resp_var=tmpDF$fit
+					predDF$upper=tmpDF$fit+tmpDF$se.fit
+					predDF$lower=tmpDF$fit-tmpDF$se.fit
+					names(predDF)[1:2]=c('pred1_var', 'pred2_var')
+					# bar plot
+					ggplot2Wrapper(
+						ggplot(predDF, aes(x=pred1_var, y=resp_var, fill=pred2_var)) + 
+							geom_bar(position=position_dodge(), stat="identity") +
+							geom_errorbar(aes(ymin=predDF$lower, ymax=predDF$upper), position=position_dodge(.9), width=0.5) +
+							xlab(.predictorVariable1_CHR) +
+							ylab(.responseVariable_CHR) +
+							labs(fill = .predictorVariable2_CHR) +
+							theme_classic()
+					)
 				}
 			}
 		},
 		modelDiagnostics=function() {
-			print('rendering model diagnostics')
-			print(7.911)
-			if (is.validchr(.predictorVariable2_CHR) && is.validchr(.activeData_DF[[.predictorVariable2_CHR]]) && 
-			    is.validchr(.predictorVariable1_CHR) && is.validchr(.activeData_DF[[.predictorVariable1_CHR]])) {
-				print(7.912)
-				tmpDF=.activeData_DF
-				tmpDF$interaction=interaction(.activeData_DF[[.predictorVariable1_CHR]], .activeData_DF[[.predictorVariable2_CHR]])
-				x=autoplot(.model_GLM, data=.activeData_DF, color='interaction') + 
-					theme_classic()
-				x$plot_env=environment()
-				print(x)
-				print(7.913)
-			} else if (is.validchr(.predictorVariable1_CHR) && is.numeric(.activeData_DF[[.predictorVariable1_CHR]])) {
-				print(7.914)
-				x=autoplot(.model_GLM, data=.activeData_DF, color=.predictorVariable1_CHR) + theme_bw()
-				x$plot_env=environment()
-				print(x)
-				print(7.915)
+			if (!is.validchr(.predictorVariable1_CHR)) {
+				autoplot(.model_GLM) + theme_classic()
 			} else {
-				print(7.916)
-				x=autoplot(.model_GLM) + theme_classic()
-# 				x$plot_env=environment()
-				print(x)
-				print(7.917)
+				if (!is.validchr(.predictorVariable2_CHR)) {
+					if (is.numeric(.activeData_DF[[.predictorVariable1_CHR]])) {
+						autoplot(.model_GLM) + theme_classic()
+					
+					} else {
+						autoplot(.model_GLM, data=.model_GLM$model, color=make.names(.predictorVariable1_CHR)) + theme_classic()
+					}
+				} else {
+					if (is.numeric(.activeData_DF[[.predictorVariable1_CHR]])) {
+						autoplot(.model_GLM, data=.model_GLM$model, color=make.names(.predictorVariable1_CHR)) + theme_classic()
+					} else {
+						tmpDF=as.data.frame(.activeData_DF)
+						tmpDF$interaction=interaction(.activeData_DF[[.predictorVariable1_CHR]], .activeData_DF[[.predictorVariable2_CHR]])
+						autoplot(.model_GLM, data=tmpDF, color='interaction') + theme_classic()
+					}
+				}
 			}
-			print(7.918)
 		},
 		modelResults=function() {
 			return(
-				paste(
-					capture.output(anova(.model_GLM)),
-					collapse='\n'
+				list(
+					dataSummary=glmDataSummaryUI(.model_GLM),
+					modelSummary=glmModelSummaryUI(.model_GLM),
+					anova=glmAnovaUI(.model_GLM),
+					posthoc=glmPosHocUI(.model_GLM)
 				)
 			)
 		},
@@ -292,7 +323,7 @@ MANAGER=setRefClass("MANAGER",
 				} else {
 					return(.activeData_DF[,c(.responseVariable_CHR,.predictorVariable1_CHR, .predictorVariable2_CHR),with=FALSE])
 				}
-			}			
+			}
 		}
 	)
 )

@@ -10,12 +10,50 @@ shinyUI(fluidPage(
 			visibility: hidden;
 		}
 		
+		code, samp, kbd {
+			font-family: \"Courier New\", Courier, monospace, sans-serif;
+			text-align: left;
+			color: #555;
+		}
+		
+		pre code {
+			line-height: 1.6em;
+			font-size: 11px;
+		}
+		
+		pre {
+			padding: 0.1em 0.5em 0.3em 0.7em;
+			border-left: 11px solid #ccc;
+			margin: 1.7em 0 1.7em 0.3em;
+			overflow: auto;
+			width: 93%;
+		}
+		
+		/* target IE7 and IE6 */
+		*:first-child+html pre {
+			padding-bottom: 2em;
+			overflow-y: hidden;
+			overflow: visible;
+			overflow-x: auto; 
+		}
+			
+		* html pre { 
+			padding-bottom: 2em;
+			overflow: visible;
+			overflow-x: auto;
+		}
+	
+		.center {
+			width: 100%;
+			text-align:center;
+		}
+		
 		")
 	),
 	tags$body(id="page-wrap",
 		sidebarLayout(
 			sidebarPanel(
-				tabsetPanel(type = "tabs", 
+				tabsetPanel(id='sidebarTabsetPanel', type = "tabs", 
 					tabPanel(value="load_data_PNL", title="Load data",
 						div(
 							br(),
@@ -29,6 +67,7 @@ shinyUI(fluidPage(
 									selectInput("group_names_VCHR", "Group Name:", choices=c(''), selected="blue", multiple=FALSE, selectize=TRUE)
 								)
 							),
+							br(),
 							div(class="center", 
 								tags$button(
 									id="load_data_BTN",
@@ -59,23 +98,6 @@ shinyUI(fluidPage(
 								))
 							)
 						)
-					),
-					tabPanel(value="opts_PNL", title="Options",
-						div(
-							br(),
-							div(
-								textInput("main_CHR", label="title:", value=""),
-								textInput("ylab_CHR", label="y-axis label:", value=""),
-								textInput("xlab_CHR", label="x-axis label:", value="")
-							),
-							conditionalPanel(
-								condition="output.plot_type == 'histogram'",
-								div(
-									sliderInput("nbins_INT", label="number bins:", min=1, max=10, value=5, round=TRUE)
-								)
-							),
-							div(style="visibility:hidden",h5(textOutput('plot_type')))
-						)
 					)
 				)
 			),
@@ -90,7 +112,7 @@ shinyUI(fluidPage(
 							plotOutput("diagnostics_PLOT")
 						),
 						tabPanel(value="model_PNL", title="Results",
-							textOutput("model_TXT")
+							uiOutput("model_UI")
 						),
 						tabPanel(value="data_PNL", title="Data",
 							dataTableOutput(outputId="data_DF")
