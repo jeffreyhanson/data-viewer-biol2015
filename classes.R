@@ -67,10 +67,11 @@ MANAGER=setRefClass("MANAGER",
 		### data loading methods
 		getProjectGroupNames=function() {
 			return(
-				.fullProjectData_DF %>%
+				.fullData_DF %>%
 				filter(Week==.activeWeekNumber_CHR & `Group color`==.activeGroupColor_CHR) %>%
 				select(`Group name`) %>%
-				unique()
+				`[[`(1) %>%
+				unique() 
 			)
 		},
 		setActiveWeekNumber=function(week_number) {
@@ -127,6 +128,38 @@ MANAGER=setRefClass("MANAGER",
 		setPredictor2Variable=function(i) {
 			.predictorVariable2_CHR<<-i
 		},
+		is.validResponseFamily=function() {
+			switch(.responseFamily_CHR,
+				'gaussian'={
+					return(TRUE)
+				},
+				'poisson'={
+					return (
+						all(na.omit(.activeData_DF[[.responseVariable_CHR]])>=0) &&
+						all(na.omit(.activeData_DF[[.responseVariable_CHR]])==na.omit(round(.activeData_DF[[.responseVariable_CHR]])))
+					)
+				},
+				'binomial'={
+					return(
+						all(na.omit(.activeData_DF[[.responseVariable_CHR]])<0) &&
+						all(na.omit(.activeData_DF[[.responseVariable_CHR]])>1)
+					)
+				
+				},
+				'quasipoisson'={
+					return (
+						all(na.omit(.activeData_DF[[.responseVariable_CHR]])>=0) &&
+						all(na.omit(.activeData_DF[[.responseVariable_CHR]])==na.omit(round(.activeData_DF[[.responseVariable_CHR]])))
+					)
+				},
+				'negativebinomial'={
+					return (
+						all(na.omit(.activeData_DF[[.responseVariable_CHR]])>=0) &&
+						all(na.omit(.activeData_DF[[.responseVariable_CHR]])==na.omit(round(.activeData_DF[[.responseVariable_CHR]])))
+					)
+				}
+			)
+		},
 		
 		### plot setter methods
 		setPlotTitle=function(i) {
@@ -171,7 +204,12 @@ MANAGER=setRefClass("MANAGER",
 			# run model			
 			tmpDF=as.data.frame(.activeData_DF)
 			names(tmpDF)=make.names(names(tmpDF))
-			.model_GLM<<-glm(.model_FRM, data=tmpDF, family=.responseFamily_CHR)
+			
+			if (.responseFamily_CHR!='negativebinomial') {
+				.model_GLM<<-glm(.model_FRM, data=tmpDF, family=.responseFamily_CHR)
+			} else {
+				.model_GLM<<-glm.nb(.model_FRM, data=tmpDF)
+			}
 		},
 		
 		### export methods
@@ -187,7 +225,6 @@ MANAGER=setRefClass("MANAGER",
 					ggplot(tmpDF, aes(x=tmpDF[[make.names(.responseVariable_CHR)]])) +
 						geom_histogram(
 							aes(y=..density..),
-							binwidth=abs(diff(range(tmpDF[[make.names(.responseVariable_CHR)]])))/.nbins_DBL,
 							fill='blue',
 							alpha=0.2
 						) +
@@ -310,7 +347,7 @@ MANAGER=setRefClass("MANAGER",
 					dataSummary=glmDataSummaryUI(.model_GLM),
 					modelSummary=glmModelSummaryUI(.model_GLM),
 					anova=glmAnovaUI(.model_GLM),
-					posthoc=glmPosHocUI(.model_GLM)
+					posthoc=glmPosHocUI(.model_GLM, .responseFamily_CHR)
 				)
 			)
 		},

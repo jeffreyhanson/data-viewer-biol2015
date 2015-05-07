@@ -2,6 +2,7 @@
  options(stringsAsFactors=TRUE, shiny.error=traceback, width=10000)
 
 ## Load dependencies
+library(MASS)
 library(zoo)
 library(shiny)
 library(shinyBS)

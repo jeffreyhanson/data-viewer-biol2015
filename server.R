@@ -5,6 +5,7 @@ shinyServer(function(input,output,session) {
 	manager=MANAGER$new()
 	output$plot_type=renderText({'histogram'})
 	output$panel_mode=renderText({'welcome'})
+	output$group_subset_CHR=renderText({'FALSE'})
 	output$model_TXT=renderText({''})
 	output$main_PLOT=renderPlot({emptyPlot()})
 	output$diagnostic_PLOT=renderPlot({emptyPlot()})
@@ -49,6 +50,7 @@ shinyServer(function(input,output,session) {
 		}
 		isolate({
 			manager$setGroupSubset(input$group_subset_BOOL)
+			output$group_subset_CHR=renderText({as.character(input$group_subset_BOOL)})
 			if (!input$group_subset_BOOL)
 				session$sendCustomMessage("setWidgetProperty",list(id="load_data_BTN",prop="disabled", status=FALSE))
 		})
@@ -68,9 +70,10 @@ shinyServer(function(input,output,session) {
 				manager$setActiveGroupColor(input$group_color_CHR)
 			# load group names
 			if (manager$isGroupSubset()) {
-				updateSelectInput(session, "group_names_VCHR", choices=manager$getProjectGroupNames())				
+				tmp=manager$getProjectGroupNames()
+				updateSelectInput(session, "group_names_VCHR", choices=tmp)
 				session$sendCustomMessage("setWidgetProperty",list(id="load_data_BTN",prop="disabled", status=TRUE))
-				if (nrow(tmp)==0) {
+				if (length(tmp)==0) {
 					createAlert(
 						session,'alert','loadingGroupAlert', title='Error', append=FALSE, type='danger',
 						message='Error loading data for specified week and group color.\n\nPlease check that you have entered the correct details. \n\nIf you have still receive this message, please ask your tutor for help.'
@@ -79,6 +82,7 @@ shinyServer(function(input,output,session) {
 			}
 		})
 	})
+	
 	observe({
 		if (is.empty(input$group_names_VCHR))
 			return()
@@ -87,7 +91,6 @@ shinyServer(function(input,output,session) {
 			session$sendCustomMessage("setWidgetProperty",list(id="load_data_BTN",prop="disabled", status=FALSE))
 		})
 	})
-	
 	
 	
 	# load data observer
@@ -121,7 +124,7 @@ shinyServer(function(input,output,session) {
 	## main viewing panels
 	# variable sidebar panel observers
 	observe({
-		if (is.empty(input$response_CHR) & is.empty(input$predictor1_CHR) & is.empty(input$predictor2_CHR))
+		if (is.empty(input$response_CHR) & is.empty(input$predictor1_CHR) & is.empty(input$predictor2_CHR) & is.empty(input$family_CHR))
 			return()
 		local({
 			# set variables
@@ -133,6 +136,17 @@ shinyServer(function(input,output,session) {
 				manager$setResponseVariable(input$response_CHR)
 			if (!is.empty(input$family_CHR))
 				manager$setResponseFamily(input$family_CHR)
+				
+			# check that variable entries are valid
+			if (!manager$is.validResponseFamily()) {
+				createAlert(
+					session,'variableAlert','responseFamilyAlert', title='Error', append=FALSE, type='danger',
+					message='The error distribution specified is invalid for the specified response variable.\n\nPlease change either the response variable or the distribution.'
+				)
+				return()
+			}
+			closeAlert(session, 'responseFamilyAlert')
+			
 			# update results shown in panels
 			if (manager$.responseVariable_CHR %in% manager$getContinuousActiveColNames()) {
 				## run model
@@ -141,11 +155,11 @@ shinyServer(function(input,output,session) {
 				local({
 					## render main plot
 					output$main_PLOT=renderPlot({
-						print(manager$plot())
+						manager$plot()
 					})
 					## render diagnostic plots
 					output$diagnostics_PLOT=renderPlot({
-						print(manager$modelDiagnostics())
+						manager$modelDiagnostics()
 					})
 					## render model results
 					currResults=manager$modelResults()

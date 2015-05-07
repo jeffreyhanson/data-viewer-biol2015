@@ -60,11 +60,11 @@ shinyUI(fluidPage(
 							selectInput("project_name_CHR", "Project:", choices=project_names_VCHR, selected="mangrove herbivory"),
 							checkboxInput("group_subset_BOOL", ' load data for specific group?', value = FALSE),
 							conditionalPanel(
-								condition="input.group_subset_BOOL == true",
+								condition="output.group_subset_CHR == 'TRUE'",
 								div(
-									selectInput("week_number_CHR", "Week Number:", choices=week_numbers_VCHR, selected="week 1"),
-									selectInput("group_color_CHR", "Group Colour:", choices=group_colors_VCHR, selected="blue", multiple=-FALSE),
-									selectInput("group_names_VCHR", "Group Name:", choices=c(''), selected="blue", multiple=FALSE, selectize=TRUE)
+									selectInput("week_number_CHR", "Week Number:", choices=week_numbers_VCHR),
+									selectInput("group_color_CHR", "Group Colour:", choices=group_colors_VCHR),
+									selectInput("group_names_VCHR", "Group Name:", choices=c(''), multiple=TRUE, selectize=TRUE)
 								)
 							),
 							br(),
@@ -77,7 +77,8 @@ shinyUI(fluidPage(
 									title="Load data collected for a specific project"
 								)
 							),
-							bsAlert("alert")
+							bsAlert("alert"),
+							div(style="visibility:hidden",h5(textOutput('group_subset_CHR')))
 						)
 					),
 					tabPanel(value="vars_PNL", title="Variables",
@@ -96,7 +97,8 @@ shinyUI(fluidPage(
 									"quasi-Poisson"="quasipoisson",
 									"negative binomial"="negativebinomial"
 								))
-							)
+							),
+							bsAlert('variableAlert')
 						)
 					)
 				)

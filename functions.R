@@ -75,41 +75,46 @@ glmDataSummaryUI=function(x) {
 	## generate table
 	if (ncol(x$model)==2 && !is.numeric(x$model[[2]])) {
 		# one way data summary 
-		expDF=inpDF[,list(
-			variable=eval(names(inpDF)[1]),
-			mean=mean(get(names(inpDF)[1]), na.rm=TRUE),
-			var=var(get(names(inpDF)[1]), na.rm=TRUE),
-			sd=sd(get(names(inpDF)[1]), na.rm=TRUE),
-			se=std.error(get(names(inpDF)[1]), na.rm=TRUE)
-		), by=list(get(names(inpDF)[2]))]
-		setnames(expDF, names(expDF), c(names(inpDF)[2], 'variable', 'mean', 'variance', 'standard deviation', 'standard error'))
+		expDF=inpDF[,
+			list(
+				variable=eval(names(inpDF)[1]),
+				mean=mean(get(names(inpDF)[1]), na.rm=TRUE),
+				variance=var(get(names(inpDF)[1]), na.rm=TRUE),
+				`standard deviation`=sd(get(names(inpDF)[1]), na.rm=TRUE),
+				`standard error`=std.error(get(names(inpDF)[1]), na.rm=TRUE)
+			), by=structure(
+				list(get(names(inpDF)[2])), .Names=names(inpDF)[2]
+			)
+		]
 	} else if (ncol(x$model)>2 && !is.numeric(x$model[[2]]) && !is.numeric(x$model[[3]])) {
 		# two way data summary
-		expDF=inpDF[,list(
-			variable=eval(names(inpDF)[1]),
-			mean=mean(get(names(inpDF)[1]), na.rm=TRUE),
-			var=var(get(names(inpDF)[1]), na.rm=TRUE),
-			sd=sd(get(names(inpDF)[1]), na.rm=TRUE),
-			se=std.error(get(names(inpDF)[1]), na.rm=TRUE)
-		), by=list(get(names(inpDF)[2]), get(names(inpDF)[3]))]
-		setnames(expDF, names(expDF), c(names(inpDF)[2:3], 'variable', 'mean', 'variance', 'standard deviation', 'standard error'))
+		expDF=inpDF[,
+			list(
+				variable=eval(names(inpDF)[1]),
+				mean=mean(get(names(inpDF)[1]), na.rm=TRUE),
+				variance=var(get(names(inpDF)[1]), na.rm=TRUE),
+				`standard deviation`=sd(get(names(inpDF)[1]), na.rm=TRUE),
+				`standard error`=std.error(get(names(inpDF)[1]), na.rm=TRUE)
+			), by=structure(
+				list(get(names(inpDF)[2]), get(names(inpDF)[3])), .Names=names(inpDF)[2:3]
+			)
+		]
 	} else {
 		# single response summary
 		expDF=inpDF[,list(
 			variable=eval(names(inpDF)[1]),
 			mean=mean(get(names(inpDF)[1]), na.rm=TRUE),
-			var=var(get(names(inpDF)[1]), na.rm=TRUE),
-			sd=sd(get(names(inpDF)[1]), na.rm=TRUE),
-			se=std.error(get(names(inpDF)[1]), na.rm=TRUE)
+			variance=var(get(names(inpDF)[1]), na.rm=TRUE),
+			`standard deviation`=sd(get(names(inpDF)[1]), na.rm=TRUE),
+			`standard error`=std.error(get(names(inpDF)[1]), na.rm=TRUE)
 		)]
-		setnames(expDF, names(expDF), c('variable', 'mean', 'variance', 'standard deviation', 'standard error'))
 	}
 	## return datatable
 	return(expDF)
 
 }
 
-glmPosHocUI=function(x) {
+glmPosHocUI=function(x, .responseFamily_CHR) {
 	## generate text to render
 	if (ncol(x$model)==2 && !is.numeric(x$model[[2]])) {
 		# one way anova
