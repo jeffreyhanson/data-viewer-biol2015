@@ -1,5 +1,8 @@
 shinyServer(function(input,output,session) { 
 	#### initalize
+	try(system('touch /srv/shiny-server/data-viewer-biol2015/restart.txt'), silent=TRUE)
+
+	
 	# set defaults
 	setwd(main_DIR)
 	manager=MANAGER$new()
