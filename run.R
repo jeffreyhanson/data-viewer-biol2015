@@ -1,4 +1,5 @@
 ## Run locally
+test=function(){shiny::runApp("C:/Users/jhanson/Documents/GitHub/data-viewer-biol2015")}
 test=function(){shiny::runApp("C:/Users/jeff/Documents/GitHub/data-viewer-biol2015")}
 test=function(){shiny::runApp("/home/jeff/Github/data-viewer-biol2015")}
 
