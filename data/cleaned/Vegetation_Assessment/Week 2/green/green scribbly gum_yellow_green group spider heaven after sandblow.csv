@@ -1,0 +1,38 @@
+"Date","Time","Longitude","Latitude","Group","Quadrat size","Vegetation type","Quadrat #","Tallest tree","Foliage cover","Ground cover","Litter depth","Small trees","Shrub size","Shrub count","Spider Hole","Tree Species Name","Tree Species DBH","Acacia Dominant","Angophora Dominant","Araucaria Dominant","Banksia Dominant","Callitris Dominant","Casuarina Dominant","Eucalyptus Dominant","Lophostemon Dominant","Melaleuca Dominant","Syncarpia Dominant"
+"3/07/2015","10:05:20 AM",NA,NA,"green scribbly gum","20x20m",NA,1,21,0.6,0.05,9,NA,"2-8m",NA,NA,"",NA,0,0,0,0,0,0,1,0,0,0
+"3/07/2015","10:07:57 AM",NA,NA,"green scribbly gum","20x20m",NA,2,21,0.38,0.14,15,NA,"2-8m",NA,NA,"",NA,0,0,0,0,0,0,1,0,0,0
+"3/07/2015","10:09:55 AM",NA,NA,"green scribbly gum","20x20m",NA,3,21,0.55,0.3,15,NA,"2-8m",NA,NA,"",NA,0,0,0,0,0,0,1,0,0,0
+"3/07/2015","10:11:36 AM",NA,NA,"green scribbly gum","20x20m",NA,4,21,0.55,0.4,20,NA,"2-8m",NA,NA,"",NA,0,0,0,0,0,0,1,0,0,0
+"3/07/2015","10:30:31 AM",NA,NA,"green scribbly gum","20x20m",NA,0,21,NA,NA,NA,NA,"2-8m",NA,NA,"Eucalyptus",196,0,0,0,0,0,0,1,0,0,0
+"3/07/2015","10:32:07 AM",NA,NA,"green scribbly gum","20x20m",NA,0,21,NA,NA,NA,NA,"2-8m",NA,NA,"Eucalyptus",126,0,0,0,0,0,0,1,0,0,0
+"3/07/2015","10:33:47 AM",NA,NA,"green scribbly gum","20x20m",NA,0,21,NA,NA,NA,NA,"2-8m",NA,NA,"Eucalyptus",38,0,0,0,0,0,0,1,0,0,0
+"3/07/2015","10:34:54 AM",NA,NA,"green scribbly gum","20x20m",NA,0,21,NA,NA,NA,NA,"2-8m",NA,NA,"Eucalyptus",225,0,0,0,0,0,0,1,0,0,0
+"3/07/2015","10:34:59 AM",NA,NA,"green scribbly gum","20x20m",NA,0,21,NA,NA,NA,NA,"2-8m",NA,NA,"Eucalyptus",223,0,0,0,0,0,0,1,0,0,0
+"3/07/2015","10:35:07 AM",NA,NA,"green scribbly gum","20x20m",NA,0,21,NA,NA,NA,NA,"2-8m",NA,NA,"Eucalyptus",151,0,0,0,0,0,0,1,0,0,0
+"3/07/2015","10:35:12 AM",NA,NA,"green scribbly gum","20x20m",NA,0,21,NA,NA,NA,NA,"2-8m",NA,NA,"Eucalyptus",80,0,0,0,0,0,0,1,0,0,0
+"3/07/2015","10:35:18 AM",NA,NA,"green scribbly gum","20x20m",NA,0,21,NA,NA,NA,NA,"2-8m",NA,NA,"Eucalyptus",90,0,0,0,0,0,0,1,0,0,0
+"3/07/2015","10:35:23 AM",NA,NA,"green scribbly gum","20x20m",NA,0,21,NA,NA,NA,NA,"2-8m",NA,NA,"Eucalyptus",170,0,0,0,0,0,0,1,0,0,0
+"3/07/2015","8:51:37 AM",NA,NA,"yellow","10x10m",NA,1,20,0.2,0.05,2,NA,"0-2m",NA,0,"",NA,0,0,0,1,1,1,1,1,0,0
+"3/07/2015","9:06:37 AM",NA,NA,"yellow","10x10m",NA,0,20,NA,NA,NA,NA,"0-2m",NA,0,"Lophostemon",42,0,0,0,1,1,1,1,1,0,0
+"3/07/2015","9:06:49 AM",NA,NA,"yellow","10x10m",NA,0,20,NA,NA,NA,NA,"0-2m",NA,0,"Banksia",71,0,0,0,1,1,1,1,1,0,0
+"3/07/2015","9:06:54 AM",NA,NA,"yellow","10x10m",NA,0,20,NA,NA,NA,NA,"0-2m",NA,0,"Banksia",41,0,0,0,1,1,1,1,1,0,0
+"3/07/2015","9:07:02 AM",NA,NA,"yellow","10x10m",NA,0,20,NA,NA,NA,NA,"0-2m",NA,0,"Lophostemon",72,0,0,0,1,1,1,1,1,0,0
+"3/07/2015","9:07:08 AM",NA,NA,"yellow","10x10m",NA,0,20,NA,NA,NA,NA,"0-2m",NA,0,"Lophostemon",100,0,0,0,1,1,1,1,1,0,0
+"3/07/2015","9:07:22 AM",NA,NA,"yellow","10x10m",NA,0,20,NA,NA,NA,NA,"0-2m",NA,0,"Lophostemon",70,0,0,0,1,1,1,1,1,0,0
+"3/07/2015","9:07:28 AM",NA,NA,"yellow","10x10m",NA,0,20,NA,NA,NA,NA,"0-2m",NA,0,"Casuarina",53,0,0,0,1,1,1,1,1,0,0
+"3/07/2015","9:07:32 AM",NA,NA,"yellow","10x10m",NA,0,20,NA,NA,NA,NA,"0-2m",NA,0,"Casuarina",55,0,0,0,1,1,1,1,1,0,0
+"3/07/2015","9:07:38 AM",NA,NA,"yellow","10x10m",NA,0,20,NA,NA,NA,NA,"0-2m",NA,0,"Lophostemon",46,0,0,0,1,1,1,1,1,0,0
+"3/07/2015","9:09:29 AM",NA,NA,"yellow","10x10m",NA,0,20,NA,NA,NA,NA,"0-2m",NA,0,"",100,0,0,0,1,1,1,1,1,0,0
+"3/07/2015","9:06:58 AM",NA,NA,"yellow","10x10m",NA,1,20,0.5,0.15,10,NA,"0-2m",NA,0,"",NA,0,0,0,1,1,1,1,1,0,0
+"3/07/2015","9:07:20 AM",NA,NA,"yellow","10x10m",NA,2,20,0.3,0.23,17,NA,"0-2m",NA,0,"",NA,0,0,0,1,1,1,1,1,0,0
+"3/07/2015","9:07:34 AM",NA,NA,"yellow","10x10m",NA,3,20,0.8,0.25,13,NA,"0-2m",NA,0,"",NA,0,0,0,1,1,1,1,1,0,0
+"3/07/2015","9:07:47 AM",NA,NA,"yellow","10x10m",NA,4,20,0.75,0.15,18,NA,"0-2m",NA,0,"",NA,0,0,0,1,1,1,1,1,0,0
+"3/07/2015","12:49:34 PM",NA,NA,"green group spider heaven after sandblow","10x10m",NA,1,12,0.73,0.03,11,NA,"2-8m",NA,37,"",NA,0,0,0,1,0,1,1,1,0,0
+"3/07/2015","12:54:32 PM",NA,NA,"green group spider heaven after sandblow","10x10m",NA,2,12,0.65,0.06,5,NA,"2-8m",NA,37,"",NA,0,0,0,1,0,1,1,1,0,0
+"3/07/2015","12:59:37 PM",NA,NA,"green group spider heaven after sandblow","10x10m",NA,3,12,0.2,0.25,7,NA,"2-8m",NA,37,"",NA,0,0,0,1,0,1,1,1,0,0
+"3/07/2015","1:03:02 PM",NA,NA,"green group spider heaven after sandblow","10x10m",NA,4,12,0.7,0.08,7,NA,"2-8m",NA,37,"",NA,0,0,0,1,0,1,1,1,0,0
+"3/07/2015","1:09:22 PM",NA,NA,"green group spider heaven after sandblow","10x10m",NA,0,12,NA,NA,NA,NA,"2-8m",NA,37,"Banksia",32,0,0,0,1,0,1,1,1,0,0
+"3/07/2015","1:09:26 PM",NA,NA,"green group spider heaven after sandblow","10x10m",NA,0,12,NA,NA,NA,NA,"2-8m",NA,37,"Casuarina",38,0,0,0,1,0,1,1,1,0,0
+"3/07/2015","1:09:31 PM",NA,NA,"green group spider heaven after sandblow","10x10m",NA,0,12,NA,NA,NA,NA,"2-8m",NA,37,"Banksia",37.5,0,0,0,1,0,1,1,1,0,0
+"3/07/2015","1:09:37 PM",NA,NA,"green group spider heaven after sandblow","10x10m",NA,0,12,NA,NA,NA,NA,"2-8m",NA,37,"Lophostemon",62,0,0,0,1,0,1,1,1,0,0
+"3/07/2015","1:09:41 PM",NA,NA,"green group spider heaven after sandblow","10x10m",NA,0,12,NA,NA,NA,NA,"2-8m",NA,37,"Banksia",95,0,0,0,1,0,1,1,1,0,0

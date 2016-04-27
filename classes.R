@@ -1,3 +1,6 @@
+setOldClass('negbin')
+setClassUnion('glmModel', c('glm','negbin'))
+
 MANAGER=setRefClass("MANAGER",
 	fields=list(
 		.activeWeekNumber_CHR="character",
@@ -20,7 +23,7 @@ MANAGER=setRefClass("MANAGER",
 		.predictorVariable2_CHR='character',
 	
 		.model_FRM='formula',
-		.model_GLM='glm'
+		.model_GLM='glmModel'
 		
 	),
 	methods=list(
@@ -52,6 +55,10 @@ MANAGER=setRefClass("MANAGER",
 			return(.groupSubset_BOOL)
 		},
 		
+		isDataLoaded=function() {
+			return(!identical(.fullData_DF, data.table(0)))
+		},
+		
 		#### disk interface methods
 		loadProjectDataFromFile=function() {
 			currPTH=dir(file.path("master", .activeProjectName_CHR), '^.*.csv', ignore.case=TRUE, full.names=TRUE)
@@ -68,10 +75,10 @@ MANAGER=setRefClass("MANAGER",
 		getProjectGroupNames=function() {
 			return(
 				.fullData_DF %>%
-				filter(Week==.activeWeekNumber_CHR & `Group color`==.activeGroupColor_CHR) %>%
-				select(`Group name`) %>%
+				dplyr::filter(Week==.activeWeekNumber_CHR, `Group color`==.activeGroupColor_CHR) %>%
+				dplyr::select(`Group`) %>%
 				`[[`(1) %>%
-				unique() 
+				unique()
 			)
 		},
 		setActiveWeekNumber=function(week_number) {
@@ -93,9 +100,9 @@ MANAGER=setRefClass("MANAGER",
 			if (.groupSubset_BOOL) {
 				.activeData_DF<<-filter(
 					.fullData_DF,  
-					Week==.activeWeekNumber_CHR &
-					`Group Color`==  .activeGroupColor_CHR &
-					`Group Name`==.activeGroupNames_CHR
+					Week==.activeWeekNumber_CHR,
+					`Group color`==  .activeGroupColor_CHR,
+					`Group` %in% .activeGroupNames_CHR
 				)
 				return(nrow(.activeData_DF)>0)
 			} else {
@@ -141,8 +148,8 @@ MANAGER=setRefClass("MANAGER",
 				},
 				'binomial'={
 					return(
-						all(na.omit(.activeData_DF[[.responseVariable_CHR]])<0) &&
-						all(na.omit(.activeData_DF[[.responseVariable_CHR]])>1)
+						all(na.omit(.activeData_DF[[.responseVariable_CHR]])>=0) &&
+						all(na.omit(.activeData_DF[[.responseVariable_CHR]])<=1)
 					)
 				
 				},
@@ -204,11 +211,10 @@ MANAGER=setRefClass("MANAGER",
 			# run model			
 			tmpDF=as.data.frame(.activeData_DF)
 			names(tmpDF)=make.names(names(tmpDF))
-			
 			if (.responseFamily_CHR!='negativebinomial') {
 				.model_GLM<<-glm(.model_FRM, data=tmpDF, family=.responseFamily_CHR)
 			} else {
-				.model_GLM<<-glm.nb(.model_FRM, data=tmpDF)
+				.model_GLM<<-MASS::glm.nb(.model_FRM, data=tmpDF)
 			}
 		},
 		
@@ -217,6 +223,7 @@ MANAGER=setRefClass("MANAGER",
 			# prepare data
 			tmpDF=as.data.frame(.activeData_DF)
 			setnames(tmpDF, names(tmpDF), make.names(names(tmpDF)))
+			tmpDF=tmpDF[which(is.finite(tmpDF[[make.names(.responseVariable_CHR)]])),]
 			
 			# no predictor variable plots
 			if (!is.validchr(.predictorVariable1_CHR)) {
@@ -225,11 +232,12 @@ MANAGER=setRefClass("MANAGER",
 					ggplot(tmpDF, aes(x=tmpDF[[make.names(.responseVariable_CHR)]])) +
 						geom_histogram(
 							aes(y=..density..),
-							fill='blue',
+							fill='black',
 							alpha=0.2
 						) +
 						geom_density(
-							fill="transparent"
+							fill=alpha('blue', 0.2),
+							color='transparent'
 						) +
 						geom_vline(
 							aes(xintercept=unname(predict(.model_GLM, newdata=data.frame(1), type='response'))),
@@ -245,13 +253,19 @@ MANAGER=setRefClass("MANAGER",
 			
 			# single predictor variable plots
 			if (is.validchr(.predictorVariable1_CHR) & !is.validchr(.predictorVariable2_CHR)) {
+				tmpDF=tmpDF[which(!is.na(tmpDF[[make.names(.predictorVariable1_CHR)]])),]
 				if (is.numeric(tmpDF[[make.names(.predictorVariable1_CHR)]])) {
 					# regression plot
+					if (.responseFamily_CHR!='negativebinomial') {
+						trend_line=geom_smooth(method="glm", se=TRUE, method.args=list(family=.responseFamily_CHR))
+					} else {
+						trend_line=geom_smooth(method="glm.nb", se=TRUE)
+					}
 					setnames(tmpDF, make.names(c(.responseVariable_CHR,.predictorVariable1_CHR)), c('resp_var', 'pred_var'))
 					ggplot2Wrapper(
 						ggplot(tmpDF, aes(x=pred_var, y=resp_var)) +
 							geom_point(shape=1) +
-							geom_smooth(method="glm", family=.responseFamily_CHR) +
+							trend_line +
 							xlab(.predictorVariable1_CHR) +
 							ylab(.responseVariable_CHR) +
 							theme_classic()
@@ -260,15 +274,15 @@ MANAGER=setRefClass("MANAGER",
 					# make predictions
 					predDF=data.frame(.predictorVariable1_CHR=unique(.model_GLM$model[[make.names(.predictorVariable1_CHR)]]))
 					names(predDF)=make.names(.predictorVariable1_CHR)
-					tmpDF=predict(.model_GLM, newdata=predDF, se.fit=TRUE)
+					tmpDF=predict(.model_GLM, newdata=predDF, se.fit=TRUE, type='response')
 					predDF$resp_var=tmpDF$fit
 					predDF$upper=tmpDF$fit+tmpDF$se.fit
-					predDF$lower=tmpDF$fit-tmpDF$se.fit
+					predDF$lower=tmpDF$fit-tmpDF$se.fit					
 					names(predDF)[1]='pred_var'
 					# bar plot
 					ggplot2Wrapper(
 						ggplot(predDF, aes(x=pred_var, y=resp_var)) + 
-							geom_bar(position=position_dodge(), stat="identity", fill="blue", alpha=0.2) +
+							geom_bar(position=position_dodge(), stat="identity", fill="black", alpha=0.2) +
 							geom_errorbar(aes(ymin=predDF$lower, ymax=predDF$upper), position=position_dodge(.9), width=0.5) +
 							xlab(.predictorVariable1_CHR) +
 							ylab(.responseVariable_CHR) +
@@ -279,14 +293,23 @@ MANAGER=setRefClass("MANAGER",
 			
 			# two predictor variable plots
 			if (is.validchr(.predictorVariable1_CHR) & is.validchr(.predictorVariable2_CHR)) {
+				tmpDF=tmpDF[which(
+						!is.na(tmpDF[[make.names(.predictorVariable1_CHR)]]) &
+						!is.na(tmpDF[[make.names(.predictorVariable2_CHR)]])
+				),]
 				if (is.numeric(.activeData_DF[[.predictorVariable1_CHR]])) {
 					## ancova plot
 					# make plot
+					if (.responseFamily_CHR!='negativebinomial') {
+						trend_line=geom_smooth(method="glm", method.args=list(family=.responseFamily_CHR))
+					} else {
+						trend_line=geom_smooth(method="glm.nb")
+					}					
 					ggplot2Wrapper(
 						ggplot(tmpDF, aes_string(x = make.names(.predictorVariable1_CHR), y = make.names(.responseVariable_CHR), color = make.names(.predictorVariable2_CHR))) +
 							scale_color_discrete(name= .predictorVariable2_CHR) +
 							geom_point() +
-							geom_smooth(method = "glm", family=.responseFamily_CHR) +
+							geom_smooth(method = "glm", method.args=list(family=.responseFamily_CHR)) +
 							xlab(.predictorVariable1_CHR) +
 							ylab(.responseVariable_CHR) +
 							theme_classic()
@@ -301,7 +324,7 @@ MANAGER=setRefClass("MANAGER",
 					
 					)
 					names(predDF)=make.names(c(.predictorVariable1_CHR,.predictorVariable2_CHR))
-					tmpDF=predict(.model_GLM, newdata=predDF, se.fit=TRUE)
+					tmpDF=predict(.model_GLM, newdata=predDF, se.fit=TRUE, type='response')
 					predDF$resp_var=tmpDF$fit
 					predDF$upper=tmpDF$fit+tmpDF$se.fit
 					predDF$lower=tmpDF$fit-tmpDF$se.fit

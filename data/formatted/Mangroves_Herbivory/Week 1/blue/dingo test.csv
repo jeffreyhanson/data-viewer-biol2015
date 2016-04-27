@@ -1,0 +1,5 @@
+"Group","Zonal point","Intertidal zone","Tape point","Quarter","Date","Time","Longitude","Latitude","Distance from point","Height","Circumference","Average number of buds alive","Average number of leaves distorted","Average number of Mines","Average number of Galls","Average percent of leaf missing","Average number of leaves per stem","Number of stems","Week","Group color"
+"dingo test","Landward - Creek","High",NA,"Quarter 1","29/06/2015","8:28:16 AM",153.10769118,-25.50304797,1.85,2.80833333333333,12.5833333333333,7.5,25,0.12202380952381,0.0208333333333333,0.048452380952381,6.5,8,"Week 1","blue"
+"dingo test","Landward - Creek","High",NA,"Quarter 2","29/06/2015","11:58:50 AM",153.10769118,-25.50304797,3,2.5,5,3.75,24,0.125,0,0.059375,6,8,"Week 1","blue"
+"dingo test","Landward - Creek","High",NA,"Quarter 3","29/06/2015","12:13:01 PM",153.10769118,-25.50304797,2,3.1,11,3.75,26,0.0625,0.0416666666666667,0.0310416666666667,6,8,"Week 1","blue"
+"dingo test","Landward - Creek","High",NA,"Quarter 4","29/06/2015","12:26:11 PM",153.102718968333,-25.5007281014583,1.3,3.5,7,9.75,22,0.0208333333333333,0.0833333333333333,0.0702083333333333,6,8,"Week 1","blue"

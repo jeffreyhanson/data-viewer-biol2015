@@ -5,9 +5,12 @@ install.packages('data.table')
 install.packages('plyr')
 install.packages('dplyr')
 install.packages('testthat')
-devtools::install_github("ebailey78/shinyBS")
 
 install.packages('plotrix')
 install.packages('ggplot2')
 install.packages('multcomp')
+install.packages('plotly')
+
+devtools::install_github("ebailey78/shinyBS")
 devtools::install_github('sinhrks/ggfortify')
+devtools::install_github("trestletech/shinyTable")

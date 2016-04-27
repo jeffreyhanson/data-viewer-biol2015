@@ -58,7 +58,11 @@ uiWrapper=function(title='', text='') {
 }
 
 glmAnovaUI=function(x) {
-	txt=capture.output(anova(x, test='F'))
+	txt=switch(x$family$family,
+		binomial={capture.output(print(anova(x, test='LRT')))},
+		gaussian={capture.output(print(anova(x, test='F')))},
+		{capture.output(print(anova(x, test='LRT')))}
+	)
 	return(uiWrapper('Backwards step-wise term deletion routine', txt))
 }
 

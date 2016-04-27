@@ -1,0 +1,4 @@
+"Group","Zonal point","Intertidal zone","Tape point","Quarter","Date","Time","Longitude","Latitude","Distance from point","Height","Circumference","Average number of buds alive","Average number of leaves distorted","Average number of Mines","Average number of Galls","Average percent of leaf missing","Average number of leaves per stem","Number of stems","Week","Group color"
+"pactr","Seaward","Low",100,"Quarter 1","2/07/2015","11:24:24 AM",152.9878518,-25.44791176,5.2,4,45,6,47,0.0625,1.35416666666667,0.069375,6,8,"Week 2","red"
+"pactr","Seaward","Low",100,"Quarter 2","2/07/2015","11:51:09 AM",152.9878518,-25.44791176,8.5,4,28,5.5,39,0.160714285714286,1.39285714285714,0.0657738095238095,6.25,8,"Week 2","red"
+"pactr","Seaward","Low",100,"Quarter 4","2/07/2015","12:14:26 PM",152.9878518,-25.44791176,4,4,20,3,36,0.0625,0.4375,0.096875,6,8,"Week 2","red"

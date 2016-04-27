@@ -1,0 +1,61 @@
+"Date","Time","Longitude","Latitude","Group","Quadrat size","Vegetation type","Quadrat #","Tallest tree","Foliage cover","Ground cover","Litter depth","Small trees","Shrub size","Shrub count","Spider Hole","Tree Species Name","Tree Species DBH","Acacia Dominant","Angophora Dominant","Araucaria Dominant","Banksia Dominant","Callitris Dominant","Casuarina Dominant","Eucalyptus Dominant","Lophostemon Dominant","Melaleuca Dominant","Syncarpia Dominant"
+"30/06/2015","11:35:13 AM",NA,NA,"Yellow group spider heaven","20x20m",NA,1,25,0.5,0.2,3,NA,"2-8m",NA,35,"",NA,0,0,0,1,0,1,1,0,0,1
+"30/06/2015","11:38:49 AM",NA,NA,"Yellow group spider heaven","20x20m",NA,2,25,0.7,0.1,10,NA,"2-8m",NA,35,"",NA,0,0,0,1,0,1,1,0,0,1
+"30/06/2015","11:41:12 AM",NA,NA,"Yellow group spider heaven","20x20m",NA,3,25,0.7,0.05,3,NA,"2-8m",NA,35,"",NA,0,0,0,1,0,1,1,0,0,1
+"30/06/2015","11:43:43 AM",NA,NA,"Yellow group spider heaven","20x20m",NA,4,25,0.6,0.23,12,NA,"2-8m",NA,35,"",NA,0,0,0,1,0,1,1,0,0,1
+"30/06/2015","12:03:59 PM",NA,NA,"Yellow group spider heaven","20x20m",NA,0,25,NA,NA,NA,NA,"2-8m",NA,35,"Banksia",71,0,0,0,1,0,1,1,0,0,1
+"30/06/2015","12:04:06 PM",NA,NA,"Yellow group spider heaven","20x20m",NA,0,25,NA,NA,NA,NA,"2-8m",NA,35,"Casuarina",62,0,0,0,1,0,1,1,0,0,1
+"30/06/2015","12:04:21 PM",NA,NA,"Yellow group spider heaven","20x20m",NA,0,25,NA,NA,NA,NA,"2-8m",NA,35,"",31,0,0,0,1,0,1,1,0,0,1
+"30/06/2015","12:04:27 PM",NA,NA,"Yellow group spider heaven","20x20m",NA,0,25,NA,NA,NA,NA,"2-8m",NA,35,"Casuarina",104,0,0,0,1,0,1,1,0,0,1
+"30/06/2015","12:04:44 PM",NA,NA,"Yellow group spider heaven","20x20m",NA,0,25,NA,NA,NA,NA,"2-8m",NA,35,"",63.5,0,0,0,1,0,1,1,0,0,1
+"30/06/2015","12:04:52 PM",NA,NA,"Yellow group spider heaven","20x20m",NA,0,25,NA,NA,NA,NA,"2-8m",NA,35,"Eucalyptus",147,0,0,0,1,0,1,1,0,0,1
+"30/06/2015","12:04:56 PM",NA,NA,"Yellow group spider heaven","20x20m",NA,0,25,NA,NA,NA,NA,"2-8m",NA,35,"Casuarina",32,0,0,0,1,0,1,1,0,0,1
+"30/06/2015","12:05:00 PM",NA,NA,"Yellow group spider heaven","20x20m",NA,0,25,NA,NA,NA,NA,"2-8m",NA,35,"Banksia",78,0,0,0,1,0,1,1,0,0,1
+"30/06/2015","12:05:03 PM",NA,NA,"Yellow group spider heaven","20x20m",NA,0,25,NA,NA,NA,NA,"2-8m",NA,35,"Banksia",55,0,0,0,1,0,1,1,0,0,1
+"30/06/2015","12:05:07 PM",NA,NA,"Yellow group spider heaven","20x20m",NA,0,25,NA,NA,NA,NA,"2-8m",NA,35,"Casuarina",31,0,0,0,1,0,1,1,0,0,1
+"30/06/2015","12:05:12 PM",NA,NA,"Yellow group spider heaven","20x20m",NA,0,25,NA,NA,NA,NA,"2-8m",NA,35,"",56,0,0,0,1,0,1,1,0,0,1
+"30/06/2015","12:05:15 PM",NA,NA,"Yellow group spider heaven","20x20m",NA,0,25,NA,NA,NA,NA,"2-8m",NA,35,"Casuarina",45,0,0,0,1,0,1,1,0,0,1
+"30/06/2015","12:05:18 PM",NA,NA,"Yellow group spider heaven","20x20m",NA,0,25,NA,NA,NA,NA,"2-8m",NA,35,"Casuarina",38,0,0,0,1,0,1,1,0,0,1
+"30/06/2015","12:05:20 PM",NA,NA,"Yellow group spider heaven","20x20m",NA,0,25,NA,NA,NA,NA,"2-8m",NA,35,"Casuarina",32,0,0,0,1,0,1,1,0,0,1
+"30/06/2015","12:05:23 PM",NA,NA,"Yellow group spider heaven","20x20m",NA,0,25,NA,NA,NA,NA,"2-8m",NA,35,"Casuarina",48,0,0,0,1,0,1,1,0,0,1
+"30/06/2015","12:05:43 PM",NA,NA,"Yellow group spider heaven","20x20m",NA,0,25,NA,NA,NA,NA,"2-8m",NA,35,"Eucalyptus",207,0,0,0,1,0,1,1,0,0,1
+"30/06/2015","12:05:48 PM",NA,NA,"Yellow group spider heaven","20x20m",NA,0,25,NA,NA,NA,NA,"2-8m",NA,35,"Casuarina",78,0,0,0,1,0,1,1,0,0,1
+"30/06/2015","12:05:56 PM",NA,NA,"Yellow group spider heaven","20x20m",NA,0,25,NA,NA,NA,NA,"2-8m",NA,35,"Casuarina",58,0,0,0,1,0,1,1,0,0,1
+"30/06/2015","12:06:01 PM",NA,NA,"Yellow group spider heaven","20x20m",NA,0,25,NA,NA,NA,NA,"2-8m",NA,35,"Banksia",98,0,0,0,1,0,1,1,0,0,1
+"30/06/2015","12:06:05 PM",NA,NA,"Yellow group spider heaven","20x20m",NA,0,25,NA,NA,NA,NA,"2-8m",NA,35,"Banksia",77,0,0,0,1,0,1,1,0,0,1
+"30/06/2015","12:06:11 PM",NA,NA,"Yellow group spider heaven","20x20m",NA,0,25,NA,NA,NA,NA,"2-8m",NA,35,"Eucalyptus",31,0,0,0,1,0,1,1,0,0,1
+"30/06/2015","12:06:42 PM",NA,NA,"Yellow group spider heaven","20x20m",NA,0,25,NA,NA,NA,NA,"2-8m",NA,35,"Eucalyptus",244,0,0,0,1,0,1,1,0,0,1
+"30/06/2015","12:06:47 PM",NA,NA,"Yellow group spider heaven","20x20m",NA,0,25,NA,NA,NA,NA,"2-8m",NA,35,"Banksia",72,0,0,0,1,0,1,1,0,0,1
+"30/06/2015","8:48:53 AM",NA,NA,"green","10x10m",NA,0,13,NA,NA,NA,NA,"0-2m",NA,0,"Callitris",72,0,0,0,0,0,0,1,0,0,0
+"30/06/2015","8:49:12 AM",NA,NA,"green","10x10m",NA,0,13,NA,NA,NA,NA,"0-2m",NA,0,"Eucalyptus",61.7,0,0,0,0,0,0,1,0,0,0
+"30/06/2015","8:49:55 AM",NA,NA,"green","10x10m",NA,0,13,NA,NA,NA,NA,"0-2m",NA,0,"Eucalyptus",78,0,0,0,0,0,0,1,0,0,0
+"30/06/2015","8:50:31 AM",NA,NA,"green","10x10m",NA,0,13,NA,NA,NA,NA,"0-2m",NA,0,"Callitris",96,0,0,0,0,0,0,1,0,0,0
+"30/06/2015","8:50:35 AM",NA,NA,"green","10x10m",NA,0,13,NA,NA,NA,NA,"0-2m",NA,0,"Callitris",78,0,0,0,0,0,0,1,0,0,0
+"30/06/2015","8:50:41 AM",NA,NA,"green","10x10m",NA,0,13,NA,NA,NA,NA,"0-2m",NA,0,"Callitris",81,0,0,0,0,0,0,1,0,0,0
+"30/06/2015","8:51:39 AM",NA,NA,"green","10x10m",NA,0,13,NA,NA,NA,NA,"0-2m",NA,0,"Banksia",52,0,0,0,0,0,0,1,0,0,0
+"30/06/2015","8:51:43 AM",NA,NA,"green","10x10m",NA,0,13,NA,NA,NA,NA,"0-2m",NA,0,"Banksia",54,0,0,0,0,0,0,1,0,0,0
+"30/06/2015","8:51:46 AM",NA,NA,"green","10x10m",NA,0,13,NA,NA,NA,NA,"0-2m",NA,0,"Banksia",74,0,0,0,0,0,0,1,0,0,0
+"30/06/2015","8:51:50 AM",NA,NA,"green","10x10m",NA,0,13,NA,NA,NA,NA,"0-2m",NA,0,"Callitris",81,0,0,0,0,0,0,1,0,0,0
+"30/06/2015","8:51:56 AM",NA,NA,"green","10x10m",NA,0,13,NA,NA,NA,NA,"0-2m",NA,0,"Eucalyptus",95,0,0,0,0,0,0,1,0,0,0
+"30/06/2015","8:52:04 AM",NA,NA,"green","10x10m",NA,0,13,NA,NA,NA,NA,"0-2m",NA,0,"Banksia",67,0,0,0,0,0,0,1,0,0,0
+"30/06/2015","8:52:24 AM",NA,NA,"green","10x10m",NA,0,13,NA,NA,NA,NA,"0-2m",NA,0,"Banksia",64,0,0,0,0,0,0,1,0,0,0
+"30/06/2015","8:57:56 AM",NA,NA,"green","10x10m",NA,1,13,0.65,0.15,15,NA,"0-2m",NA,0,"",NA,0,0,0,0,0,0,1,0,0,0
+"30/06/2015","8:59:47 AM",NA,NA,"green","10x10m",NA,2,13,0.55,0.15,15,NA,"0-2m",NA,0,"",NA,0,0,0,0,0,0,1,0,0,0
+"30/06/2015","9:00:53 AM",NA,NA,"green","10x10m",NA,3,13,0.45,0.45,15,NA,"0-2m",NA,0,"",NA,0,0,0,0,0,0,1,0,0,0
+"30/06/2015","9:01:23 AM",NA,NA,"green","10x10m",NA,4,13,0.6,0.4,15,NA,"0-2m",NA,0,"",NA,0,0,0,0,0,0,1,0,0,0
+"30/06/2015","1:33:55 PM",NA,NA,"Yellow group lake","20x20m",NA,1,34,0.25,0.05,4,NA,"0-2m",NA,5,"",NA,0,0,0,1,0,1,1,0,0,0
+"30/06/2015","1:34:28 PM",NA,NA,"Yellow group lake","20x20m",NA,2,34,0.6,0.35,1,NA,"0-2m",NA,5,"",NA,0,0,0,1,0,1,1,0,0,0
+"30/06/2015","1:35:44 PM",NA,NA,"Yellow group lake","20x20m",NA,3,34,0.45,0.02,2,NA,"0-2m",NA,5,"",NA,0,0,0,1,0,1,1,0,0,0
+"30/06/2015","1:37:00 PM",NA,NA,"Yellow group lake","20x20m",NA,4,34,0.5,0.15,2,NA,"0-2m",NA,5,"",NA,0,0,0,1,0,1,1,0,0,0
+"30/06/2015","1:45:05 PM",NA,NA,"Yellow group lake","20x20m",NA,0,34,NA,NA,NA,NA,"0-2m",NA,5,"Eucalyptus",48,0,0,0,1,0,1,1,0,0,0
+"30/06/2015","1:45:18 PM",NA,NA,"Yellow group lake","20x20m",NA,0,34,NA,NA,NA,NA,"0-2m",NA,5,"Eucalyptus",48,0,0,0,1,0,1,1,0,0,0
+"30/06/2015","1:45:27 PM",NA,NA,"Yellow group lake","20x20m",NA,0,34,NA,NA,NA,NA,"0-2m",NA,5,"Eucalyptus",146,0,0,0,1,0,1,1,0,0,0
+"30/06/2015","1:46:20 PM",NA,NA,"Yellow group lake","20x20m",NA,0,34,NA,NA,NA,NA,"0-2m",NA,5,"Eucalyptus",250,0,0,0,1,0,1,1,0,0,0
+"30/06/2015","1:46:34 PM",NA,NA,"Yellow group lake","20x20m",NA,0,34,NA,NA,NA,NA,"0-2m",NA,5,"Eucalyptus",84.5,0,0,0,1,0,1,1,0,0,0
+"30/06/2015","1:46:52 PM",NA,NA,"Yellow group lake","20x20m",NA,0,34,NA,NA,NA,NA,"0-2m",NA,5,"Casuarina",36,0,0,0,1,0,1,1,0,0,0
+"30/06/2015","1:47:43 PM",NA,NA,"Yellow group lake","20x20m",NA,0,34,NA,NA,NA,NA,"0-2m",NA,5,"Eucalyptus",181,0,0,0,1,0,1,1,0,0,0
+"30/06/2015","1:48:00 PM",NA,NA,"Yellow group lake","20x20m",NA,0,34,NA,NA,NA,NA,"0-2m",NA,5,"Casuarina",74.2,0,0,0,1,0,1,1,0,0,0
+"30/06/2015","1:48:08 PM",NA,NA,"Yellow group lake","20x20m",NA,0,34,NA,NA,NA,NA,"0-2m",NA,5,"Casuarina",41.5,0,0,0,1,0,1,1,0,0,0
+"30/06/2015","1:48:32 PM",NA,NA,"Yellow group lake","20x20m",NA,0,34,NA,NA,NA,NA,"0-2m",NA,5,"Banksia",119,0,0,0,1,0,1,1,0,0,0
+"30/06/2015","1:48:44 PM",NA,NA,"Yellow group lake","20x20m",NA,0,34,NA,NA,NA,NA,"0-2m",NA,5,"Casuarina",39.6,0,0,0,1,0,1,1,0,0,0
+"30/06/2015","1:49:18 PM",NA,NA,"Yellow group lake","20x20m",NA,0,34,NA,NA,NA,NA,"0-2m",NA,5,"Casuarina",70.5,0,0,0,1,0,1,1,0,0,0

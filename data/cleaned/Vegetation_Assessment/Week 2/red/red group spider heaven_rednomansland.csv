@@ -1,0 +1,33 @@
+"Date","Time","Longitude","Latitude","Group","Quadrat size","Vegetation type","Quadrat #","Tallest tree","Foliage cover","Ground cover","Litter depth","Small trees","Shrub size","Shrub count","Spider Hole","Tree Species Name","Tree Species DBH","Acacia Dominant","Angophora Dominant","Araucaria Dominant","Banksia Dominant","Callitris Dominant","Casuarina Dominant","Eucalyptus Dominant","Lophostemon Dominant","Melaleuca Dominant","Syncarpia Dominant"
+"4/07/2015","11:19:59 AM",NA,NA,"red group spider heaven","10x10m",NA,1,22,0.67,0.4,7,NA,"2-8m",NA,48,"",NA,0,1,0,1,0,1,0,0,0,0
+"4/07/2015","11:23:00 AM",NA,NA,"red group spider heaven","10x10m",NA,2,22,0.5,0.27,5,NA,"2-8m",NA,48,"",NA,0,1,0,1,0,1,0,0,0,0
+"4/07/2015","11:26:22 AM",NA,NA,"red group spider heaven","10x10m",NA,3,22,0.7,0.05,10,NA,"2-8m",NA,48,"",NA,0,1,0,1,0,1,0,0,0,0
+"4/07/2015","11:28:50 AM",NA,NA,"red group spider heaven","10x10m",NA,4,22,0.8,0.07,5,NA,"2-8m",NA,48,"",NA,0,1,0,1,0,1,0,0,0,0
+"4/07/2015","11:37:41 AM",NA,NA,"red group spider heaven","10x10m",NA,0,22,NA,NA,NA,NA,"2-8m",NA,48,"Casuarina",53,0,1,0,1,0,1,0,0,0,0
+"4/07/2015","11:37:47 AM",NA,NA,"red group spider heaven","10x10m",NA,0,22,NA,NA,NA,NA,"2-8m",NA,48,"Casuarina",49,0,1,0,1,0,1,0,0,0,0
+"4/07/2015","11:37:50 AM",NA,NA,"red group spider heaven","10x10m",NA,0,22,NA,NA,NA,NA,"2-8m",NA,48,"Banksia",66,0,1,0,1,0,1,0,0,0,0
+"4/07/2015","11:37:57 AM",NA,NA,"red group spider heaven","10x10m",NA,0,22,NA,NA,NA,NA,"2-8m",NA,48,"Casuarina",325,0,1,0,1,0,1,0,0,0,0
+"4/07/2015","11:38:03 AM",NA,NA,"red group spider heaven","10x10m",NA,0,22,NA,NA,NA,NA,"2-8m",NA,48,"Eucalyptus",33,0,1,0,1,0,1,0,0,0,0
+"4/07/2015","11:38:10 AM",NA,NA,"red group spider heaven","10x10m",NA,0,22,NA,NA,NA,NA,"2-8m",NA,48,"Casuarina",183,0,1,0,1,0,1,0,0,0,0
+"4/07/2015","11:38:14 AM",NA,NA,"red group spider heaven","10x10m",NA,0,22,NA,NA,NA,NA,"2-8m",NA,48,"Casuarina",38,0,1,0,1,0,1,0,0,0,0
+"4/07/2015","12:38:35 PM",NA,NA,"rednomansland","20x20m",NA,1,17,0.35,0.07,9,NA,"0-2m",NA,48,"",NA,0,0,0,1,0,1,1,0,0,0
+"4/07/2015","12:43:42 PM",NA,NA,"rednomansland","20x20m",NA,2,17,0.65,0.06,5,NA,"0-2m",NA,48,"",NA,0,0,0,1,0,1,1,0,0,0
+"4/07/2015","12:48:01 PM",NA,NA,"rednomansland","20x20m",NA,3,17,0.6,0.12,10,NA,"0-2m",NA,48,"",NA,0,0,0,1,0,1,1,0,0,0
+"4/07/2015","12:52:42 PM",NA,NA,"rednomansland","20x20m",NA,4,17,0.38,0.4,20,NA,"0-2m",NA,48,"",NA,0,0,0,1,0,1,1,0,0,0
+"4/07/2015","1:09:01 PM",NA,NA,"rednomansland","20x20m",NA,0,17,NA,NA,NA,NA,"0-2m",NA,48,"Casuarina",36,0,0,0,1,0,1,1,0,0,0
+"4/07/2015","1:09:14 PM",NA,NA,"rednomansland","20x20m",NA,0,17,NA,NA,NA,NA,"0-2m",NA,48,"Casuarina",33,0,0,0,1,0,1,1,0,0,0
+"4/07/2015","1:10:10 PM",NA,NA,"rednomansland","20x20m",NA,0,17,NA,NA,NA,NA,"0-2m",NA,48,"Banksia",66,0,0,0,1,0,1,1,0,0,0
+"4/07/2015","1:10:13 PM",NA,NA,"rednomansland","20x20m",NA,0,17,NA,NA,NA,NA,"0-2m",NA,48,"Banksia",88,0,0,0,1,0,1,1,0,0,0
+"4/07/2015","1:10:20 PM",NA,NA,"rednomansland","20x20m",NA,0,17,NA,NA,NA,NA,"0-2m",NA,48,"Eucalyptus",152,0,0,0,1,0,1,1,0,0,0
+"4/07/2015","1:10:23 PM",NA,NA,"rednomansland","20x20m",NA,0,17,NA,NA,NA,NA,"0-2m",NA,48,"Banksia",94,0,0,0,1,0,1,1,0,0,0
+"4/07/2015","1:10:27 PM",NA,NA,"rednomansland","20x20m",NA,0,17,NA,NA,NA,NA,"0-2m",NA,48,"Banksia",82,0,0,0,1,0,1,1,0,0,0
+"4/07/2015","1:10:30 PM",NA,NA,"rednomansland","20x20m",NA,0,17,NA,NA,NA,NA,"0-2m",NA,48,"Banksia",81,0,0,0,1,0,1,1,0,0,0
+"4/07/2015","1:10:36 PM",NA,NA,"rednomansland","20x20m",NA,0,17,NA,NA,NA,NA,"0-2m",NA,48,"Eucalyptus",268,0,0,0,1,0,1,1,0,0,0
+"4/07/2015","1:10:40 PM",NA,NA,"rednomansland","20x20m",NA,0,17,NA,NA,NA,NA,"0-2m",NA,48,"Eucalyptus",68,0,0,0,1,0,1,1,0,0,0
+"4/07/2015","1:10:44 PM",NA,NA,"rednomansland","20x20m",NA,0,17,NA,NA,NA,NA,"0-2m",NA,48,"Casuarina",57,0,0,0,1,0,1,1,0,0,0
+"4/07/2015","1:10:47 PM",NA,NA,"rednomansland","20x20m",NA,0,17,NA,NA,NA,NA,"0-2m",NA,48,"Eucalyptus",99,0,0,0,1,0,1,1,0,0,0
+"4/07/2015","1:10:51 PM",NA,NA,"rednomansland","20x20m",NA,0,17,NA,NA,NA,NA,"0-2m",NA,48,"Banksia",70,0,0,0,1,0,1,1,0,0,0
+"4/07/2015","1:10:54 PM",NA,NA,"rednomansland","20x20m",NA,0,17,NA,NA,NA,NA,"0-2m",NA,48,"Casuarina",31,0,0,0,1,0,1,1,0,0,0
+"4/07/2015","1:10:58 PM",NA,NA,"rednomansland","20x20m",NA,0,17,NA,NA,NA,NA,"0-2m",NA,48,"Eucalyptus",105,0,0,0,1,0,1,1,0,0,0
+"4/07/2015","1:11:02 PM",NA,NA,"rednomansland","20x20m",NA,0,17,NA,NA,NA,NA,"0-2m",NA,48,"Banksia",75,0,0,0,1,0,1,1,0,0,0
+"4/07/2015","1:11:05 PM",NA,NA,"rednomansland","20x20m",NA,0,17,NA,NA,NA,NA,"0-2m",NA,48,"Casuarina",31,0,0,0,1,0,1,1,0,0,0

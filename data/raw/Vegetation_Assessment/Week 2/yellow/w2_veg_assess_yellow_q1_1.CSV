@@ -1,0 +1,19 @@
+Date,Time,Group name, Quadrat size,Vegetation type,data entry,Quadrat #,Tallest tree,foliage cover,ground cover,litter depth,DBH,small trees,Latitude,Longitude,Shrub size,Shrub count,DBH>10,Acacia,Angophora,Araucaria,Banksia,Callitris,Casuarina,Eucalyptus,Lophostemon,Melaleuca,Syncarpia,Spider Hole
+5/07/2015,11:31:22 AM,yellow group nomansland,,,,,,,,,,,-25.56463734,153.0680636,,,,,,,,,,,,,,0
+5/07/2015,11:44:01 AM,yellow group nomansland,10x10m,,Vegetation Assessment,1,,70,1,14,,,,,,,,,,,,,,,,,,
+5/07/2015,11:49:28 AM,yellow group nomansland,10x10m,,Vegetation Assessment,2,,68,1,17,,,,,,,,,,,,,,,,,,
+5/07/2015,11:55:21 AM,yellow group nomansland,10x10m,,Vegetation Assessment,4,,58,7,12,,,,,,,,,,,,,,,,,,
+5/07/2015,11:57:48 AM,yellow group nomansland,10x10m,,Vegetation Assessment,3,,60,100,19,,,,,,,,,,,,,,,,,,
+5/07/2015,11:58:58 AM,yellow group nomansland,10x10m,,Spider Holes,,,,,,,,,,,,,,,,,,,,,,,39
+5/07/2015,12:01:51 PM,yellow group nomansland,10x10m,,Shrubs,,,,,,,,,,2-8m,9,,,,,,,,,,,,
+5/07/2015,12:01:59 PM,yellow group nomansland,10x10m,,Count small trees (trunk<10cms),,,,,,,48,,,,,,,,,,,,,,,,
+5/07/2015,12:02:16 PM,yellow group nomansland,10x10m,,DBH when trunk >10cms,,,,,,37,,,,,,Casuarina,,,,,,,,,,,
+5/07/2015,12:02:21 PM,yellow group nomansland,10x10m,,DBH when trunk >10cms,,,,,,39,,,,,,Casuarina,,,,,,,,,,,
+5/07/2015,12:02:28 PM,yellow group nomansland,10x10m,,DBH when trunk >10cms,,,,,,44,,,,,,Casuarina,,,,,,,,,,,
+5/07/2015,12:02:32 PM,yellow group nomansland,10x10m,,DBH when trunk >10cms,,,,,,36,,,,,,Casuarina,,,,,,,,,,,
+5/07/2015,12:02:36 PM,yellow group nomansland,10x10m,,DBH when trunk >10cms,,,,,,51,,,,,,Casuarina,,,,,,,,,,,
+5/07/2015,12:02:43 PM,yellow group nomansland,10x10m,,DBH when trunk >10cms,,,,,,56,,,,,,Syncarpia,,,,,,,,,,,
+5/07/2015,12:02:55 PM,yellow group nomansland,10x10m,,DBH when trunk >10cms,,,,,,147,,,,,,Eucalyptus,,,,,,,,,,,
+5/07/2015,12:03:00 PM,yellow group nomansland,10x10m,,DBH when trunk >10cms,,,,,,39,,,,,,Casuarina,,,,,,,,,,,
+5/07/2015,12:03:04 PM,yellow group nomansland,10x10m,,DBH when trunk >10cms,,,,,,59,,,,,,Casuarina,,,,,,,,,,,
+5/07/2015,12:03:59 PM,yellow group nomansland,10x10m,,Dominant Trees,,14,,,,,,-25.56470938,153.0681785,,,,,,,TRUE,,TRUE,TRUE,,,,

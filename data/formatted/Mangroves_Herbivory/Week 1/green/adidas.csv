@@ -1,0 +1,5 @@
+"Group","Zonal point","Intertidal zone","Tape point","Quarter","Date","Time","Longitude","Latitude","Distance from point","Height","Circumference","Average number of buds alive","Average number of leaves distorted","Average number of Mines","Average number of Galls","Average percent of leaf missing","Average number of leaves per stem","Number of stems","Week","Group color"
+"adidas","Seaward","Low",20,"Quarter 1","30/06/2015","12:02:51 PM",152.98812126,-25.44772083,9.8,7,3.25,11.5,40,0.0625,0.25,0.418270833333333,6,8,"Week 1","green"
+"adidas","Seaward","Low",20,"Quarter 2","30/06/2015","12:28:24 PM",152.98812126,-25.44772083,9.1,7,120,3.125,44,0.25,2.10416666666667,0.27625,6.375,8,"Week 1","green"
+"adidas","Seaward","Low",20,"Quarter 3","30/06/2015","12:54:20 PM",152.98812126,-25.44772083,3.8,6,36,6.75,33,0.145833333333333,2.14583333333333,0.241458333333333,6,8,"Week 1","green"
+"adidas","Seaward","Low",20,"Quarter 4","30/06/2015","12:57:09 PM",152.98766912,-25.44752649,6.5,4.5,49,6.25,21,0.0458333333333333,0.2125,0.243363095238095,6.125,8,"Week 1","green"

@@ -1,0 +1,25 @@
+"Date","Time","Group","Transect","Zone","Points within Zone","Distance on tape (m)","Latitude","Longitude","Quarter","Species","Distance from point (m)","Height (m)","Circumference (cm)","point location note"
+"30/06/2015","12:07:32 PM","blob","Seaward","0-20m","Point 1",10,-25.44765857,152.9875851,"quarter 1","Avicennia marina",1.1,6.4,93,NA
+"30/06/2015","12:11:13 PM","blob","Seaward","0-20m","Point 1",10,-25.44766045,152.9875964,"quarter 2","Avicennia marina",2.2,4.8,34,NA
+"30/06/2015","12:13:46 PM","blob","Seaward","0-20m","Point 1",10,-25.44766045,152.9875964,"quarter 3","Rhizophora stylosa",0.9,1.1,6,NA
+"30/06/2015","12:19:17 PM","blob","Seaward","0-20m","Point 1",10,-25.44774357,152.9876764,"quarter 4","Rhizophora stylosa",2,3.2,24.5,NA
+"30/06/2015","12:23:43 PM","blob","Seaward","20-40m","Point 1",25.4,-25.44774357,152.9876764,"quarter 1","Rhizophora stylosa",1.5,1.9,13,NA
+"30/06/2015","12:25:55 PM","blob","Seaward","20-40m","Point 1",25.4,-25.44774357,152.9876764,"quarter 2","Rhizophora stylosa",1.9,1.7,9,NA
+"30/06/2015","12:28:03 PM","blob","Seaward","20-40m","Point 1",25.4,-25.44774357,152.9876764,"quarter 3","Avicennia marina",1.7,4,76,NA
+"30/06/2015","12:29:06 PM","blob","Seaward","20-40m","Point 1",25.4,-25.44777106,152.9877494,"quarter 4","Rhizophora stylosa",1.4,1.5,11,NA
+"30/06/2015","12:33:12 PM","blob","Seaward","20-40m","Point 2",30.8,-25.44777106,152.9877494,"quarter 1","Avicennia marina",0.9,2.4,82,NA
+"30/06/2015","12:34:05 PM","blob","Seaward","20-40m","Point 2",30.8,-25.44777106,152.9877494,"quarter 2","Rhizophora stylosa",0.7,1.4,6,NA
+"30/06/2015","12:35:56 PM","blob","Seaward","20-40m","Point 2",30.8,-25.44777106,152.9877494,"quarter 3","Avicennia marina",1.3,3.2,174,NA
+"30/06/2015","12:36:47 PM","blob","Seaward","20-40m","Point 2",30.8,-25.44783799,152.9878564,"quarter 4","Avicennia marina",1.9,1.3,9,NA
+"30/06/2015","12:38:48 PM","blob","Seaward","40-60m","Point 1",43,-25.44783799,152.9878564,"quarter 1","Rhizophora stylosa",1.6,1.3,7,NA
+"30/06/2015","12:39:31 PM","blob","Seaward","40-60m","Point 1",43,-25.44783799,152.9878564,"quarter 2","Rhizophora stylosa",0.6,2,10,NA
+"30/06/2015","12:40:28 PM","blob","Seaward","40-60m","Point 1",43,-25.44783799,152.9878564,"quarter 3","Rhizophora stylosa",1.1,1.9,10.5,NA
+"30/06/2015","12:41:26 PM","blob","Seaward","40-60m","Point 1",43,-25.44796141,152.9879766,"quarter 4","Avicennia marina",1.1,1.6,29,NA
+"30/06/2015","12:49:28 PM","blob","Seaward","60-80m","Point 1",61,-25.44796141,152.9879766,"quarter 1","Avicennia marina",4.6,0.8,14,NA
+"30/06/2015","12:51:23 PM","blob","Seaward","60-80m","Point 1",61,-25.44796141,152.9879766,"quarter 2","Avicennia marina",0.2,0.5,7.5,NA
+"30/06/2015","12:53:00 PM","blob","Seaward","60-80m","Point 1",61,-25.44796141,152.9879766,"quarter 3","Avicennia marina",2.2,2,46,NA
+"30/06/2015","12:54:01 PM","blob","Seaward","60-80m","Point 1",61,-25.44792426,152.9879355,"quarter 4","Avicennia marina",1.5,0.7,9,NA
+"30/06/2015","12:56:43 PM","blob","Seaward","60-80m","Point 2",55.2,-25.44792426,152.9879355,"quarter 1","Avicennia marina",1.6,0.9,19,NA
+"30/06/2015","12:58:29 PM","blob","Seaward","60-80m","Point 2",55.2,-25.44792426,152.9879355,"quarter 2","Avicennia marina",1.9,1.2,17.5,NA
+"30/06/2015","12:59:48 PM","blob","Seaward","60-80m","Point 2",55.2,-25.44792426,152.9879355,"quarter 3","Avicennia marina",1.6,1.5,20,NA
+"30/06/2015","1:00:37 PM","blob","Seaward","60-80m","Point 2",55.2,-25.44792426,152.9879355,"quarter 4","Avicennia marina",0.8,0.7,8,NA

@@ -1,0 +1,5 @@
+"Group","Zonal point","Intertidal zone","Tape point","Quarter","Date","Time","Longitude","Latitude","Distance from point","Height","Circumference","Average number of buds alive","Average number of leaves distorted","Average number of Mines","Average number of Galls","Average percent of leaf missing","Average number of leaves per stem","Number of stems","Week","Group color"
+"atrio","Landward - Creek","High",100,"Quarter 1","2/07/2015","9:34:13 AM",152.98916339,-25.44811775,2.2,1.6,10,6.75,25,0.0416666666666667,0,0.055,6,8,"Week 2","red"
+"atrio","Landward - Creek","High",100,"Quarter 4","2/07/2015","9:58:07 AM",152.98916339,-25.44811775,2.5,0.8,10,5.25,20,0.0833333333333333,0,0.0910416666666667,6,8,"Week 2","red"
+"atrio","Landward - Creek","High",100,"Quarter 2","2/07/2015","9:38:07 AM",152.98912107,-25.44811827,1.2,1.7,23,4.25,25,0.0666666666666667,0.0833333333333333,0.146666666666667,6,8,"Week 2","red"
+"atrio","Landward - Creek","High",100,"Quarter 3","2/07/2015","10:10:23 AM",152.98912107,-25.44811827,3.9,0.6,6.5,3.75,10,0,0,0.155416666666667,6,8,"Week 2","red"

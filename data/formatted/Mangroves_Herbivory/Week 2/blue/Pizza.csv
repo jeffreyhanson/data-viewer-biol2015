@@ -1,0 +1,5 @@
+"Group","Zonal point","Intertidal zone","Tape point","Quarter","Date","Time","Longitude","Latitude","Distance from point","Height","Circumference","Average number of buds alive","Average number of leaves distorted","Average number of Mines","Average number of Galls","Average percent of leaf missing","Average number of leaves per stem","Number of stems","Week","Group color"
+"pizza","Seaward","High",100,"Quarter 1","4/07/2015","1:07:51 PM",152.987807291786,-25.4481703146429,2.90357142857143,2,19,9.375,32,0.0386904761904762,1.36011904761905,0.102797619047619,6.25,8,"Week 2","blue"
+"pizza","Seaward","High",100,"Quarter 3","4/07/2015","1:32:26 PM",152.98780245,-25.448166420625,3.46,1,7.5,6,18,0.119047619047619,0.223214285714286,0.0680654761904762,6.125,8,"Week 2","blue"
+"pizza","Seaward","Low",0,"Quarter 1","4/07/2015","1:48:05 PM",152.9875243,-25.44799327,5.7,5.5,42,8.25,21,0.0833333333333333,0.125,0.0489583333333333,6,8,"Week 2","blue"
+"pizza","Seaward","Low",0,"Quarter 3","4/07/2015","2:02:31 PM",152.9875243,-25.44799327,5.4,4,40.6,2.375,33,0.244047619047619,0.205357142857143,0.0502380952380952,6.375,8,"Week 2","blue"

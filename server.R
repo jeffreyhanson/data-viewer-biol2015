@@ -1,6 +1,6 @@
 shinyServer(function(input,output,session) { 
 	#### initalize
-	try(system('touch /srv/shiny-server/data-viewer-biol2015/restart.txt'), silent=TRUE)
+	# try(system('touch /srv/shiny-server/data-viewer-biol2015/restart.txt'), silent=TRUE)
 
 	
 	# set defaults
@@ -13,7 +13,10 @@ shinyServer(function(input,output,session) {
 	output$main_PLOT=renderPlot({emptyPlot()})
 	output$diagnostic_PLOT=renderPlot({emptyPlot()})
 	output$data_DF=renderDataTable({emptyDataFrame()})
-	
+		
+	# set initial states
+	session$sendCustomMessage("setWidgetProperty",list(id="group_names_VCHR",prop="disabled", status=TRUE))		
+		
 	#### reactive handlers
 	## load data panels
 	# project name observer
@@ -31,7 +34,7 @@ shinyServer(function(input,output,session) {
 					closeAlert(session,'loadingMasterAlert')
 					session$sendCustomMessage("setWidgetProperty",list(id="week_number_CHR",prop="disabled", status=FALSE))
 					session$sendCustomMessage("setWidgetProperty",list(id="group_color_CHR",prop="disabled", status=FALSE))
-					session$sendCustomMessage("setWidgetProperty",list(id="group_names_VCHR",prop="disabled", status=FALSE))
+					# session$sendCustomMessage("setWidgetProperty",list(id="group_names_VCHR",prop="disabled", status=FALSE))
 				}
 			} else {
 				createAlert(
@@ -71,12 +74,19 @@ shinyServer(function(input,output,session) {
 				manager$setActiveWeekNumber(input$week_number_CHR)
 			if (!is.empty(input$group_color_CHR))
 				manager$setActiveGroupColor(input$group_color_CHR)
+			
 			# load group names
-			if (manager$isGroupSubset()) {
+			assign('.fullData_DF', manager$.fullData_DF, envir=globalenv())
+			assign('.activeWeekNumber_CHR', input$week_number_CHR, envir=globalenv())
+			assign('.activeGroupColor_CHR', input$group_color_CHR, envir=globalenv())
+			
+			if (manager$isGroupSubset() & manager$isDataLoaded()) {
 				tmp=manager$getProjectGroupNames()
 				updateSelectInput(session, "group_names_VCHR", choices=tmp)
+				session$sendCustomMessage("setWidgetProperty",list(id="group_names_VCHR",prop="disabled", status=FALSE))
 				session$sendCustomMessage("setWidgetProperty",list(id="load_data_BTN",prop="disabled", status=TRUE))
 				if (length(tmp)==0) {
+					session$sendCustomMessage("setWidgetProperty",list(id="group_names_VCHR",prop="disabled", status=TRUE))
 					createAlert(
 						session,'alert','loadingGroupAlert', title='Error', append=FALSE, type='danger',
 						message='Error loading data for specified week and group color.\n\nPlease check that you have entered the correct details. \n\nIf you have still receive this message, please ask your tutor for help.'
@@ -187,7 +197,7 @@ shinyServer(function(input,output,session) {
 				})
 			}
 		})
-	})
+	})	
 })
 
 

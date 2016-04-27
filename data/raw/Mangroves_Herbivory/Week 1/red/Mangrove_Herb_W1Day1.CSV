@@ -1,0 +1,859 @@
+Date,Time,group,Latitude,Longitude,location notes,zonal point,Intertidal zone,TapePoint,quarter,Distance from point,Height,Circumference,stems,Bud 1 Live,Bud 1 Dead,Bud 2 Live,Bud 2 Dead,Bud 3 Live,Bud 3 Dead,Leaf,leaf distorted ?,% of leaf missing,number of Mines,number of Galls
+14/05/2015,2:33:17 PM,Anthony,,,,,,,,,,,,,,,,,,,,,,
+27/06/2015,1:16:36 PM,derek,,,,,,,,,,,,,,,,,,,,,,
+27/06/2015,1:16:49 PM,derek,-25.44893272,152.9894339,,,,,,,,,,,,,,,,,,,,
+27/06/2015,1:17:33 PM,derek,-25.44886384,152.9894845,,Landward - Creek,Low,7,,,,,,,,,,,,,,,,
+27/06/2015,1:19:05 PM,derek,-25.44887266,152.9894918,,Landward - Creek,Low,7.2,return to transect point,,,,,,,,,,,,,,,
+27/06/2015,1:22:29 PM,derek,,,,Landward - Creek,Low,7.2,quarter 1,0.1,1.2,20,stem 1,TRUE,,,TRUE,,TRUE,Leaf 2,,,0,5
+27/06/2015,1:24:02 PM,derek,,,,Landward - Creek,Low,7.2,quarter 1,0.1,1.2,20,stem 1,TRUE,,,TRUE,,TRUE,Leaf 1,,0,9,0
+27/06/2015,1:24:07 PM,derek,,,,Landward - Creek,Low,7.2,quarter 1,0.1,1.2,20,stem 1,TRUE,,,TRUE,,TRUE,Leaf 2,,0,0,0
+27/06/2015,1:24:53 PM,derek,,,,Landward - Creek,Low,7.2,quarter 1,0.1,1.2,20,stem 1,TRUE,,,TRUE,,TRUE,Leaf 3,,0,0,0
+27/06/2015,1:25:02 PM,derek,,,,Landward - Creek,Low,7.2,quarter 1,0.1,1.2,20,stem 1,TRUE,,,TRUE,,TRUE,Leaf 3,,0,2,0
+27/06/2015,1:25:20 PM,derek,,,,Landward - Creek,Low,7.2,quarter 1,0.1,1.2,20,stem 1,TRUE,,,TRUE,,TRUE,Leaf 4,,5,1,0
+27/06/2015,1:25:36 PM,derek,,,,Landward - Creek,Low,7.2,quarter 1,0.1,1.2,20,stem 1,TRUE,,,TRUE,,TRUE,Leaf 5,TRUE,10,0,2
+27/06/2015,1:25:47 PM,derek,,,,Landward - Creek,Low,7.2,quarter 1,0.1,1.2,20,stem 1,TRUE,,,TRUE,,TRUE,Leaf 5,TRUE,0,,
+27/06/2015,1:25:59 PM,derek,,,,Landward - Creek,Low,7.2,quarter 1,0.1,1.2,20,stem 1,TRUE,,,TRUE,,TRUE,Leaf 5,TRUE,10,0,2
+27/06/2015,1:26:16 PM,derek,,,,Landward - Creek,Low,7.2,quarter 1,0.1,1.2,20,stem 1,TRUE,,,TRUE,,TRUE,Leaf 6,,0,0,0
+27/06/2015,1:27:13 PM,derek,,,,Landward - Creek,Low,7.2,quarter 1,0.1,1.2,20,stem 2,TRUE,,TRUE,,TRUE,,Leaf 1,,0,4,0
+27/06/2015,1:27:33 PM,derek,,,,Landward - Creek,Low,7.2,quarter 1,0.1,1.2,20,stem 2,TRUE,,TRUE,,TRUE,,Leaf 2,,0,10,0
+27/06/2015,1:27:44 PM,derek,,,,Landward - Creek,Low,7.2,quarter 1,0.1,1.2,20,stem 2,TRUE,,TRUE,,TRUE,,Leaf 3,,0,0,0
+27/06/2015,1:27:59 PM,derek,,,,Landward - Creek,Low,7.2,quarter 1,0.1,1.2,20,stem 2,TRUE,,TRUE,,TRUE,,Leaf 4,,5,3,0
+27/06/2015,1:28:07 PM,derek,,,,Landward - Creek,Low,7.2,quarter 1,0.1,1.2,20,stem 2,TRUE,,TRUE,,TRUE,,Leaf 5,,0,0,0
+27/06/2015,1:28:21 PM,derek,,,,Landward - Creek,Low,7.2,quarter 1,0.1,1.2,20,stem 2,TRUE,,TRUE,,TRUE,,Leaf 6,,0,3,0
+27/06/2015,1:28:51 PM,derek,,,,Landward - Creek,Low,7.2,quarter 1,0.1,1.2,20,stem 3,,TRUE,TRUE,,,TRUE,Leaf 1,,0,2,0
+27/06/2015,1:29:02 PM,derek,,,,Landward - Creek,Low,7.2,quarter 1,0.1,1.2,20,stem 3,,TRUE,TRUE,,,TRUE,Leaf 2,,0,0,6
+27/06/2015,1:29:16 PM,derek,,,,Landward - Creek,Low,7.2,quarter 1,0.1,1.2,20,stem 3,,TRUE,TRUE,,,TRUE,Leaf 3,,0,2,1
+27/06/2015,1:29:40 PM,derek,,,,Landward - Creek,Low,7.2,quarter 1,0.1,1.2,20,stem 3,,TRUE,TRUE,,,TRUE,Leaf 4,,0,0,10
+27/06/2015,1:30:12 PM,derek,,,,Landward - Creek,Low,7.2,quarter 1,0.1,1.2,20,stem 3,,TRUE,TRUE,,,TRUE,Leaf 4,,0,0,12
+27/06/2015,1:30:26 PM,derek,,,,Landward - Creek,Low,7.2,quarter 1,0.1,1.2,20,stem 3,,TRUE,TRUE,,,TRUE,Leaf 5,,0,1,0
+27/06/2015,1:30:48 PM,derek,,,,Landward - Creek,Low,7.2,quarter 1,0.1,1.2,20,stem 3,,TRUE,TRUE,,,TRUE,Leaf 6,TRUE,15,2,5
+27/06/2015,1:31:28 PM,derek,,,,,,,,,,,,,,,,,,,,,,
+27/06/2015,1:31:34 PM,derek,-25.44887417,152.9894809,,,,,,,,,,,,,,,,,,,,
+27/06/2015,1:32:16 PM,derek,-25.44887441,152.9894809,,Landward - Creek,Low,7,,,,,,,,,,,,,,,,
+27/06/2015,1:34:36 PM,derek,,,,Landward - Creek,Low,7,quarter 1,0.1,1.1,20,stem 4,,,,,,,Leaf 1,,0,4,30
+27/06/2015,1:34:50 PM,derek,,,,Landward - Creek,Low,7,quarter 1,0.1,1.1,20,stem 4,,,,,,,Leaf 2,TRUE,40,1,7
+27/06/2015,1:35:07 PM,derek,,,,Landward - Creek,Low,7,quarter 1,0.1,1.1,20,stem 4,,,,,,,Leaf 3,,5,2,3
+27/06/2015,1:35:23 PM,derek,,,,Landward - Creek,Low,7,quarter 1,0.1,1.1,20,stem 4,,,,,,,Leaf 4,,5,2,0
+27/06/2015,1:36:13 PM,derek,,,,Landward - Creek,Low,7,quarter 1,0.1,1.1,20,stem 4,,,,,,,Leaf 5,TRUE,10,3,0
+27/06/2015,1:36:30 PM,derek,,,,Landward - Creek,Low,7,quarter 1,0.1,1.1,20,stem 4,,,,,,,Leaf 6,TRUE,10,1,0
+27/06/2015,1:36:57 PM,derek,,,,Landward - Creek,Low,7,quarter 1,0.1,1.1,20,stem 5,,TRUE,,TRUE,,TRUE,Leaf 1,,0,0,5
+27/06/2015,1:37:07 PM,derek,,,,Landward - Creek,Low,7,quarter 1,0.1,1.1,20,stem 5,,TRUE,,TRUE,,TRUE,Leaf 2,,5,0,5
+27/06/2015,1:37:22 PM,derek,,,,Landward - Creek,Low,7,quarter 1,0.1,1.1,20,stem 5,,TRUE,,TRUE,,TRUE,Leaf 3,,2,0,0
+27/06/2015,1:37:39 PM,derek,,,,Landward - Creek,Low,7,quarter 1,0.1,1.1,20,stem 5,,TRUE,,TRUE,,TRUE,Leaf 4,,0,4,32
+27/06/2015,1:37:48 PM,derek,,,,Landward - Creek,Low,7,quarter 1,0.1,1.1,20,stem 5,,TRUE,,TRUE,,TRUE,Leaf 5,,0,0,0
+27/06/2015,1:38:01 PM,derek,,,,Landward - Creek,Low,7,quarter 1,0.1,1.1,20,stem 5,,TRUE,,TRUE,,TRUE,Leaf 6,TRUE,3,1,0
+27/06/2015,1:38:52 PM,derek,,,,Landward - Creek,Low,7,quarter 1,0.1,1.1,20,stem 6,TRUE,,TRUE,,TRUE,,Leaf 1,,2,1,0
+27/06/2015,1:39:03 PM,derek,,,,Landward - Creek,Low,7,quarter 1,0.1,1.1,20,stem 6,TRUE,,TRUE,,TRUE,,Leaf 2,,0,1,10
+27/06/2015,1:39:14 PM,derek,,,,Landward - Creek,Low,7,quarter 1,0.1,1.1,20,stem 6,TRUE,,TRUE,,TRUE,,Leaf 3,,3,2,0
+27/06/2015,1:39:21 PM,derek,,,,Landward - Creek,Low,7,quarter 1,0.1,1.1,20,stem 6,TRUE,,TRUE,,TRUE,,Leaf 4,,0,0,0
+27/06/2015,1:39:36 PM,derek,,,,Landward - Creek,Low,7,quarter 1,0.1,1.1,20,stem 6,TRUE,,TRUE,,TRUE,,Leaf 5,,0,0,15
+27/06/2015,1:39:47 PM,derek,,,,Landward - Creek,Low,7,quarter 1,0.1,1.1,20,stem 6,TRUE,,TRUE,,TRUE,,Leaf 6,,2,0,0
+27/06/2015,1:40:13 PM,derek,,,,Landward - Creek,Low,7,quarter 1,0.1,1.1,20,stem 7,TRUE,,TRUE,,,TRUE,Leaf 1,,0,2,0
+27/06/2015,1:40:16 PM,derek,,,,Landward - Creek,Low,7,quarter 1,0.1,1.1,20,stem 7,TRUE,,TRUE,,,TRUE,Leaf 2,,0,0,0
+27/06/2015,1:40:26 PM,derek,,,,Landward - Creek,Low,7,quarter 1,0.1,1.1,20,stem 7,TRUE,,TRUE,,,TRUE,Leaf 3,,0,0,13
+27/06/2015,1:40:43 PM,derek,,,,Landward - Creek,Low,7,quarter 1,0.1,1.1,20,stem 7,TRUE,,TRUE,,,TRUE,Leaf 4,,2,4,0
+27/06/2015,1:40:52 PM,derek,,,,Landward - Creek,Low,7,quarter 1,0.1,1.1,20,stem 7,TRUE,,TRUE,,,TRUE,Leaf 5,,0,5,0
+27/06/2015,1:41:06 PM,derek,,,,Landward - Creek,Low,7,quarter 1,0.1,1.1,20,stem 7,TRUE,,TRUE,,,TRUE,Leaf 5,,0,0,0
+27/06/2015,1:41:14 PM,derek,,,,Landward - Creek,Low,7,quarter 1,0.1,1.1,20,stem 7,TRUE,,TRUE,,,TRUE,Leaf 6,,0,0,0
+27/06/2015,1:41:59 PM,derek,,,,Landward - Creek,Low,7,quarter 1,0.1,1.1,20,stem 8,TRUE,,TRUE,,TRUE,,Leaf 1,,0,2,3
+27/06/2015,1:42:10 PM,derek,,,,Landward - Creek,Low,7,quarter 1,0.1,1.1,20,stem 8,TRUE,,TRUE,,TRUE,,Leaf 2,,0,0,12
+27/06/2015,1:42:26 PM,derek,,,,Landward - Creek,Low,7,quarter 1,0.1,1.1,20,stem 8,TRUE,,TRUE,,TRUE,,Leaf 3,,0,1,7
+27/06/2015,1:42:31 PM,derek,,,,Landward - Creek,Low,7,quarter 1,0.1,1.1,20,stem 8,TRUE,,TRUE,,TRUE,,Leaf 4,,0,0,0
+27/06/2015,1:42:36 PM,derek,,,,Landward - Creek,Low,7,quarter 1,0.1,1.1,20,stem 8,TRUE,,TRUE,,TRUE,,Leaf 5,,0,0,0
+27/06/2015,1:42:51 PM,derek,,,,Landward - Creek,Low,7,quarter 1,0.1,1.1,20,stem 8,TRUE,,TRUE,,TRUE,,Leaf 6,,5,1,0
+27/06/2015,1:44:38 PM,derek,,,,Landward - Creek,Low,7,quarter 2,0.5,0.7,15,stem 1,,TRUE,,TRUE,,TRUE,Leaf 1,,0,0,0
+27/06/2015,1:44:52 PM,derek,,,,Landward - Creek,Low,7,quarter 2,0.5,0.7,15,stem 1,,TRUE,,TRUE,,TRUE,Leaf 2,,15,2,2
+27/06/2015,1:45:07 PM,derek,,,,Landward - Creek,Low,7,quarter 2,0.5,0.7,15,stem 1,,TRUE,,TRUE,,TRUE,Leaf 3,,10,5,0
+27/06/2015,1:45:29 PM,derek,,,,Landward - Creek,Low,7,quarter 2,0.5,0.7,15,stem 1,,TRUE,,TRUE,,TRUE,Leaf 4,,5,0,40
+27/06/2015,1:45:37 PM,derek,,,,Landward - Creek,Low,7,quarter 2,0.5,0.7,15,stem 1,,TRUE,,TRUE,,TRUE,Leaf 5,,0,0,0
+27/06/2015,1:45:40 PM,derek,,,,Landward - Creek,Low,7,quarter 2,0.5,0.7,15,stem 1,,TRUE,,TRUE,,TRUE,Leaf 6,,0,0,0
+27/06/2015,1:46:37 PM,derek,,,,Landward - Creek,Low,7,quarter 2,0.5,0.7,15,stem 2,TRUE,,,TRUE,,TRUE,Leaf 1,,50,2,0
+27/06/2015,1:46:45 PM,derek,,,,Landward - Creek,Low,7,quarter 2,0.5,0.7,15,stem 2,TRUE,,,TRUE,,TRUE,Leaf 2,,0,0,3
+27/06/2015,1:46:54 PM,derek,,,,Landward - Creek,Low,7,quarter 2,0.5,0.7,15,stem 2,TRUE,,,TRUE,,TRUE,Leaf 4,,0,0,13
+27/06/2015,1:47:00 PM,derek,,,,Landward - Creek,Low,7,quarter 2,0.5,0.7,15,stem 2,TRUE,,,TRUE,,TRUE,Leaf 4,,0,1,0
+27/06/2015,1:47:09 PM,derek,,,,Landward - Creek,Low,7,quarter 2,0.5,0.7,15,stem 2,TRUE,,,TRUE,,TRUE,Leaf 5,,0,2,6
+27/06/2015,1:47:15 PM,derek,,,,Landward - Creek,Low,7,quarter 2,0.5,0.7,15,stem 2,TRUE,,,TRUE,,TRUE,Leaf 6,,0,0,0
+27/06/2015,1:48:05 PM,derek,,,,Landward - Creek,Low,7,quarter 2,0.5,0.7,15,stem 3,TRUE,,TRUE,,,TRUE,Leaf 1,,0,3,8
+27/06/2015,1:48:46 PM,derek,,,,Landward - Creek,Low,7,quarter 2,0.5,0.7,15,stem 3,TRUE,,TRUE,,,TRUE,Leaf 2,,0,0,25
+27/06/2015,1:49:04 PM,derek,,,,Landward - Creek,Low,7,quarter 2,0.5,0.7,15,stem 3,TRUE,,TRUE,,,TRUE,Leaf 3,,0,3,0
+27/06/2015,1:49:11 PM,derek,,,,Landward - Creek,Low,7,quarter 2,0.5,0.7,15,stem 3,TRUE,,TRUE,,,TRUE,Leaf 4,,0,6,0
+27/06/2015,1:49:35 PM,derek,,,,Landward - Creek,Low,7,quarter 2,0.5,0.7,15,stem 3,TRUE,,TRUE,,,TRUE,Leaf 5,TRUE,39,2,5
+27/06/2015,1:49:58 PM,derek,,,,Landward - Creek,Low,7,quarter 2,0.5,0.7,15,stem 3,TRUE,,TRUE,,,TRUE,Leaf 6,,0,0,27
+27/06/2015,1:50:37 PM,derek,,,,Landward - Creek,Low,7,quarter 2,0.5,0.7,15,stem 4,TRUE,,,,,,Leaf 1,,0,0,15
+27/06/2015,1:50:59 PM,derek,,,,Landward - Creek,Low,7,quarter 2,0.5,0.7,15,stem 4,TRUE,,,,,,Leaf 2,,0,4,15
+27/06/2015,1:51:12 PM,derek,,,,Landward - Creek,Low,7,quarter 2,0.5,0.7,15,stem 4,TRUE,,,,,,Leaf 3,,0,3,13
+27/06/2015,1:51:22 PM,derek,,,,Landward - Creek,Low,7,quarter 2,0.5,0.7,15,stem 4,TRUE,,,,,,Leaf 4,,5,2,3
+27/06/2015,1:51:40 PM,derek,,,,Landward - Creek,Low,7,quarter 2,0.5,0.7,15,stem 4,TRUE,,,,,,Leaf 5,,2,5,7
+27/06/2015,1:52:04 PM,derek,,,,Landward - Creek,Low,7,quarter 2,0.5,0.7,15,stem 4,TRUE,,,,,,Leaf 6,,0,1,15
+27/06/2015,1:52:51 PM,derek,,,,Landward - Creek,Low,7,quarter 2,0.5,0.7,15,stem 5,,,TRUE,,,,Leaf 1,,0,0,0
+27/06/2015,1:52:54 PM,derek,,,,Landward - Creek,Low,7,quarter 2,0.5,0.7,15,stem 5,,,TRUE,,,,Leaf 2,,0,0,0
+27/06/2015,1:52:56 PM,derek,,,,Landward - Creek,Low,7,quarter 2,0.5,0.7,15,stem 5,,,TRUE,,,,Leaf 3,,0,0,
+27/06/2015,1:53:00 PM,derek,,,,Landward - Creek,Low,7,quarter 2,0.5,0.7,15,stem 5,,,TRUE,,,,Leaf 4,,0,0,0
+27/06/2015,1:53:04 PM,derek,,,,Landward - Creek,Low,7,quarter 2,0.5,0.7,15,stem 5,,,TRUE,,,,Leaf 3,,0,0,0
+27/06/2015,1:53:22 PM,derek,,,,Landward - Creek,Low,7,quarter 2,0.5,0.7,15,stem 5,,,TRUE,,,,Leaf 5,,0,0,11
+27/06/2015,1:53:37 PM,derek,,,,Landward - Creek,Low,7,quarter 2,0.5,0.7,15,stem 5,,,TRUE,,,,Leaf 6,TRUE,45,0,5
+27/06/2015,1:54:02 PM,derek,,,,Landward - Creek,Low,7,quarter 2,0.5,0.7,15,stem 6,,,TRUE,,,,Leaf 1,,0,0,0
+27/06/2015,1:54:17 PM,derek,,,,Landward - Creek,Low,7,quarter 2,0.5,0.7,15,stem 6,,,TRUE,,,,Leaf 2,,0,0,1
+27/06/2015,1:54:26 PM,derek,,,,Landward - Creek,Low,7,quarter 2,0.5,0.7,15,stem 6,,,TRUE,,,,Leaf 3,,0,0,0
+27/06/2015,1:54:33 PM,derek,,,,Landward - Creek,Low,7,quarter 2,0.5,0.7,15,stem 6,,,TRUE,,,,Leaf 4,,15,0,0
+27/06/2015,1:54:55 PM,derek,,,,Landward - Creek,Low,7,quarter 2,0.5,0.7,15,stem 6,,,TRUE,,,,Leaf 5,,0,4,0
+27/06/2015,1:55:03 PM,derek,,,,Landward - Creek,Low,7,quarter 2,0.5,0.7,15,stem 6,,,TRUE,,,,Leaf 6,,0,0,5
+27/06/2015,1:56:16 PM,derek,,,,,,,,,,,,,,,,,,,,,,
+27/06/2015,1:56:20 PM,derek,-25.44887695,152.9894541,,,,,,,,,,,,,,,,,,,,
+27/06/2015,1:56:32 PM,derek,-25.44887695,152.989454,,Landward - Creek,Low,7,,,,,,,,,,,,,,,,
+27/06/2015,1:57:31 PM,derek,,,,Landward - Creek,Low,7,quarter 2,0.4,0.7,15,stem 7,,TRUE,,,,,Leaf 1,,0,3,0
+27/06/2015,1:57:41 PM,derek,,,,Landward - Creek,Low,7,quarter 2,0.4,0.7,15,stem 7,,TRUE,,,,,Leaf 2,,0,3,10
+27/06/2015,1:57:54 PM,derek,,,,Landward - Creek,Low,7,quarter 2,0.4,0.7,15,stem 7,,TRUE,,,,,Leaf 3,TRUE,0,0,23
+27/06/2015,1:58:13 PM,derek,,,,Landward - Creek,Low,7,quarter 2,0.4,0.7,15,stem 7,,TRUE,,,,,Leaf 4,TRUE,0,0,30
+27/06/2015,1:58:25 PM,derek,,,,Landward - Creek,Low,7,quarter 2,0.4,0.7,15,stem 7,,TRUE,,,,,Leaf 4,,0,7,0
+27/06/2015,1:58:40 PM,derek,,,,Landward - Creek,Low,7,quarter 2,0.4,0.7,15,stem 7,,TRUE,,,,,Leaf 5,,5,0,6
+27/06/2015,1:58:56 PM,derek,,,,Landward - Creek,Low,7,quarter 2,0.4,0.7,15,stem 7,,TRUE,,,,,Leaf 5,TRUE,50,2,0
+27/06/2015,1:59:29 PM,derek,,,,Landward - Creek,Low,7,quarter 2,0.4,0.7,15,stem 8,,,,,TRUE,,Leaf 1,,0,1,3
+27/06/2015,1:59:32 PM,derek,,,,Landward - Creek,Low,7,quarter 2,0.4,0.7,15,stem 8,,,,,TRUE,,Leaf 2,,0,0,0
+27/06/2015,1:59:35 PM,derek,,,,Landward - Creek,Low,7,quarter 2,0.4,0.7,15,stem 8,,,,,TRUE,,Leaf 3,,0,0,0
+27/06/2015,1:59:58 PM,derek,,,,Landward - Creek,Low,7,quarter 2,0.4,0.7,15,stem 8,,,,,TRUE,,Leaf 4,TRUE,2,0,18
+27/06/2015,2:00:01 PM,derek,,,,Landward - Creek,Low,7,quarter 2,0.4,0.7,15,stem 8,,,,,TRUE,,Leaf 5,,0,0,0
+27/06/2015,2:00:05 PM,derek,,,,Landward - Creek,Low,7,quarter 2,0.4,0.7,15,stem 8,,,,,TRUE,,Leaf 6,,0,0,0
+27/06/2015,2:01:18 PM,derek,,,,Landward - Creek,Low,7,quarter 3,1.5,0.7,17,stem 1,,TRUE,,,,,Leaf 1,,,4,
+27/06/2015,2:01:28 PM,derek,,,,Landward - Creek,Low,7,quarter 3,1.5,0.7,17,stem 1,,TRUE,,,,,Leaf 2,,,,7
+27/06/2015,2:01:37 PM,derek,,,,Landward - Creek,Low,7,quarter 3,1.5,0.7,17,stem 1,,TRUE,,,,,Leaf 3,,,4,
+27/06/2015,2:01:52 PM,derek,,,,Landward - Creek,Low,7,quarter 3,1.5,0.7,17,stem 1,,TRUE,,,,,Leaf 4,,,,13
+27/06/2015,2:02:12 PM,derek,,,,Landward - Creek,Low,7,quarter 3,1.5,0.7,17,stem 1,,TRUE,,,,,Leaf 5,,5,3,
+27/06/2015,2:02:22 PM,derek,,,,Landward - Creek,Low,7,quarter 3,1.5,0.7,17,stem 1,,TRUE,,,,,Leaf 6,,,6,
+27/06/2015,2:02:55 PM,derek,,,,Landward - Creek,Low,7,quarter 3,1.5,0.7,17,stem 3,TRUE,,,,,,Leaf 2,,50,,
+27/06/2015,2:03:13 PM,derek,,,,Landward - Creek,Low,7,quarter 3,1.5,0.7,17,stem 3,TRUE,,,,,,Leaf 3,,,1,
+27/06/2015,2:03:19 PM,derek,,,,Landward - Creek,Low,7,quarter 3,1.5,0.7,17,stem 3,TRUE,,,,,,Leaf 4,,,,
+27/06/2015,2:03:30 PM,derek,,,,Landward - Creek,Low,7,quarter 3,1.5,0.7,17,stem 3,TRUE,,,,,,Leaf 5,,,3,
+27/06/2015,2:03:33 PM,derek,,,,Landward - Creek,Low,7,quarter 3,1.5,0.7,17,stem 3,TRUE,,,,,,Leaf 6,,,,
+27/06/2015,2:04:15 PM,derek,,,,Landward - Creek,Low,7,quarter 3,1.5,0.7,17,stem 2,,,TRUE,,,,Leaf 1,,,3,
+27/06/2015,2:04:25 PM,derek,,,,Landward - Creek,Low,7,quarter 3,1.5,0.7,17,stem 2,,,TRUE,,,,Leaf 2,,,8,
+27/06/2015,2:04:42 PM,derek,,,,Landward - Creek,Low,7,quarter 3,1.5,0.7,17,stem 2,,,TRUE,,,,Leaf 4,,,1,
+27/06/2015,2:04:53 PM,derek,,,,Landward - Creek,Low,7,quarter 3,1.5,0.7,17,stem 2,,,TRUE,,,,Leaf 5,,,6,
+27/06/2015,2:04:57 PM,derek,,,,Landward - Creek,Low,7,quarter 3,1.5,0.7,17,stem 2,,,TRUE,,,,Leaf 6,,,2,
+27/06/2015,2:05:25 PM,derek,,,,Landward - Creek,Low,7,quarter 3,1.5,0.7,17,stem 4,TRUE,,,,,,Leaf 1,,,,7
+27/06/2015,2:05:39 PM,derek,,,,Landward - Creek,Low,7,quarter 3,1.5,0.7,17,stem 4,TRUE,,,,,,Leaf 2,,,10,
+27/06/2015,2:05:48 PM,derek,,,,Landward - Creek,Low,7,quarter 3,1.5,0.7,17,stem 4,TRUE,,,,,,Leaf 3,,,,11
+27/06/2015,2:05:59 PM,derek,,,,Landward - Creek,Low,7,quarter 3,1.5,0.7,17,stem 4,TRUE,,,,,,Leaf 4,,,3,5
+27/06/2015,2:06:09 PM,derek,,,,Landward - Creek,Low,7,quarter 3,1.5,0.7,17,stem 4,TRUE,,,,,,Leaf 5,,,3,
+27/06/2015,2:06:23 PM,derek,,,,Landward - Creek,Low,7,quarter 3,1.5,0.7,17,stem 4,TRUE,,,,,,Leaf 6,TRUE,15,1,
+27/06/2015,2:06:40 PM,derek,,,,Landward - Creek,Low,7,quarter 3,1.5,0.7,17,stem 5,,TRUE,,,,,Leaf 1,,,1,
+27/06/2015,2:06:49 PM,derek,,,,Landward - Creek,Low,7,quarter 3,1.5,0.7,17,stem 5,,TRUE,,,,,Leaf 2,TRUE,,3,
+27/06/2015,2:07:03 PM,derek,,,,Landward - Creek,Low,7,quarter 3,1.5,0.7,17,stem 5,,TRUE,,,,,Leaf 3,TRUE,15,1,
+27/06/2015,2:07:09 PM,derek,,,,Landward - Creek,Low,7,quarter 3,1.5,0.7,17,stem 5,,TRUE,,,,,Leaf 4,,,4,
+27/06/2015,2:07:16 PM,derek,,,,Landward - Creek,Low,7,quarter 3,1.5,0.7,17,stem 5,,TRUE,,,,,Leaf 5,,,6,
+27/06/2015,2:07:21 PM,derek,,,,Landward - Creek,Low,7,quarter 3,1.5,0.7,17,stem 5,,TRUE,,,,,Leaf 6,,,2,
+27/06/2015,2:07:41 PM,derek,,,,Landward - Creek,Low,7,quarter 3,1.5,0.7,17,stem 6,TRUE,,,,,,Leaf 1,,,,
+27/06/2015,2:07:43 PM,derek,,,,Landward - Creek,Low,7,quarter 3,1.5,0.7,17,stem 6,TRUE,,,,,,Leaf 2,,,,
+27/06/2015,2:07:47 PM,derek,,,,Landward - Creek,Low,7,quarter 3,1.5,0.7,17,stem 6,TRUE,,,,,,Leaf 3,,,,
+27/06/2015,2:07:53 PM,derek,,,,Landward - Creek,Low,7,quarter 3,1.5,0.7,17,stem 6,TRUE,,,,,,Leaf 4,,,,
+27/06/2015,2:08:00 PM,derek,,,,Landward - Creek,Low,7,quarter 3,1.5,0.7,17,stem 6,TRUE,,,,,,Leaf 5,,,1,
+27/06/2015,2:08:02 PM,derek,,,,Landward - Creek,Low,7,quarter 3,1.5,0.7,17,stem 6,TRUE,,,,,,Leaf 6,,,,
+27/06/2015,2:09:04 PM,derek,,,,Landward - Creek,Low,7,quarter 3,1.5,0.7,17,stem 7,TRUE,,,,,,Leaf 1,,,2,
+27/06/2015,2:09:11 PM,derek,,,,Landward - Creek,Low,7,quarter 3,1.5,0.7,17,stem 7,TRUE,,,,,,Leaf 2,,,1,
+27/06/2015,2:09:14 PM,derek,,,,Landward - Creek,Low,7,quarter 3,1.5,0.7,17,stem 7,TRUE,,,,,,Leaf 3,,,1,
+27/06/2015,2:09:16 PM,derek,,,,Landward - Creek,Low,7,quarter 3,1.5,0.7,17,stem 7,TRUE,,,,,,Leaf 4,,,,
+27/06/2015,2:09:22 PM,derek,,,,Landward - Creek,Low,7,quarter 3,1.5,0.7,17,stem 7,TRUE,,,,,,Leaf 5,TRUE,,,
+27/06/2015,2:09:24 PM,derek,,,,Landward - Creek,Low,7,quarter 3,1.5,0.7,17,stem 7,TRUE,,,,,,Leaf 6,TRUE,,,
+27/06/2015,2:09:45 PM,derek,,,,Landward - Creek,Low,7,quarter 3,1.5,0.7,17,stem 8,TRUE,,,,,,Leaf 1,,,4,
+27/06/2015,2:09:51 PM,derek,,,,Landward - Creek,Low,7,quarter 3,1.5,0.7,17,stem 8,TRUE,,,,,,Leaf 2,,,1,
+27/06/2015,2:09:56 PM,derek,,,,Landward - Creek,Low,7,quarter 3,1.5,0.7,17,stem 8,TRUE,,,,,,Leaf 3,,,3,
+27/06/2015,2:10:05 PM,derek,,,,Landward - Creek,Low,7,quarter 3,1.5,0.7,17,stem 8,TRUE,,,,,,Leaf 4,,,,6
+27/06/2015,2:10:11 PM,derek,,,,Landward - Creek,Low,7,quarter 3,1.5,0.7,17,stem 8,TRUE,,,,,,Leaf 5,,,1,3
+27/06/2015,2:10:18 PM,derek,,,,Landward - Creek,Low,7,quarter 3,1.5,0.7,17,stem 8,TRUE,,,,,,Leaf 6,,,1,
+27/06/2015,2:11:47 PM,derek,,,,Landward - Creek,Low,7,quarter 4,2,0.6,7,stem 1,,,TRUE,,,,Leaf 1,,,1,
+27/06/2015,2:11:58 PM,derek,,,,Landward - Creek,Low,7,quarter 4,2,0.6,7,stem 1,,,TRUE,,,,Leaf 2,,5,2,
+27/06/2015,2:12:06 PM,derek,,,,Landward - Creek,Low,7,quarter 4,2,0.6,7,stem 1,,,TRUE,,,,Leaf 3,,,2,
+27/06/2015,2:12:10 PM,derek,,,,Landward - Creek,Low,7,quarter 4,2,0.6,7,stem 1,,,TRUE,,,,Leaf 4,,,2,
+27/06/2015,2:12:15 PM,derek,,,,Landward - Creek,Low,7,quarter 4,2,0.6,7,stem 1,,,TRUE,,,,Leaf 5,,,,
+27/06/2015,2:12:16 PM,derek,,,,Landward - Creek,Low,7,quarter 4,2,0.6,7,stem 1,,,TRUE,,,,Leaf 6,,,,
+27/06/2015,2:12:38 PM,derek,,,,Landward - Creek,Low,7,quarter 4,2,0.6,7,stem 2,,,TRUE,,,,Leaf 1,TRUE,70,,
+27/06/2015,2:12:59 PM,derek,,,,Landward - Creek,Low,7,quarter 4,2,0.6,7,stem 2,,,TRUE,,,,Leaf 2,TRUE,80,,
+27/06/2015,2:13:05 PM,derek,,,,Landward - Creek,Low,7,quarter 4,2,0.6,7,stem 2,,,TRUE,,,,Leaf 3,,,1,
+27/06/2015,2:13:09 PM,derek,,,,Landward - Creek,Low,7,quarter 4,2,0.6,7,stem 2,,,TRUE,,,,Leaf 4,,,1,
+27/06/2015,2:13:24 PM,derek,,,,Landward - Creek,Low,7,quarter 4,2,0.6,7,stem 2,,,TRUE,,,,Leaf 5,,,4,
+27/06/2015,2:14:02 PM,derek,,,,Landward - Creek,Low,7,quarter 4,2,0.6,7,stem 3,TRUE,,,,,,Leaf 1,TRUE,25,1,
+27/06/2015,2:14:38 PM,derek,,,,Landward - Creek,Low,7,quarter 4,2,0.6,7,stem 3,TRUE,,,,,,Leaf 2,TRUE,10,1,
+27/06/2015,2:14:55 PM,derek,,,,Landward - Creek,Low,7,quarter 4,2,0.6,7,stem 3,TRUE,,,,,,Leaf 3,TRUE,5,5,
+27/06/2015,2:14:59 PM,derek,,,,Landward - Creek,Low,7,quarter 4,2,0.6,7,stem 3,TRUE,,,,,,Leaf 4,,,1,
+27/06/2015,2:15:14 PM,derek,,,,Landward - Creek,Low,7,quarter 4,2,0.6,7,stem 3,TRUE,,,,,,Leaf 5,,,1,12
+27/06/2015,2:15:21 PM,derek,,,,Landward - Creek,Low,7,quarter 4,2,0.6,7,stem 3,TRUE,,,,,,Leaf 6,,,,20
+27/06/2015,2:15:53 PM,derek,,,,Landward - Creek,Low,7,quarter 4,2,0.6,7,stem 4,TRUE,,,,,,Leaf 1,TRUE,,1,
+27/06/2015,2:15:57 PM,derek,,,,Landward - Creek,Low,7,quarter 4,2,0.6,7,stem 4,TRUE,,,,,,Leaf 2,TRUE,,,
+27/06/2015,2:16:06 PM,derek,,,,Landward - Creek,Low,7,quarter 4,2,0.6,7,stem 4,TRUE,,,,,,Leaf 3,TRUE,45,1,
+27/06/2015,2:16:13 PM,derek,,,,Landward - Creek,Low,7,quarter 4,2,0.6,7,stem 4,TRUE,,,,,,Leaf 4,,,4,
+27/06/2015,2:16:24 PM,derek,,,,Landward - Creek,Low,7,quarter 4,2,0.6,7,stem 4,TRUE,,,,,,Leaf 5,,,4,
+27/06/2015,2:16:30 PM,derek,,,,Landward - Creek,Low,7,quarter 4,2,0.6,7,stem 4,TRUE,,,,,,Leaf 6,,,1,
+27/06/2015,2:16:50 PM,derek,,,,Landward - Creek,Low,7,quarter 4,2,0.6,7,stem 5,,TRUE,,,,,Leaf 1,,,,
+27/06/2015,2:16:54 PM,derek,,,,Landward - Creek,Low,7,quarter 4,2,0.6,7,stem 5,,TRUE,,,,,Leaf 2,,,1,
+27/06/2015,2:17:03 PM,derek,,,,Landward - Creek,Low,7,quarter 4,2,0.6,7,stem 5,,TRUE,,,,,Leaf 3,,70,,
+27/06/2015,2:17:13 PM,derek,,,,Landward - Creek,Low,7,quarter 4,2,0.6,7,stem 5,,TRUE,,,,,Leaf 4,,65,2,
+27/06/2015,2:17:26 PM,derek,,,,Landward - Creek,Low,7,quarter 4,2,0.6,7,stem 5,,TRUE,,,,,Leaf 5,,70,,
+27/06/2015,2:17:41 PM,derek,,,,Landward - Creek,Low,7,quarter 4,2,0.6,7,stem 5,,TRUE,,,,,Leaf 6,,5,4,18
+27/06/2015,2:17:58 PM,derek,,,,Landward - Creek,Low,7,quarter 4,2,0.6,7,stem 6,,TRUE,,,,,Leaf 1,,,1,
+27/06/2015,2:18:04 PM,derek,,,,Landward - Creek,Low,7,quarter 4,2,0.6,7,stem 6,,TRUE,,,,,Leaf 2,,,1,
+27/06/2015,2:18:13 PM,derek,,,,Landward - Creek,Low,7,quarter 4,2,0.6,7,stem 6,,TRUE,,,,,Leaf 3,TRUE,,,
+27/06/2015,2:18:30 PM,derek,,,,Landward - Creek,Low,7,quarter 4,2,0.6,7,stem 6,,TRUE,,,,,Leaf 4,TRUE,50,2,
+27/06/2015,2:18:44 PM,derek,,,,Landward - Creek,Low,7,quarter 4,2,0.6,7,stem 6,,TRUE,,,,,Leaf 5,,,,7
+27/06/2015,2:18:56 PM,derek,,,,Landward - Creek,Low,7,quarter 4,2,0.6,7,stem 6,,TRUE,,,,,Leaf 6,,,1,16
+27/06/2015,2:19:21 PM,derek,,,,Landward - Creek,Low,7,quarter 4,2,0.6,7,stem 7,,,TRUE,,,,Leaf 1,,20,,
+27/06/2015,2:19:23 PM,derek,,,,Landward - Creek,Low,7,quarter 4,2,0.6,7,stem 7,,,TRUE,,,,Leaf 2,,,,
+27/06/2015,2:19:31 PM,derek,,,,Landward - Creek,Low,7,quarter 4,2,0.6,7,stem 7,,,TRUE,,,,Leaf 3,,20,3,
+27/06/2015,2:19:33 PM,derek,,,,Landward - Creek,Low,7,quarter 4,2,0.6,7,stem 7,,,TRUE,,,,Leaf 3,,,,
+27/06/2015,2:19:40 PM,derek,,,,Landward - Creek,Low,7,quarter 4,2,0.6,7,stem 7,,,TRUE,,,,Leaf 4,,5,3,
+27/06/2015,2:19:47 PM,derek,,,,Landward - Creek,Low,7,quarter 4,2,0.6,7,stem 7,,,TRUE,,,,Leaf 5,,,1,
+27/06/2015,2:19:52 PM,derek,,,,Landward - Creek,Low,7,quarter 4,2,0.6,7,stem 7,,,TRUE,,,,Leaf 6,,,1,
+27/06/2015,2:20:10 PM,derek,,,,Landward - Creek,Low,7,quarter 4,2,0.6,7,stem 8,,,TRUE,,,,Leaf 1,TRUE,,1,
+27/06/2015,2:20:11 PM,derek,,,,Landward - Creek,Low,7,quarter 4,2,0.6,7,stem 8,,,TRUE,,,,Leaf 2,,,,
+27/06/2015,2:20:21 PM,derek,,,,Landward - Creek,Low,7,quarter 4,2,0.6,7,stem 8,,,TRUE,,,,Leaf 3,TRUE,,7,
+27/06/2015,2:20:27 PM,derek,,,,Landward - Creek,Low,7,quarter 4,2,0.6,7,stem 8,,,TRUE,,,,Leaf 4,TRUE,,3,
+27/06/2015,2:20:33 PM,derek,,,,Landward - Creek,Low,7,quarter 4,2,0.6,7,stem 8,,,TRUE,,,,Leaf 5,TRUE,,1,
+27/06/2015,2:20:38 PM,derek,,,,Landward - Creek,Low,7,quarter 4,2,0.6,7,stem 8,,,TRUE,,,,Leaf 6,,,1,
+27/06/2015,2:29:47 PM,derek,-25.44844334,152.9888637,,,Low,7,return to transect point,2,0.6,7,return>quarter,,,TRUE,,,,return to stem,,,,
+27/06/2015,2:30:16 PM,derek,,,,,Low,7,return to transect point,2,0.6,7,return>quarter,,,TRUE,,,,return to stem,,,,
+27/06/2015,2:30:19 PM,derek,-25.44845605,152.988856,,,Low,7,return to transect point,2,0.6,7,return>quarter,,,TRUE,,,,return to stem,,,,
+27/06/2015,2:30:31 PM,derek 3,-25.44845609,152.9888559,,Landward - Creek,High,88,return to transect point,2,0.6,7,return>quarter,,,TRUE,,,,return to stem,,,,
+27/06/2015,2:30:57 PM,derek 3,,,,Landward - Creek,High,88,quarter 4,7.2,1.6,31,stem 1,,,TRUE,,,,Leaf 1,TRUE,,,
+27/06/2015,2:31:03 PM,derek 3,,,,Landward - Creek,High,88,quarter 4,7.2,1.6,31,stem 1,,,TRUE,,,,Leaf 2,,,1,
+27/06/2015,2:31:12 PM,derek 3,,,,Landward - Creek,High,88,quarter 4,7.2,1.6,31,stem 1,,,TRUE,,,,Leaf 3,,20,,
+27/06/2015,2:31:24 PM,derek 3,,,,Landward - Creek,High,88,quarter 4,7.2,1.6,31,stem 1,,,TRUE,,,,Leaf 3,,5,,
+27/06/2015,2:31:27 PM,derek 3,,,,Landward - Creek,High,88,quarter 4,7.2,1.6,31,stem 1,,,TRUE,,,,Leaf 4,,,,
+27/06/2015,2:31:37 PM,derek 3,,,,Landward - Creek,High,88,quarter 4,7.2,1.6,31,stem 1,,,TRUE,,,,Leaf 5,,,1,
+27/06/2015,2:31:44 PM,derek 3,,,,Landward - Creek,High,88,quarter 4,7.2,1.6,31,stem 1,,,TRUE,,,,Leaf 6,,,,
+27/06/2015,2:32:04 PM,derek 3,,,,Landward - Creek,High,88,quarter 4,7.2,1.6,31,stem 2,,TRUE,,,,,Leaf 1,TRUE,70,,
+27/06/2015,2:32:09 PM,derek 3,,,,Landward - Creek,High,88,quarter 4,7.2,1.6,31,stem 2,,TRUE,,,,,Leaf 2,TRUE,70,,
+27/06/2015,2:32:12 PM,derek 3,,,,Landward - Creek,High,88,quarter 4,7.2,1.6,31,stem 2,,TRUE,,,,,Leaf 3,,,,
+27/06/2015,2:32:13 PM,derek 3,,,,Landward - Creek,High,88,quarter 4,7.2,1.6,31,stem 2,,TRUE,,,,,Leaf 4,,,,
+27/06/2015,2:32:22 PM,derek 3,,,,Landward - Creek,High,88,quarter 4,7.2,1.6,31,stem 2,,TRUE,,,,,Leaf 5,,,,
+27/06/2015,2:32:25 PM,derek 3,,,,Landward - Creek,High,88,quarter 4,7.2,1.6,31,stem 2,,TRUE,,,,,Leaf 6,,,,
+27/06/2015,2:32:44 PM,derek 3,,,,Landward - Creek,High,88,quarter 4,7.2,1.6,31,stem 3,TRUE,,,,,,Leaf 1,,,1,
+27/06/2015,2:32:49 PM,derek 3,,,,Landward - Creek,High,88,quarter 4,7.2,1.6,31,stem 3,TRUE,,,,,,Leaf 2,,,,1
+27/06/2015,2:32:52 PM,derek 3,,,,Landward - Creek,High,88,quarter 4,7.2,1.6,31,stem 3,TRUE,,,,,,Leaf 3,,,,
+27/06/2015,2:33:04 PM,derek 3,,,,Landward - Creek,High,88,quarter 4,7.2,1.6,31,stem 3,TRUE,,,,,,Leaf 4,TRUE,25,,
+27/06/2015,2:33:17 PM,derek 3,,,,Landward - Creek,High,88,quarter 4,7.2,1.6,31,stem 3,TRUE,,,,,,Leaf 5,,,1,1
+27/06/2015,2:33:25 PM,derek 3,,,,Landward - Creek,High,88,quarter 4,7.2,1.6,31,stem 3,TRUE,,,,,,Leaf 6,,,1,2
+27/06/2015,2:33:42 PM,derek 3,,,,Landward - Creek,High,88,quarter 4,7.2,1.6,31,stem 4,,TRUE,,,,,Leaf 1,,,1,
+27/06/2015,2:33:44 PM,derek 3,,,,Landward - Creek,High,88,quarter 4,7.2,1.6,31,stem 4,,TRUE,,,,,Leaf 2,,,,
+27/06/2015,2:33:50 PM,derek 3,,,,Landward - Creek,High,88,quarter 4,7.2,1.6,31,stem 4,,TRUE,,,,,Leaf 3,,,,
+27/06/2015,2:33:55 PM,derek 3,,,,Landward - Creek,High,88,quarter 4,7.2,1.6,31,stem 4,,TRUE,,,,,Leaf 4,,5,,
+27/06/2015,2:33:57 PM,derek 3,,,,Landward - Creek,High,88,quarter 4,7.2,1.6,31,stem 4,,TRUE,,,,,Leaf 5,,,,
+27/06/2015,2:34:05 PM,derek 3,,,,Landward - Creek,High,88,quarter 4,7.2,1.6,31,stem 4,,TRUE,,,,,Leaf 6,,10,1,3
+27/06/2015,2:34:20 PM,derek 3,,,,Landward - Creek,High,88,quarter 4,7.2,1.6,31,stem 5,TRUE,,,,,,Leaf 1,,,,
+27/06/2015,2:34:25 PM,derek 3,,,,Landward - Creek,High,88,quarter 4,7.2,1.6,31,stem 5,TRUE,,,,,,Leaf 2,,90,,
+27/06/2015,2:34:33 PM,derek 3,,,,Landward - Creek,High,88,quarter 4,7.2,1.6,31,stem 5,TRUE,,,,,,Leaf 3,,,,
+27/06/2015,2:34:39 PM,derek 3,,,,Landward - Creek,High,88,quarter 4,7.2,1.6,31,stem 5,TRUE,,,,,,Leaf 4,,60,,
+27/06/2015,2:34:44 PM,derek 3,,,,Landward - Creek,High,88,quarter 4,7.2,1.6,31,stem 5,TRUE,,,,,,Leaf 5,TRUE,,1,
+27/06/2015,2:34:48 PM,derek 3,,,,Landward - Creek,High,88,quarter 4,7.2,1.6,31,stem 5,TRUE,,,,,,Leaf 6,TRUE,,1,
+27/06/2015,2:35:17 PM,derek 3,,,,Landward - Creek,High,88,quarter 4,7.2,1.6,31,stem 6,,,,TRUE,,,Leaf 1,,,3,
+27/06/2015,2:35:24 PM,derek 3,,,,Landward - Creek,High,88,quarter 4,7.2,1.6,31,stem 6,,,,TRUE,,,Leaf 2,,10,3,
+27/06/2015,2:35:37 PM,derek 3,,,,Landward - Creek,High,88,quarter 4,7.2,1.6,31,stem 6,,,,TRUE,,,Leaf 3,,60,2,
+27/06/2015,2:35:41 PM,derek 3,,,,Landward - Creek,High,88,quarter 4,7.2,1.6,31,stem 6,,,,TRUE,,,Leaf 4,,,,
+27/06/2015,2:35:45 PM,derek 3,,,,Landward - Creek,High,88,quarter 4,7.2,1.6,31,stem 6,,,,TRUE,,,Leaf 5,,,,
+27/06/2015,2:35:50 PM,derek 3,,,,Landward - Creek,High,88,quarter 4,7.2,1.6,31,stem 6,,,,TRUE,,,Leaf 6,,,,
+27/06/2015,2:36:34 PM,derek 3,,,,Landward - Creek,High,88,quarter 4,7.2,1.6,31,stem 7,,TRUE,,,,,Leaf 1,,,,
+27/06/2015,2:36:35 PM,derek 3,,,,Landward - Creek,High,88,quarter 4,7.2,1.6,31,stem 7,,TRUE,,,,,Leaf 2,,,,
+27/06/2015,2:36:43 PM,derek 3,,,,Landward - Creek,High,88,quarter 4,7.2,1.6,31,stem 7,,TRUE,,,,,Leaf 3,TRUE,,,
+27/06/2015,2:36:45 PM,derek 3,,,,Landward - Creek,High,88,quarter 4,7.2,1.6,31,stem 7,,TRUE,,,,,Leaf 4,TRUE,,,
+27/06/2015,2:36:58 PM,derek 3,,,,Landward - Creek,High,88,quarter 4,7.2,1.6,31,stem 7,,TRUE,,,,,Leaf 3,TRUE,70,1,
+27/06/2015,2:37:03 PM,derek 3,,,,Landward - Creek,High,88,quarter 4,7.2,1.6,31,stem 7,,TRUE,,,,,Leaf 4,TRUE,70,,
+27/06/2015,2:37:14 PM,derek 3,,,,Landward - Creek,High,88,quarter 4,7.2,1.6,31,stem 7,,TRUE,,,,,Leaf 5,,,2,
+27/06/2015,2:37:17 PM,derek 3,,,,Landward - Creek,High,88,quarter 4,7.2,1.6,31,stem 7,,TRUE,,,,,Leaf 6,,,1,
+27/06/2015,2:37:40 PM,derek 3,,,,Landward - Creek,High,88,quarter 4,7.2,1.6,31,stem 8,,TRUE,,,,,Leaf 1,,10,3,
+27/06/2015,2:38:01 PM,derek 3,,,,Landward - Creek,High,88,quarter 4,7.2,1.6,31,stem 8,,TRUE,,,,,Leaf 2,,,,
+27/06/2015,2:38:10 PM,derek 3,,,,Landward - Creek,High,88,quarter 4,7.2,1.6,31,stem 8,,TRUE,,,,,Leaf 3,,,,4
+27/06/2015,2:38:16 PM,derek 3,,,,Landward - Creek,High,88,quarter 4,7.2,1.6,31,stem 8,,TRUE,,,,,Leaf 4,TRUE,,4,
+27/06/2015,2:38:18 PM,derek 3,,,,Landward - Creek,High,88,quarter 4,7.2,1.6,31,stem 8,,TRUE,,,,,Leaf 5,,,,
+27/06/2015,2:38:27 PM,derek 3,,,,Landward - Creek,High,88,quarter 4,7.2,1.6,31,stem 8,,TRUE,,,,,Leaf 4,TRUE,20,4,
+27/06/2015,2:38:33 PM,derek 3,,,,Landward - Creek,High,88,quarter 4,7.2,1.6,31,stem 8,,TRUE,,,,,Leaf 5,TRUE,,2,
+27/06/2015,2:38:40 PM,derek 3,,,,Landward - Creek,High,88,quarter 4,7.2,1.6,31,stem 8,,TRUE,,,,,Leaf 6,TRUE,30,,
+27/06/2015,6:40:50 PM,Anthony,,,,,,,,,,,,,,,,,,,,,,
+27/06/2015,6:42:01 PM,Anthony,-25.59911745,153.0914375,,,,,,,,,,,,,,,,,,,,
+27/06/2015,6:42:15 PM,Anthony,-25.59905888,153.0914385,,Seaward,High,1,,,,,,,,,,,,,,,,
+27/06/2015,6:42:53 PM,Anthony,,,,Seaward,High,1,quarter 1,7,8,5,stem 8,TRUE,,,,,,Leaf 6,TRUE,0,0,0
+27/06/2015,10:26:55 AM,red baron a,,,,,,,,,,,,,,,,,,,,,,
+27/06/2015,10:32:23 AM,red baron a,-25.44709567,152.9880772,,,,,,,,,,,,,,,,,,,,
+27/06/2015,10:35:12 AM,red baron a,-25.44715783,152.988153,,Seaward,Low,17,,,,,,,,,,,,,,,,
+27/06/2015,10:41:31 AM,red baron a,,,,Seaward,Low,17,quarter 1,2,5,85,stem 1,TRUE,,TRUE,,,TRUE,Leaf 1,,0,1,0
+27/06/2015,10:42:43 AM,red baron a,,,,Seaward,Low,17,quarter 1,2,5,85,stem 1,TRUE,,TRUE,,,TRUE,Leaf 2,,0,1,0
+27/06/2015,10:43:21 AM,red baron a,,,,Seaward,Low,17,quarter 1,2,5,85,stem 1,TRUE,,TRUE,,,TRUE,Leaf 3,,0,0,1
+27/06/2015,10:43:42 AM,red baron a,,,,Seaward,Low,17,quarter 1,2,5,85,stem 1,TRUE,,TRUE,,,TRUE,Leaf 4,,0,1,0
+27/06/2015,10:44:12 AM,red baron a,,,,Seaward,Low,17,quarter 1,2,5,85,stem 1,TRUE,,TRUE,,,TRUE,Leaf 5,TRUE,0,0,0
+27/06/2015,10:44:59 AM,red baron a,,,,Seaward,Low,17,quarter 1,2,5,85,stem 1,TRUE,,TRUE,,,TRUE,Leaf 6,,0,4,0
+27/06/2015,10:47:31 AM,red baron a,,,,Seaward,Low,17,quarter 1,2,5,85,stem 2,TRUE,,TRUE,,TRUE,,Leaf 1,,10,23,0
+27/06/2015,10:47:55 AM,red baron a,,,,Seaward,Low,17,quarter 1,2,5,85,stem 2,TRUE,,TRUE,,TRUE,,Leaf 2,TRUE,0,4,0
+27/06/2015,10:48:17 AM,red baron a,,,,Seaward,Low,17,quarter 1,2,5,85,stem 2,TRUE,,TRUE,,TRUE,,Leaf 3,,0,2,0
+27/06/2015,10:48:34 AM,red baron a,,,,Seaward,Low,17,quarter 1,2,5,85,stem 2,TRUE,,TRUE,,TRUE,,Leaf 4,,0,0,0
+27/06/2015,10:49:03 AM,red baron a,,,,Seaward,Low,17,quarter 1,2,5,85,stem 2,TRUE,,TRUE,,TRUE,,Leaf 5,,10,0,0
+27/06/2015,10:49:59 AM,red baron a,,,,Seaward,Low,17,quarter 1,2,5,85,stem 2,TRUE,,TRUE,,TRUE,,Leaf 6,,30,7,0
+27/06/2015,10:52:14 AM,red baron a,,,,Seaward,Low,17,quarter 1,2,5,85,stem 3,TRUE,,TRUE,,TRUE,,Leaf 1,TRUE,0,2,0
+27/06/2015,10:52:42 AM,red baron a,,,,Seaward,Low,17,quarter 1,2,5,85,stem 3,TRUE,,TRUE,,TRUE,,Leaf 2,TRUE,20,0,0
+27/06/2015,10:53:30 AM,red baron a,,,,Seaward,Low,17,quarter 1,2,5,85,stem 3,TRUE,,TRUE,,TRUE,,Leaf 3,TRUE,0,0,0
+27/06/2015,10:53:45 AM,red baron a,,,,Seaward,Low,17,quarter 1,2,5,85,stem 3,TRUE,,TRUE,,TRUE,,Leaf 4,TRUE,0,0,0
+27/06/2015,10:54:52 AM,red baron a,,,,Seaward,Low,17,quarter 1,2,5,85,stem 3,TRUE,,TRUE,,TRUE,,Leaf 5,,10,2,0
+27/06/2015,10:55:19 AM,red baron a,,,,Seaward,Low,17,quarter 1,2,5,85,stem 3,TRUE,,TRUE,,TRUE,,Leaf 6,,95,0,0
+27/06/2015,10:56:54 AM,red baron a,,,,Seaward,Low,17,quarter 1,2,5,85,stem 4,,TRUE,,TRUE,,TRUE,Leaf 1,TRUE,60,0,2
+27/06/2015,10:57:41 AM,red baron a,,,,Seaward,Low,17,quarter 1,2,5,85,stem 4,,TRUE,,TRUE,,TRUE,Leaf 2,,0,3,0
+27/06/2015,10:58:10 AM,red baron a,,,,Seaward,Low,17,quarter 1,2,5,85,stem 4,,TRUE,,TRUE,,TRUE,Leaf 3,TRUE,5,14,0
+27/06/2015,10:58:31 AM,red baron a,,,,Seaward,Low,17,quarter 1,2,5,85,stem 4,,TRUE,,TRUE,,TRUE,Leaf 4,,40,2,0
+27/06/2015,10:58:57 AM,red baron a,,,,Seaward,Low,17,quarter 1,2,5,85,stem 4,,TRUE,,TRUE,,TRUE,Leaf 5,,0,5,0
+27/06/2015,10:59:17 AM,red baron a,,,,Seaward,Low,17,quarter 1,2,5,85,stem 4,,TRUE,,TRUE,,TRUE,Leaf 6,,0,5,0
+27/06/2015,11:01:30 AM,red baron a,,,,Seaward,Low,17,quarter 1,2,5,85,stem 5,TRUE,,,TRUE,,TRUE,Leaf 1,TRUE,3,5,0
+27/06/2015,11:02:08 AM,red baron a,,,,Seaward,Low,17,quarter 1,2,5,85,stem 5,TRUE,,,TRUE,,TRUE,Leaf 2,,1,1,2
+27/06/2015,11:02:29 AM,red baron a,,,,Seaward,Low,17,quarter 1,2,5,85,stem 5,TRUE,,,TRUE,,TRUE,Leaf 3,,0,4,0
+27/06/2015,11:02:46 AM,red baron a,,,,Seaward,Low,17,quarter 1,2,5,85,stem 5,TRUE,,,TRUE,,TRUE,Leaf 4,,5,1,2
+27/06/2015,11:03:12 AM,red baron a,,,,Seaward,Low,17,quarter 1,2,5,85,stem 5,TRUE,,,TRUE,,TRUE,Leaf 5,,10,8,1
+27/06/2015,11:04:10 AM,red baron a,,,,Seaward,Low,17,quarter 1,2,5,85,stem 5,TRUE,,,TRUE,,TRUE,Leaf 6,,1,0,0
+27/06/2015,11:05:45 AM,red baron a,,,,Seaward,Low,17,quarter 1,2,5,85,stem 6,TRUE,,TRUE,,,TRUE,Leaf 1,,30,0,0
+27/06/2015,11:06:09 AM,red baron a,,,,Seaward,Low,17,quarter 1,2,5,85,stem 6,TRUE,,TRUE,,,TRUE,Leaf 2,,0,0,0
+27/06/2015,11:06:28 AM,red baron a,,,,Seaward,Low,17,quarter 1,2,5,85,stem 6,TRUE,,TRUE,,,TRUE,Leaf 3,TRUE,0,0,0
+27/06/2015,11:06:45 AM,red baron a,,,,Seaward,Low,17,quarter 1,2,5,85,stem 6,TRUE,,TRUE,,,TRUE,Leaf 4,TRUE,0,0,0
+27/06/2015,11:07:12 AM,red baron a,,,,Seaward,Low,17,quarter 1,2,5,85,stem 6,TRUE,,TRUE,,,TRUE,Leaf 5,,3,5,0
+27/06/2015,11:07:42 AM,red baron a,,,,Seaward,Low,17,quarter 1,2,5,85,stem 6,TRUE,,TRUE,,,TRUE,Leaf 6,TRUE,5,3,0
+27/06/2015,11:08:47 AM,red baron a,,,,Seaward,Low,17,quarter 1,2,5,85,stem 7,TRUE,,TRUE,,TRUE,,Leaf 1,,0,0,0
+27/06/2015,11:09:06 AM,red baron a,,,,Seaward,Low,17,quarter 1,2,5,85,stem 7,TRUE,,TRUE,,TRUE,,Leaf 2,TRUE,5,0,0
+27/06/2015,11:09:55 AM,red baron a,,,,Seaward,Low,17,quarter 1,2,5,85,stem 7,TRUE,,TRUE,,TRUE,,Leaf 3,,0,7,1
+27/06/2015,11:10:15 AM,red baron a,,,,Seaward,Low,17,quarter 1,2,5,85,stem 7,TRUE,,TRUE,,TRUE,,Leaf 4,,0,0,0
+27/06/2015,11:10:36 AM,red baron a,,,,Seaward,Low,17,quarter 1,2,5,85,stem 7,TRUE,,TRUE,,TRUE,,Leaf 5,,0,0,0
+27/06/2015,11:10:58 AM,red baron a,,,,Seaward,Low,17,quarter 1,2,5,85,stem 7,TRUE,,TRUE,,TRUE,,Leaf 6,,0,8,0
+27/06/2015,11:11:08 AM,red baron a,,,,Seaward,Low,17,quarter 1,2,5,85,stem 7,TRUE,,TRUE,,TRUE,,Leaf 6,,,,
+27/06/2015,11:11:14 AM,red baron a,,,,Seaward,Low,17,quarter 1,2,5,85,stem 7,TRUE,,TRUE,,TRUE,,Leaf 5,,,,
+27/06/2015,11:11:17 AM,red baron a,,,,Seaward,Low,17,quarter 1,2,5,85,stem 7,TRUE,,TRUE,,TRUE,,Leaf 4,,,,
+27/06/2015,11:12:14 AM,red baron a,,,,Seaward,Low,17,quarter 1,2,5,85,stem 8,TRUE,,,TRUE,,TRUE,Leaf 1,TRUE,15,4,0
+27/06/2015,11:12:40 AM,red baron a,,,,Seaward,Low,17,quarter 1,2,5,85,stem 8,TRUE,,,TRUE,,TRUE,Leaf 2,TRUE,5,1,0
+27/06/2015,11:13:05 AM,red baron a,,,,Seaward,Low,17,quarter 1,2,5,85,stem 8,TRUE,,,TRUE,,TRUE,Leaf 3,,0,8,0
+27/06/2015,11:13:18 AM,red baron a,,,,Seaward,Low,17,quarter 1,2,5,85,stem 8,TRUE,,,TRUE,,TRUE,Leaf 4,,0,1,0
+27/06/2015,11:13:52 AM,red baron a,,,,Seaward,Low,17,quarter 1,2,5,85,stem 8,TRUE,,,TRUE,,TRUE,Leaf 5,,5,1,0
+27/06/2015,11:14:35 AM,red baron a,,,,Seaward,Low,17,quarter 1,2,5,85,stem 8,TRUE,,,TRUE,,TRUE,Leaf 6,,15,9,0
+27/06/2015,11:21:01 AM,red baron a,,,,Seaward,Low,17,quarter 2,2.4,8,251,stem 1,,TRUE,TRUE,,,TRUE,Leaf 1,,15,17,0
+27/06/2015,11:21:31 AM,red baron a,,,,Seaward,Low,17,quarter 2,2.4,8,251,stem 1,,TRUE,TRUE,,,TRUE,Leaf 2,,20,8,0
+27/06/2015,11:21:51 AM,red baron a,,,,Seaward,Low,17,quarter 2,2.4,8,251,stem 1,,TRUE,TRUE,,,TRUE,Leaf 3,TRUE,5,0,0
+27/06/2015,11:22:37 AM,red baron a,,,,Seaward,Low,17,quarter 2,2.4,8,251,stem 1,,TRUE,TRUE,,,TRUE,Leaf 4,TRUE,10,7,0
+27/06/2015,11:22:56 AM,red baron a,,,,Seaward,Low,17,quarter 2,2.4,8,251,stem 1,,TRUE,TRUE,,,TRUE,Leaf 5,TRUE,5,10,0
+27/06/2015,11:23:16 AM,red baron a,,,,Seaward,Low,17,quarter 2,2.4,8,251,stem 1,,TRUE,TRUE,,,TRUE,Leaf 6,,5,8,0
+27/06/2015,11:24:28 AM,red baron a,,,,Seaward,Low,17,quarter 2,2.4,8,251,stem 2,TRUE,,,TRUE,,TRUE,Leaf 1,TRUE,60,1,0
+27/06/2015,11:24:42 AM,red baron a,,,,Seaward,Low,17,quarter 2,2.4,8,251,stem 2,TRUE,,,TRUE,,TRUE,Leaf 2,TRUE,25,1,0
+27/06/2015,11:25:00 AM,red baron a,,,,Seaward,Low,17,quarter 2,2.4,8,251,stem 2,TRUE,,,TRUE,,TRUE,Leaf 3,,5,9,0
+27/06/2015,11:25:27 AM,red baron a,,,,Seaward,Low,17,quarter 2,2.4,8,251,stem 2,TRUE,,,TRUE,,TRUE,Leaf 4,,10,17,0
+27/06/2015,11:25:45 AM,red baron a,,,,Seaward,Low,17,quarter 2,2.4,8,251,stem 2,TRUE,,,TRUE,,TRUE,Leaf 5,,0,2,0
+27/06/2015,11:26:05 AM,red baron a,,,,Seaward,Low,17,quarter 2,2.4,8,251,stem 2,TRUE,,,TRUE,,TRUE,Leaf 6,,0,33,0
+27/06/2015,11:26:44 AM,red baron a,,,,Seaward,Low,17,quarter 2,2.4,8,251,stem 3,,TRUE,,TRUE,,TRUE,Leaf 1,TRUE,0,1,0
+27/06/2015,11:27:09 AM,red baron a,,,,Seaward,Low,17,quarter 2,2.4,8,251,stem 3,,TRUE,,TRUE,,TRUE,Leaf 2,,0,11,0
+27/06/2015,11:27:23 AM,red baron a,,,,Seaward,Low,17,quarter 2,2.4,8,251,stem 3,,TRUE,,TRUE,,TRUE,Leaf 3,,0,3,0
+27/06/2015,11:27:39 AM,red baron a,,,,Seaward,Low,17,quarter 2,2.4,8,251,stem 3,,TRUE,,TRUE,,TRUE,Leaf 4,TRUE,0,5,0
+27/06/2015,11:28:00 AM,red baron a,,,,Seaward,Low,17,quarter 2,2.4,8,251,stem 3,,TRUE,,TRUE,,TRUE,Leaf 5,,5,2,0
+27/06/2015,11:28:26 AM,red baron a,,,,Seaward,Low,17,quarter 2,2.4,8,251,stem 3,,TRUE,,TRUE,,TRUE,Leaf 6,,40,13,1
+27/06/2015,11:29:23 AM,red baron a,,,,Seaward,Low,17,quarter 2,2.4,8,251,stem 4,TRUE,,,TRUE,,TRUE,Leaf 1,,2,9,0
+27/06/2015,11:29:48 AM,red baron a,,,,Seaward,Low,17,quarter 2,2.4,8,251,stem 4,TRUE,,,TRUE,,TRUE,Leaf 2,,0,6,1
+27/06/2015,11:30:05 AM,red baron a,,,,Seaward,Low,17,quarter 2,2.4,8,251,stem 4,TRUE,,,TRUE,,TRUE,Leaf 3,,0,5,0
+27/06/2015,11:30:16 AM,red baron a,,,,Seaward,Low,17,quarter 2,2.4,8,251,stem 4,TRUE,,,TRUE,,TRUE,Leaf 4,,0,0,0
+27/06/2015,11:30:35 AM,red baron a,,,,Seaward,Low,17,quarter 2,2.4,8,251,stem 4,TRUE,,,TRUE,,TRUE,Leaf 5,,0,8,0
+27/06/2015,11:30:53 AM,red baron a,,,,Seaward,Low,17,quarter 2,2.4,8,251,stem 4,TRUE,,,TRUE,,TRUE,Leaf 6,TRUE,0,1,0
+27/06/2015,11:31:32 AM,red baron a,,,,Seaward,Low,17,quarter 2,2.4,8,251,stem 5,,TRUE,,TRUE,,TRUE,Leaf 1,,0,15,0
+27/06/2015,11:31:43 AM,red baron a,,,,Seaward,Low,17,quarter 2,2.4,8,251,stem 5,,TRUE,,TRUE,,TRUE,Leaf 2,,0,2,0
+27/06/2015,11:32:13 AM,red baron a,,,,Seaward,Low,17,quarter 2,2.4,8,251,stem 5,,TRUE,,TRUE,,TRUE,Leaf 3,,65,13,0
+27/06/2015,11:32:37 AM,red baron a,,,,Seaward,Low,17,quarter 2,2.4,8,251,stem 5,,TRUE,,TRUE,,TRUE,Leaf 4,,40,0,0
+27/06/2015,11:32:52 AM,red baron a,,,,Seaward,Low,17,quarter 2,2.4,8,251,stem 5,,TRUE,,TRUE,,TRUE,Leaf 5,,0,5,0
+27/06/2015,11:33:13 AM,red baron a,,,,Seaward,Low,17,quarter 2,2.4,8,251,stem 5,,TRUE,,TRUE,,TRUE,Leaf 6,,15,7,0
+27/06/2015,11:34:32 AM,red baron a,,,,Seaward,Low,17,quarter 2,2.4,8,251,stem 6,TRUE,,TRUE,,,TRUE,Leaf 1,,0,7,0
+27/06/2015,11:34:43 AM,red baron a,,,,Seaward,Low,17,quarter 2,2.4,8,251,stem 6,TRUE,,TRUE,,,TRUE,Leaf 2,,0,5,0
+27/06/2015,11:34:54 AM,red baron a,,,,Seaward,Low,17,quarter 2,2.4,8,251,stem 6,TRUE,,TRUE,,,TRUE,Leaf 3,,0,3,0
+27/06/2015,11:35:07 AM,red baron a,,,,Seaward,Low,17,quarter 2,2.4,8,251,stem 6,TRUE,,TRUE,,,TRUE,Leaf 4,,0,2,0
+27/06/2015,11:35:20 AM,red baron a,,,,Seaward,Low,17,quarter 2,2.4,8,251,stem 6,TRUE,,TRUE,,,TRUE,Leaf 5,,0,3,0
+27/06/2015,11:35:41 AM,red baron a,,,,Seaward,Low,17,quarter 2,2.4,8,251,stem 6,TRUE,,TRUE,,,TRUE,Leaf 6,,0,8,1
+27/06/2015,11:36:26 AM,red baron a,,,,Seaward,Low,17,quarter 2,2.4,8,251,stem 7,TRUE,,TRUE,,,TRUE,Leaf 1,,10,10,0
+27/06/2015,11:36:41 AM,red baron a,,,,Seaward,Low,17,quarter 2,2.4,8,251,stem 7,TRUE,,TRUE,,,TRUE,Leaf 2,,0,10,0
+27/06/2015,11:36:55 AM,red baron a,,,,Seaward,Low,17,quarter 2,2.4,8,251,stem 7,TRUE,,TRUE,,,TRUE,Leaf 3,,15,5,0
+27/06/2015,11:37:23 AM,red baron a,,,,Seaward,Low,17,quarter 2,2.4,8,251,stem 7,TRUE,,TRUE,,,TRUE,Leaf 4,,15,8,5
+27/06/2015,11:37:51 AM,red baron a,,,,Seaward,Low,17,quarter 2,2.4,8,251,stem 7,TRUE,,TRUE,,,TRUE,Leaf 5,,0,10,0
+27/06/2015,11:38:12 AM,red baron a,,,,Seaward,Low,17,quarter 2,2.4,8,251,stem 7,TRUE,,TRUE,,,TRUE,Leaf 6,TRUE,0,0,0
+27/06/2015,11:38:51 AM,red baron a,,,,Seaward,Low,17,quarter 2,2.4,8,251,stem 8,TRUE,,TRUE,,,TRUE,Leaf 1,,0,7,0
+27/06/2015,11:39:20 AM,red baron a,,,,Seaward,Low,17,quarter 2,2.4,8,251,stem 8,TRUE,,TRUE,,,TRUE,Leaf 2,,5,3,0
+27/06/2015,11:39:48 AM,red baron a,,,,Seaward,Low,17,quarter 2,2.4,8,251,stem 8,TRUE,,TRUE,,,TRUE,Leaf 3,,0,7,0
+27/06/2015,11:40:05 AM,red baron a,,,,Seaward,Low,17,quarter 2,2.4,8,251,stem 8,TRUE,,TRUE,,,TRUE,Leaf 4,,0,12,0
+27/06/2015,11:40:20 AM,red baron a,,,,Seaward,Low,17,quarter 2,2.4,8,251,stem 8,TRUE,,TRUE,,,TRUE,Leaf 5,,0,7,0
+27/06/2015,11:40:41 AM,red baron a,,,,Seaward,Low,17,quarter 2,2.4,8,251,stem 8,TRUE,,TRUE,,,TRUE,Leaf 6,,0,3,1
+27/06/2015,11:46:30 AM,red baron a,,,,Seaward,Low,17,quarter 3,14,5,145,stem 1,TRUE,,,TRUE,,TRUE,Leaf 1,,0,0,0
+27/06/2015,11:46:42 AM,red baron a,,,,Seaward,Low,17,quarter 3,14,5,145,stem 1,TRUE,,,TRUE,,TRUE,Leaf 2,,0,5,0
+27/06/2015,11:47:01 AM,red baron a,,,,Seaward,Low,17,quarter 3,14,5,145,stem 1,TRUE,,,TRUE,,TRUE,Leaf 3,,0,30,0
+27/06/2015,11:47:17 AM,red baron a,,,,Seaward,Low,17,quarter 3,14,5,145,stem 1,TRUE,,,TRUE,,TRUE,Leaf 4,,5,0,0
+27/06/2015,11:47:33 AM,red baron a,,,,Seaward,Low,17,quarter 3,14,5,145,stem 1,TRUE,,,TRUE,,TRUE,Leaf 5,TRUE,5,1,0
+27/06/2015,11:47:49 AM,red baron a,,,,Seaward,Low,17,quarter 3,14,5,145,stem 1,TRUE,,,TRUE,,TRUE,Leaf 6,,0,0,0
+27/06/2015,11:48:28 AM,red baron a,,,,Seaward,Low,17,quarter 3,14,5,145,stem 1,TRUE,,,TRUE,,TRUE,Leaf 1,,0,0,0
+27/06/2015,11:48:35 AM,red baron a,,,,Seaward,Low,17,quarter 3,14,5,145,stem 1,TRUE,,,TRUE,,TRUE,Leaf 2,,0,0,0
+27/06/2015,11:48:44 AM,red baron a,,,,Seaward,Low,17,quarter 3,14,5,145,stem 1,TRUE,,,TRUE,,TRUE,Leaf 3,,0,9,0
+27/06/2015,11:49:06 AM,red baron a,,,,Seaward,Low,17,quarter 3,14,5,145,stem 1,TRUE,,,TRUE,,TRUE,Leaf 4,,5,2,0
+27/06/2015,11:49:23 AM,red baron a,,,,Seaward,Low,17,quarter 3,14,5,145,stem 1,TRUE,,,TRUE,,TRUE,Leaf 5,,0,12,0
+27/06/2015,11:49:54 AM,red baron a,,,,Seaward,Low,17,quarter 3,14,5,145,stem 1,TRUE,,,TRUE,,TRUE,Leaf 6,,1,3,0
+27/06/2015,11:51:52 AM,red baron a,,,,Seaward,Low,17,quarter 3,14,5,145,stem 3,,TRUE,,TRUE,,TRUE,Leaf 1,,0,2,0
+27/06/2015,11:52:35 AM,red baron a,,,,Seaward,Low,17,quarter 3,14,5,145,stem 3,,TRUE,,TRUE,,TRUE,Leaf 2,,0,11,0
+27/06/2015,11:52:48 AM,red baron a,,,,Seaward,Low,17,quarter 3,14,5,145,stem 3,,TRUE,,TRUE,,TRUE,Leaf 3,,0,2,0
+27/06/2015,11:53:42 AM,red baron a,,,,Seaward,Low,17,quarter 3,14,5,145,stem 3,,TRUE,,TRUE,,TRUE,Leaf 4,TRUE,5,6,0
+27/06/2015,11:53:56 AM,red baron a,,,,Seaward,Low,17,quarter 3,14,5,145,stem 3,,TRUE,,TRUE,,TRUE,Leaf 5,,0,4,0
+27/06/2015,11:54:23 AM,red baron a,,,,Seaward,Low,17,quarter 3,14,5,145,stem 3,,TRUE,,TRUE,,TRUE,Leaf 6,,5,50,0
+27/06/2015,11:55:25 AM,red baron a,,,,Seaward,Low,17,quarter 3,14,5,145,stem 4,,TRUE,,TRUE,,TRUE,Leaf 1,TRUE,0,8,6
+27/06/2015,11:55:44 AM,red baron a,,,,Seaward,Low,17,quarter 3,14,5,145,stem 4,,TRUE,,TRUE,,TRUE,Leaf 2,,5,0,0
+27/06/2015,11:56:02 AM,red baron a,,,,Seaward,Low,17,quarter 3,14,5,145,stem 4,,TRUE,,TRUE,,TRUE,Leaf 3,,0,3,0
+27/06/2015,11:56:24 AM,red baron a,,,,Seaward,Low,17,quarter 3,14,5,145,stem 4,,TRUE,,TRUE,,TRUE,Leaf 4,TRUE,0,5,15
+27/06/2015,11:56:57 AM,red baron a,,,,Seaward,Low,17,quarter 3,14,5,145,stem 4,,TRUE,,TRUE,,TRUE,Leaf 6,,5,2,0
+27/06/2015,11:57:49 AM,red baron a,,,,Seaward,Low,17,quarter 3,14,5,145,stem 5,TRUE,,TRUE,,,TRUE,Leaf 1,,5,11,0
+27/06/2015,11:58:00 AM,red baron a,,,,Seaward,Low,17,quarter 3,14,5,145,stem 5,TRUE,,TRUE,,,TRUE,Leaf 2,,0,0,0
+27/06/2015,11:58:12 AM,red baron a,,,,Seaward,Low,17,quarter 3,14,5,145,stem 5,TRUE,,TRUE,,,TRUE,Leaf 3,,10,0,0
+27/06/2015,11:58:29 AM,red baron a,,,,Seaward,Low,17,quarter 3,14,5,145,stem 5,TRUE,,TRUE,,,TRUE,Leaf 4,,5,6,0
+27/06/2015,11:58:40 AM,red baron a,,,,Seaward,Low,17,quarter 3,14,5,145,stem 5,TRUE,,TRUE,,,TRUE,Leaf 5,,10,2,0
+27/06/2015,11:59:01 AM,red baron a,,,,Seaward,Low,17,quarter 3,14,5,145,stem 5,TRUE,,TRUE,,,TRUE,Leaf 6,TRUE,,4,0
+27/06/2015,12:00:01 PM,red baron a,,,,Seaward,Low,17,quarter 3,14,5,145,stem 6,,TRUE,,TRUE,,TRUE,Leaf 1,TRUE,0,5,10
+27/06/2015,12:02:35 PM,red baron a,,,,Seaward,Low,17,quarter 3,14,5,145,stem 6,,TRUE,,TRUE,,TRUE,Leaf 2,,0,6,5
+27/06/2015,12:02:59 PM,red baron a,,,,Seaward,Low,17,quarter 3,14,5,145,stem 6,,TRUE,,TRUE,,TRUE,Leaf 3,,5,40,0
+27/06/2015,12:03:11 PM,red baron a,,,,Seaward,Low,17,quarter 3,14,5,145,stem 6,,TRUE,,TRUE,,TRUE,Leaf 4,,0,0,0
+27/06/2015,12:03:24 PM,red baron a,,,,Seaward,Low,17,quarter 3,14,5,145,stem 6,,TRUE,,TRUE,,TRUE,Leaf 5,,0,3,12
+27/06/2015,12:03:35 PM,red baron a,,,,Seaward,Low,17,quarter 3,14,5,145,stem 6,,TRUE,,TRUE,,TRUE,Leaf 6,,0,4,0
+27/06/2015,12:04:34 PM,red baron a,,,,Seaward,Low,17,quarter 3,14,5,145,stem 7,TRUE,,TRUE,,,TRUE,Leaf 1,,0,0,0
+27/06/2015,12:04:42 PM,red baron a,,,,Seaward,Low,17,quarter 3,14,5,145,stem 7,TRUE,,TRUE,,,TRUE,Leaf 2,TRUE,0,0,0
+27/06/2015,12:04:51 PM,red baron a,,,,Seaward,Low,17,quarter 3,14,5,145,stem 7,TRUE,,TRUE,,,TRUE,Leaf 3,,0,0,0
+27/06/2015,12:05:00 PM,red baron a,,,,Seaward,Low,17,quarter 3,14,5,145,stem 7,TRUE,,TRUE,,,TRUE,Leaf 4,,0,0,0
+27/06/2015,12:05:07 PM,red baron a,,,,Seaward,Low,17,quarter 3,14,5,145,stem 7,TRUE,,TRUE,,,TRUE,Leaf 5,,0,0,0
+27/06/2015,12:05:16 PM,red baron a,,,,Seaward,Low,17,quarter 3,14,5,145,stem 7,TRUE,,TRUE,,,TRUE,Leaf 6,,0,0,0
+27/06/2015,12:05:45 PM,red baron a,,,,Seaward,Low,17,quarter 3,14,5,145,stem 8,,TRUE,,TRUE,,TRUE,Leaf 1,,0,1,0
+27/06/2015,12:05:54 PM,red baron a,,,,Seaward,Low,17,quarter 3,14,5,145,stem 8,,TRUE,,TRUE,,TRUE,Leaf 2,,0,8,0
+27/06/2015,12:06:04 PM,red baron a,,,,Seaward,Low,17,quarter 3,14,5,145,stem 8,,TRUE,,TRUE,,TRUE,Leaf 3,,0,3,0
+27/06/2015,12:06:13 PM,red baron a,,,,Seaward,Low,17,quarter 3,14,5,145,stem 8,,TRUE,,TRUE,,TRUE,Leaf 4,,0,4,0
+27/06/2015,12:06:29 PM,red baron a,,,,Seaward,Low,17,quarter 3,14,5,145,stem 8,,TRUE,,TRUE,,TRUE,Leaf 5,,0,1,0
+27/06/2015,12:06:37 PM,red baron a,,,,Seaward,Low,17,quarter 3,14,5,145,stem 8,,TRUE,,TRUE,,TRUE,Leaf 6,,5,0,0
+27/06/2015,12:11:14 PM,red baron a,,,,Seaward,Low,17,quarter 4,23,6,243,stem 1,TRUE,,,TRUE,,TRUE,Leaf 1,,0,5,0
+27/06/2015,12:11:23 PM,red baron a,,,,Seaward,Low,17,quarter 4,23,6,243,stem 1,TRUE,,,TRUE,,TRUE,Leaf 2,,0,2,0
+27/06/2015,12:11:30 PM,red baron a,,,,Seaward,Low,17,quarter 4,23,6,243,stem 1,TRUE,,,TRUE,,TRUE,Leaf 3,,0,0,0
+27/06/2015,12:11:39 PM,red baron a,,,,Seaward,Low,17,quarter 4,23,6,243,stem 1,TRUE,,,TRUE,,TRUE,Leaf 4,,0,3,1
+27/06/2015,12:11:48 PM,red baron a,,,,Seaward,Low,17,quarter 4,23,6,243,stem 1,TRUE,,,TRUE,,TRUE,Leaf 5,,0,2,0
+27/06/2015,12:12:03 PM,red baron a,,,,Seaward,Low,17,quarter 4,23,6,243,stem 1,TRUE,,,TRUE,,TRUE,Leaf 6,TRUE,0,2,0
+27/06/2015,12:12:32 PM,red baron a,,,,Seaward,Low,17,quarter 4,23,6,243,stem 2,TRUE,,,TRUE,,TRUE,Leaf 1,TRUE,0,1,0
+27/06/2015,12:12:54 PM,red baron a,,,,Seaward,Low,17,quarter 4,23,6,243,stem 2,TRUE,,,TRUE,,TRUE,Leaf 2,TRUE,0,8,0
+27/06/2015,12:13:12 PM,red baron a,,,,Seaward,Low,17,quarter 4,23,6,243,stem 2,TRUE,,,TRUE,,TRUE,Leaf 4,,10,11,0
+27/06/2015,12:13:22 PM,red baron a,,,,Seaward,Low,17,quarter 4,23,6,243,stem 2,TRUE,,,TRUE,,TRUE,Leaf 5,,10,2,0
+27/06/2015,12:13:34 PM,red baron a,,,,Seaward,Low,17,quarter 4,23,6,243,stem 2,TRUE,,,TRUE,,TRUE,Leaf 6,TRUE,0,2,0
+27/06/2015,12:14:03 PM,red baron a,,,,Seaward,Low,17,quarter 4,23,6,243,stem 3,TRUE,,TRUE,,TRUE,,Leaf 1,,0,30,2
+27/06/2015,12:14:20 PM,red baron a,,,,Seaward,Low,17,quarter 4,23,6,243,stem 3,TRUE,,TRUE,,TRUE,,Leaf 2,,0,30,0
+27/06/2015,12:14:35 PM,red baron a,,,,Seaward,Low,17,quarter 4,23,6,243,stem 3,TRUE,,TRUE,,TRUE,,Leaf 3,,0,15,0
+27/06/2015,12:14:44 PM,red baron a,,,,Seaward,Low,17,quarter 4,23,6,243,stem 3,TRUE,,TRUE,,TRUE,,Leaf 4,,0,0,0
+27/06/2015,12:14:53 PM,red baron a,,,,Seaward,Low,17,quarter 4,23,6,243,stem 3,TRUE,,TRUE,,TRUE,,Leaf 5,TRUE,0,2,0
+27/06/2015,12:15:06 PM,red baron a,,,,Seaward,Low,17,quarter 4,23,6,243,stem 3,TRUE,,TRUE,,TRUE,,Leaf 6,,0,20,0
+27/06/2015,12:15:25 PM,red baron a,,,,Seaward,Low,17,quarter 4,23,6,243,stem 4,TRUE,,TRUE,,TRUE,,Leaf 1,,0,0,0
+27/06/2015,12:15:40 PM,red baron a,,,,Seaward,Low,17,quarter 4,23,6,243,stem 4,TRUE,,TRUE,,TRUE,,Leaf 2,TRUE,5,1,0
+27/06/2015,12:15:50 PM,red baron a,,,,Seaward,Low,17,quarter 4,23,6,243,stem 4,TRUE,,TRUE,,TRUE,,Leaf 3,,0,0,0
+27/06/2015,12:15:58 PM,red baron a,,,,Seaward,Low,17,quarter 4,23,6,243,stem 4,TRUE,,TRUE,,TRUE,,Leaf 4,,0,2,0
+27/06/2015,12:16:16 PM,red baron a,,,,Seaward,Low,17,quarter 4,23,6,243,stem 4,TRUE,,TRUE,,TRUE,,Leaf 5,TRUE,5,0,0
+27/06/2015,12:16:25 PM,red baron a,,,,Seaward,Low,17,quarter 4,23,6,243,stem 4,TRUE,,TRUE,,TRUE,,Leaf 6,,0,3,0
+27/06/2015,12:17:02 PM,red baron a,,,,Seaward,Low,17,quarter 4,23,6,243,stem 5,TRUE,,TRUE,,,TRUE,Leaf 1,,10,3,0
+27/06/2015,12:17:16 PM,red baron a,,,,Seaward,Low,17,quarter 4,23,6,243,stem 5,TRUE,,TRUE,,,TRUE,Leaf 2,,15,5,0
+27/06/2015,12:17:26 PM,red baron a,,,,Seaward,Low,17,quarter 4,23,6,243,stem 5,TRUE,,TRUE,,,TRUE,Leaf 3,TRUE,0,1,0
+27/06/2015,12:17:34 PM,red baron a,,,,Seaward,Low,17,quarter 4,23,6,243,stem 5,TRUE,,TRUE,,,TRUE,Leaf 4,,0,4,0
+27/06/2015,12:17:41 PM,red baron a,,,,Seaward,Low,17,quarter 4,23,6,243,stem 5,TRUE,,TRUE,,,TRUE,Leaf 5,,0,0,0
+27/06/2015,12:17:49 PM,red baron a,,,,Seaward,Low,17,quarter 4,23,6,243,stem 5,TRUE,,TRUE,,,TRUE,Leaf 6,,10,1,0
+27/06/2015,12:18:21 PM,red baron a,,,,Seaward,Low,17,quarter 4,23,6,243,stem 6,,TRUE,,TRUE,,TRUE,Leaf 1,,10,6,0
+27/06/2015,12:18:35 PM,red baron a,,,,Seaward,Low,17,quarter 4,23,6,243,stem 6,,TRUE,,TRUE,,TRUE,Leaf 2,TRUE,60,7,0
+27/06/2015,12:18:44 PM,red baron a,,,,Seaward,Low,17,quarter 4,23,6,243,stem 6,,TRUE,,TRUE,,TRUE,Leaf 3,,0,5,0
+27/06/2015,12:18:52 PM,red baron a,,,,Seaward,Low,17,quarter 4,23,6,243,stem 6,,TRUE,,TRUE,,TRUE,Leaf 4,,0,6,0
+27/06/2015,12:19:06 PM,red baron a,,,,Seaward,Low,17,quarter 4,23,6,243,stem 6,,TRUE,,TRUE,,TRUE,Leaf 5,,5,12,1
+27/06/2015,12:19:16 PM,red baron a,,,,Seaward,Low,17,quarter 4,23,6,243,stem 6,,TRUE,,TRUE,,TRUE,Leaf 6,,0,40,0
+27/06/2015,12:19:41 PM,red baron a,,,,Seaward,Low,17,quarter 4,23,6,243,stem 7,,TRUE,,TRUE,,TRUE,Leaf 1,,0,5,0
+27/06/2015,12:19:50 PM,red baron a,,,,Seaward,Low,17,quarter 4,23,6,243,stem 7,,TRUE,,TRUE,,TRUE,Leaf 2,TRUE,0,2,0
+27/06/2015,12:19:58 PM,red baron a,,,,Seaward,Low,17,quarter 4,23,6,243,stem 7,,TRUE,,TRUE,,TRUE,Leaf 3,,0,0,0
+27/06/2015,12:20:07 PM,red baron a,,,,Seaward,Low,17,quarter 4,23,6,243,stem 7,,TRUE,,TRUE,,TRUE,Leaf 4,TRUE,0,5,0
+27/06/2015,12:20:18 PM,red baron a,,,,Seaward,Low,17,quarter 4,23,6,243,stem 7,,TRUE,,TRUE,,TRUE,Leaf 5,TRUE,0,1,0
+27/06/2015,12:20:29 PM,red baron a,,,,Seaward,Low,17,quarter 4,23,6,243,stem 7,,TRUE,,TRUE,,TRUE,Leaf 6,,0,0,0
+27/06/2015,12:20:51 PM,red baron a,,,,Seaward,Low,17,quarter 4,23,6,243,stem 8,TRUE,,,TRUE,,TRUE,Leaf 1,TRUE,0,1,0
+27/06/2015,12:20:59 PM,red baron a,,,,Seaward,Low,17,quarter 4,23,6,243,stem 8,TRUE,,,TRUE,,TRUE,Leaf 2,,0,30,0
+27/06/2015,12:21:13 PM,red baron a,,,,Seaward,Low,17,quarter 4,23,6,243,stem 8,TRUE,,,TRUE,,TRUE,Leaf 3,TRUE,0,1,0
+27/06/2015,12:21:22 PM,red baron a,,,,Seaward,Low,17,quarter 4,23,6,243,stem 8,TRUE,,,TRUE,,TRUE,Leaf 4,,0,20,0
+27/06/2015,12:21:35 PM,red baron a,,,,Seaward,Low,17,quarter 4,23,6,243,stem 8,TRUE,,,TRUE,,TRUE,Leaf 5,TRUE,0,15,0
+27/06/2015,12:22:01 PM,red baron a,,,,Seaward,Low,17,quarter 4,23,6,243,stem 8,TRUE,,,TRUE,,TRUE,Leaf 6,,0,3,0
+27/06/2015,1:13:00 PM,red baron a,-25.44880479,152.9896602,,,Low,17,return to transect point,23,6,243,return>quarter,TRUE,,,TRUE,,TRUE,return to stem,,,,
+27/06/2015,1:13:13 PM,red baron a,,,,,Low,17,return to transect point,23,6,243,return>quarter,TRUE,,,TRUE,,TRUE,return to stem,,,,
+27/06/2015,1:13:20 PM,red baron a,-25.44879307,152.9896561,,,Low,17,return to transect point,23,6,243,return>quarter,TRUE,,,TRUE,,TRUE,return to stem,,,,
+27/06/2015,1:14:02 PM,red baron a,,,,,Low,17,return to transect point,23,6,243,return>quarter,TRUE,,,TRUE,,TRUE,return to stem,,,,
+27/06/2015,10:29:11 AM,red baron b,,,,,,,,,,,,,,,,,,,,,,
+27/06/2015,10:29:41 AM,red baron b,,,,,,,,,,,,,,,,,,,,,,
+27/06/2015,10:30:14 AM,red baron b,-25.44712385,152.9885566,,Landward - Creek,Low,76,,,,,,,,,,,,,,,,
+27/06/2015,10:34:30 AM,red baron b,,,,Landward - Creek,Low,76,quarter 1,0.27,0.51,14.5,stem 1,TRUE,,,TRUE,TRUE,,Leaf 1,,5,5,0
+27/06/2015,10:34:52 AM,red baron b,,,,Landward - Creek,Low,76,quarter 1,0.27,0.51,14.5,stem 1,TRUE,,,TRUE,TRUE,,Leaf 2,,5,6,0
+27/06/2015,10:35:19 AM,red baron b,,,,Landward - Creek,Low,76,quarter 1,0.27,0.51,14.5,stem 1,TRUE,,,TRUE,TRUE,,Leaf 3,,0,7,0
+27/06/2015,10:35:40 AM,red baron b,,,,Landward - Creek,Low,76,quarter 1,0.27,0.51,14.5,stem 1,TRUE,,,TRUE,TRUE,,Leaf 4,TRUE,2,6,0
+27/06/2015,10:35:54 AM,red baron b,,,,Landward - Creek,Low,76,quarter 1,0.27,0.51,14.5,stem 1,TRUE,,,TRUE,TRUE,,Leaf 5,,0,0,0
+27/06/2015,10:36:16 AM,red baron b,,,,Landward - Creek,Low,76,quarter 1,0.27,0.51,14.5,stem 1,TRUE,,,TRUE,TRUE,,Leaf 6,,7,6,0
+27/06/2015,10:37:09 AM,red baron b,,,,Landward - Creek,Low,76,quarter 1,0.27,0.51,14.5,stem 2,,TRUE,TRUE,,,,Leaf 1,TRUE,3,5,0
+27/06/2015,10:37:58 AM,red baron b,,,,Landward - Creek,Low,76,quarter 1,0.27,0.51,14.5,stem 2,,TRUE,TRUE,,,,Leaf 2,TRUE,10,0,20
+27/06/2015,10:38:16 AM,red baron b,,,,Landward - Creek,Low,76,quarter 1,0.27,0.51,14.5,stem 2,,TRUE,TRUE,,,,Leaf 3,,0,6,0
+27/06/2015,10:38:29 AM,red baron b,,,,Landward - Creek,Low,76,quarter 1,0.27,0.51,14.5,stem 2,,TRUE,TRUE,,,,Leaf 4,,0,2,0
+27/06/2015,10:38:43 AM,red baron b,,,,Landward - Creek,Low,76,quarter 1,0.27,0.51,14.5,stem 2,,TRUE,TRUE,,,,Leaf 5,TRUE,5,0,0
+27/06/2015,10:39:02 AM,red baron b,,,,Landward - Creek,Low,76,quarter 1,0.27,0.51,14.5,stem 2,,TRUE,TRUE,,,,Leaf 6,TRUE,10,3,0
+27/06/2015,10:39:29 AM,red baron b,,,,Landward - Creek,Low,76,quarter 1,0.27,0.51,14.5,stem 3,,TRUE,TRUE,,TRUE,,Leaf 1,,0,1,0
+27/06/2015,10:40:01 AM,red baron b,,,,Landward - Creek,Low,76,quarter 1,0.27,0.51,14.5,stem 3,,TRUE,TRUE,,TRUE,,Leaf 2,TRUE,0,25,0
+27/06/2015,10:40:22 AM,red baron b,,,,Landward - Creek,Low,76,quarter 1,0.27,0.51,14.5,stem 3,,TRUE,TRUE,,TRUE,,Leaf 3,TRUE,2,20,0
+27/06/2015,10:40:36 AM,red baron b,,,,Landward - Creek,Low,76,quarter 1,0.27,0.51,14.5,stem 3,,TRUE,TRUE,,TRUE,,Leaf 4,TRUE,15,3,1
+27/06/2015,10:40:54 AM,red baron b,,,,Landward - Creek,Low,76,quarter 1,0.27,0.51,14.5,stem 3,,TRUE,TRUE,,TRUE,,Leaf 4,TRUE,10,6,0
+27/06/2015,10:41:11 AM,red baron b,,,,Landward - Creek,Low,76,quarter 1,0.27,0.51,14.5,stem 3,,TRUE,TRUE,,TRUE,,Leaf 5,TRUE,3,2,0
+27/06/2015,10:41:22 AM,red baron b,,,,Landward - Creek,Low,76,quarter 1,0.27,0.51,14.5,stem 3,,TRUE,TRUE,,TRUE,,Leaf 6,,0,2,0
+27/06/2015,10:42:11 AM,red baron b,,,,Landward - Creek,Low,76,quarter 1,0.27,0.51,14.5,stem 4,,TRUE,TRUE,,,,Leaf 1,,0,16,1
+27/06/2015,10:42:30 AM,red baron b,,,,Landward - Creek,Low,76,quarter 1,0.27,0.51,14.5,stem 4,,TRUE,TRUE,,,,Leaf 2,,3,25,0
+27/06/2015,10:42:51 AM,red baron b,,,,Landward - Creek,Low,76,quarter 1,0.27,0.51,14.5,stem 4,,TRUE,TRUE,,,,Leaf 3,,0,1,0
+27/06/2015,10:43:07 AM,red baron b,,,,Landward - Creek,Low,76,quarter 1,0.27,0.51,14.5,stem 4,,TRUE,TRUE,,,,Leaf 4,,0,12,0
+27/06/2015,10:43:21 AM,red baron b,,,,Landward - Creek,Low,76,quarter 1,0.27,0.51,14.5,stem 4,,TRUE,TRUE,,,,Leaf 5,TRUE,5,1,0
+27/06/2015,10:43:36 AM,red baron b,,,,Landward - Creek,Low,76,quarter 1,0.27,0.51,14.5,stem 4,,TRUE,TRUE,,,,Leaf 6,,0,0,0
+27/06/2015,10:44:50 AM,red baron b,,,,Landward - Creek,Low,76,quarter 1,0.27,0.51,14.5,stem 5,,TRUE,TRUE,,,,Leaf 1,TRUE,10,0,13
+27/06/2015,10:45:07 AM,red baron b,,,,Landward - Creek,Low,76,quarter 1,0.27,0.51,14.5,stem 5,,TRUE,TRUE,,,,Leaf 2,TRUE,2,0,12
+27/06/2015,10:45:23 AM,red baron b,,,,Landward - Creek,Low,76,quarter 1,0.27,0.51,14.5,stem 5,,TRUE,TRUE,,,,Leaf 3,TRUE,30,0,0
+27/06/2015,10:45:42 AM,red baron b,,,,Landward - Creek,Low,76,quarter 1,0.27,0.51,14.5,stem 5,,TRUE,TRUE,,,,Leaf 4,TRUE,10,5,4
+27/06/2015,10:46:01 AM,red baron b,,,,Landward - Creek,Low,76,quarter 1,0.27,0.51,14.5,stem 5,,TRUE,TRUE,,,,Leaf 5,,5,2,19
+27/06/2015,10:46:20 AM,red baron b,,,,Landward - Creek,Low,76,quarter 1,0.27,0.51,14.5,stem 5,,TRUE,TRUE,,,,Leaf 6,TRUE,0,11,11
+27/06/2015,10:47:42 AM,red baron b,,,,Landward - Creek,Low,76,quarter 1,0.27,0.51,14.5,stem 6,TRUE,,TRUE,,,TRUE,Leaf 1,,0,1,0
+27/06/2015,10:47:53 AM,red baron b,,,,Landward - Creek,Low,76,quarter 1,0.27,0.51,14.5,stem 6,TRUE,,TRUE,,,TRUE,Leaf 2,TRUE,7,2,0
+27/06/2015,10:48:18 AM,red baron b,,,,Landward - Creek,Low,76,quarter 1,0.27,0.51,14.5,stem 6,TRUE,,TRUE,,,TRUE,Leaf 3,TRUE,0,32,0
+27/06/2015,10:48:39 AM,red baron b,,,,Landward - Creek,Low,76,quarter 1,0.27,0.51,14.5,stem 6,TRUE,,TRUE,,,TRUE,Leaf 4,TRUE,0,4,3
+27/06/2015,10:49:03 AM,red baron b,,,,Landward - Creek,Low,76,quarter 1,0.27,0.51,14.5,stem 6,TRUE,,TRUE,,,TRUE,Leaf 5,,0,3,1
+27/06/2015,10:49:15 AM,red baron b,,,,Landward - Creek,Low,76,quarter 1,0.27,0.51,14.5,stem 6,TRUE,,TRUE,,,TRUE,Leaf 5,,0,4,1
+27/06/2015,10:49:35 AM,red baron b,,,,Landward - Creek,Low,76,quarter 1,0.27,0.51,14.5,stem 6,TRUE,,TRUE,,,TRUE,Leaf 6,TRUE,5,3,0
+27/06/2015,10:50:15 AM,red baron b,,,,Landward - Creek,Low,76,quarter 1,0.27,0.51,14.5,stem 7,,TRUE,,,,,Leaf 1,,0,0,0
+27/06/2015,10:50:35 AM,red baron b,,,,Landward - Creek,Low,76,quarter 1,0.27,0.51,14.5,stem 7,,TRUE,,,,,Leaf 2,,0,2,0
+27/06/2015,10:50:48 AM,red baron b,,,,Landward - Creek,Low,76,quarter 1,0.27,0.51,14.5,stem 7,,TRUE,,,,,Leaf 3,,0,0,0
+27/06/2015,10:51:00 AM,red baron b,,,,Landward - Creek,Low,76,quarter 1,0.27,0.51,14.5,stem 7,,TRUE,,,,,Leaf 4,,0,1,0
+27/06/2015,10:51:11 AM,red baron b,,,,Landward - Creek,Low,76,quarter 1,0.27,0.51,14.5,stem 7,,TRUE,,,,,Leaf 5,,,2,0
+27/06/2015,10:51:22 AM,red baron b,,,,Landward - Creek,Low,76,quarter 1,0.27,0.51,14.5,stem 7,,TRUE,,,,,Leaf 6,,0,2,0
+27/06/2015,10:52:02 AM,red baron b,,,,Landward - Creek,Low,76,quarter 1,0.27,0.51,14.5,stem 8,,TRUE,TRUE,,,TRUE,Leaf 1,TRUE,2,8,0
+27/06/2015,10:52:12 AM,red baron b,,,,Landward - Creek,Low,76,quarter 1,0.27,0.51,14.5,stem 8,,TRUE,TRUE,,,TRUE,Leaf 2,,0,16,0
+27/06/2015,10:52:30 AM,red baron b,,,,Landward - Creek,Low,76,quarter 1,0.27,0.51,14.5,stem 8,,TRUE,TRUE,,,TRUE,Leaf 3,TRUE,20,4,0
+27/06/2015,10:52:45 AM,red baron b,,,,Landward - Creek,Low,76,quarter 1,0.27,0.51,14.5,stem 8,,TRUE,TRUE,,,TRUE,Leaf 4,TRUE,15,1,1
+27/06/2015,10:52:55 AM,red baron b,,,,Landward - Creek,Low,76,quarter 1,0.27,0.51,14.5,stem 8,,TRUE,TRUE,,,TRUE,Leaf 5,,0,4,0
+27/06/2015,10:53:08 AM,red baron b,,,,Landward - Creek,Low,76,quarter 1,0.27,0.51,14.5,stem 8,,TRUE,TRUE,,,TRUE,Leaf 6,,0,9,0
+27/06/2015,10:53:40 AM,red baron b,,,,Landward - Creek,Low,76,quarter 1,0.27,0.51,14.5,stem 8,,TRUE,TRUE,,,TRUE,Leaf 6,,0,11,0
+27/06/2015,10:56:03 AM,red baron b,,,,Landward - Creek,Low,76,quarter 2,2.5,0.38,2.5,stem 1,TRUE,,,,,,Leaf 1,,0,0,0
+27/06/2015,10:56:15 AM,red baron b,,,,Landward - Creek,Low,76,quarter 2,2.5,0.38,2.5,stem 1,TRUE,,,,,,Leaf 2,,0,2,0
+27/06/2015,10:56:25 AM,red baron b,,,,Landward - Creek,Low,76,quarter 2,2.5,0.38,2.5,stem 1,TRUE,,,,,,Leaf 3,,0,5,0
+27/06/2015,10:56:36 AM,red baron b,,,,Landward - Creek,Low,76,quarter 2,2.5,0.38,2.5,stem 1,TRUE,,,,,,Leaf 4,,0,0,0
+27/06/2015,10:57:07 AM,red baron b,,,,Landward - Creek,Low,76,quarter 2,2.5,0.38,2.5,stem 1,TRUE,,,,,,Leaf 5,,10,33,0
+27/06/2015,10:57:23 AM,red baron b,,,,Landward - Creek,Low,76,quarter 2,2.5,0.38,2.5,stem 1,TRUE,,,,,,Leaf 6,,0,2,0
+27/06/2015,10:57:48 AM,red baron b,,,,Landward - Creek,Low,76,quarter 2,2.5,0.38,2.5,stem 2,TRUE,,,,,,Leaf 1,,0,9,0
+27/06/2015,10:57:55 AM,red baron b,,,,Landward - Creek,Low,76,quarter 2,2.5,0.38,2.5,stem 2,TRUE,,,,,,Leaf 2,,0,0,0
+27/06/2015,10:58:12 AM,red baron b,,,,Landward - Creek,Low,76,quarter 2,2.5,0.38,2.5,stem 2,TRUE,,,,,,Leaf 3,,2,6,0
+27/06/2015,10:58:25 AM,red baron b,,,,Landward - Creek,Low,76,quarter 2,2.5,0.38,2.5,stem 2,TRUE,,,,,,Leaf 4,,3,5,0
+27/06/2015,10:58:34 AM,red baron b,,,,Landward - Creek,Low,76,quarter 2,2.5,0.38,2.5,stem 2,TRUE,,,,,,Leaf 5,,0,4,0
+27/06/2015,10:59:05 AM,red baron b,,,,Landward - Creek,Low,76,quarter 2,2.5,0.38,2.5,stem 2,TRUE,,,,,,Leaf 4,,2,27,0
+27/06/2015,10:59:19 AM,red baron b,,,,Landward - Creek,Low,76,quarter 2,2.5,0.38,2.5,stem 2,TRUE,,,,,,Leaf 5,,0,0,0
+27/06/2015,10:59:45 AM,red baron b,,,,Landward - Creek,Low,76,quarter 2,2.5,0.38,2.5,stem 2,TRUE,,,,,,Leaf 6,,2,5,0
+27/06/2015,11:00:13 AM,red baron b,,,,Landward - Creek,Low,76,quarter 2,2.5,0.38,2.5,stem 3,TRUE,,,,,,Leaf 1,,0,0,0
+27/06/2015,11:00:21 AM,red baron b,,,,Landward - Creek,Low,76,quarter 2,2.5,0.38,2.5,stem 3,TRUE,,,,,,Leaf 2,,0,1,0
+27/06/2015,11:00:48 AM,red baron b,,,,Landward - Creek,Low,76,quarter 2,2.5,0.38,2.5,stem 3,TRUE,,,,,,Leaf 3,,0,62,0
+27/06/2015,11:01:07 AM,red baron b,,,,Landward - Creek,Low,76,quarter 2,2.5,0.38,2.5,stem 3,TRUE,,,,,,Leaf 4,,11,3,0
+27/06/2015,11:01:21 AM,red baron b,,,,Landward - Creek,Low,76,quarter 2,2.5,0.38,2.5,stem 3,TRUE,,,,,,Leaf 5,,2,6,0
+27/06/2015,11:01:33 AM,red baron b,,,,Landward - Creek,Low,76,quarter 2,2.5,0.38,2.5,stem 3,TRUE,,,,,,Leaf 6,,0,2,0
+27/06/2015,11:02:19 AM,red baron b,,,,Landward - Creek,Low,76,quarter 2,2.5,0.38,2.5,stem 4,TRUE,,,,,,Leaf 1,,0,2,0
+27/06/2015,11:02:33 AM,red baron b,,,,Landward - Creek,Low,76,quarter 2,2.5,0.38,2.5,stem 4,TRUE,,,,,,Leaf 2,,0,24,0
+27/06/2015,11:02:47 AM,red baron b,,,,Landward - Creek,Low,76,quarter 2,2.5,0.38,2.5,stem 4,TRUE,,,,,,Leaf 3,,0,10,0
+27/06/2015,11:02:55 AM,red baron b,,,,Landward - Creek,Low,76,quarter 2,2.5,0.38,2.5,stem 4,TRUE,,,,,,Leaf 4,,0,0,0
+27/06/2015,11:03:12 AM,red baron b,,,,Landward - Creek,Low,76,quarter 2,2.5,0.38,2.5,stem 4,TRUE,,,,,,Leaf 5,,0,2,0
+27/06/2015,11:03:38 AM,red baron b,,,,Landward - Creek,Low,76,quarter 2,2.5,0.38,2.5,stem 4,TRUE,,,,,,Leaf 6,,0,39,0
+27/06/2015,11:04:14 AM,red baron b,,,,Landward - Creek,Low,76,quarter 2,2.5,0.38,2.5,stem 5,TRUE,,,,,,Leaf 1,,7,43,0
+27/06/2015,11:04:24 AM,red baron b,,,,Landward - Creek,Low,76,quarter 2,2.5,0.38,2.5,stem 5,TRUE,,,,,,Leaf 2,,0,3,0
+27/06/2015,11:04:39 AM,red baron b,,,,Landward - Creek,Low,76,quarter 2,2.5,0.38,2.5,stem 5,TRUE,,,,,,Leaf 3,,0,0,0
+27/06/2015,11:04:51 AM,red baron b,,,,Landward - Creek,Low,76,quarter 2,2.5,0.38,2.5,stem 5,TRUE,,,,,,Leaf 4,,0,7,0
+27/06/2015,11:05:03 AM,red baron b,,,,Landward - Creek,Low,76,quarter 2,2.5,0.38,2.5,stem 5,TRUE,,,,,,Leaf 5,,0,2,0
+27/06/2015,11:05:13 AM,red baron b,,,,Landward - Creek,Low,76,quarter 2,2.5,0.38,2.5,stem 5,TRUE,,,,,,Leaf 6,,0,0,0
+27/06/2015,11:05:41 AM,red baron b,,,,Landward - Creek,Low,76,quarter 2,2.5,0.38,2.5,stem 6,TRUE,,,,,,Leaf 1,,35,1,0
+27/06/2015,11:05:56 AM,red baron b,,,,Landward - Creek,Low,76,quarter 2,2.5,0.38,2.5,stem 6,TRUE,,,,,,Leaf 2,,6,4,0
+27/06/2015,11:06:04 AM,red baron b,,,,Landward - Creek,Low,76,quarter 2,2.5,0.38,2.5,stem 6,TRUE,,,,,,Leaf 3,,0,0,0
+27/06/2015,11:06:12 AM,red baron b,,,,Landward - Creek,Low,76,quarter 2,2.5,0.38,2.5,stem 6,TRUE,,,,,,Leaf 4,,0,0,0
+27/06/2015,11:06:34 AM,red baron b,,,,Landward - Creek,Low,76,quarter 2,2.5,0.38,2.5,stem 6,TRUE,,,,,,Leaf 5,,17,2,0
+27/06/2015,11:06:55 AM,red baron b,,,,Landward - Creek,Low,76,quarter 2,2.5,0.38,2.5,stem 6,TRUE,,,,,,Leaf 6,,12,21,0
+27/06/2015,11:07:17 AM,red baron b,,,,Landward - Creek,Low,76,quarter 2,2.5,0.38,2.5,stem 7,TRUE,,,,,,Leaf 1,,0,4,0
+27/06/2015,11:07:29 AM,red baron b,,,,Landward - Creek,Low,76,quarter 2,2.5,0.38,2.5,stem 7,TRUE,,,,,,Leaf 2,,0,4,0
+27/06/2015,11:07:46 AM,red baron b,,,,Landward - Creek,Low,76,quarter 2,2.5,0.38,2.5,stem 7,TRUE,,,,,,Leaf 3,,8,28,0
+27/06/2015,11:07:55 AM,red baron b,,,,Landward - Creek,Low,76,quarter 2,2.5,0.38,2.5,stem 7,TRUE,,,,,,Leaf 4,,0,0,0
+27/06/2015,11:08:06 AM,red baron b,,,,Landward - Creek,Low,76,quarter 2,2.5,0.38,2.5,stem 7,TRUE,,,,,,Leaf 5,,0,2,0
+27/06/2015,11:08:19 AM,red baron b,,,,Landward - Creek,Low,76,quarter 2,2.5,0.38,2.5,stem 7,TRUE,,,,,,Leaf 6,,0,10,0
+27/06/2015,11:08:49 AM,red baron b,,,,Landward - Creek,Low,76,quarter 2,2.5,0.38,2.5,stem 7,TRUE,,,,,,Leaf 1,,0,17,0
+27/06/2015,11:09:02 AM,red baron b,,,,Landward - Creek,Low,76,quarter 2,2.5,0.38,2.5,stem 7,TRUE,,,,,,Leaf 2,,22,2,0
+27/06/2015,11:09:15 AM,red baron b,,,,Landward - Creek,Low,76,quarter 2,2.5,0.38,2.5,stem 7,TRUE,,,,,,Leaf 3,,0,9,0
+27/06/2015,11:09:23 AM,red baron b,,,,Landward - Creek,Low,76,quarter 2,2.5,0.38,2.5,stem 7,TRUE,,,,,,Leaf 4,,0,43,0
+27/06/2015,11:09:46 AM,red baron b,,,,Landward - Creek,Low,76,quarter 2,2.5,0.38,2.5,stem 7,TRUE,,,,,,Leaf 4,,0,5,0
+27/06/2015,11:09:54 AM,red baron b,,,,Landward - Creek,Low,76,quarter 2,2.5,0.38,2.5,stem 7,TRUE,,,,,,Leaf 5,,0,0,0
+27/06/2015,11:10:29 AM,red baron b,,,,Landward - Creek,Low,76,quarter 2,2.5,0.38,2.5,stem 7,TRUE,,,,,,Leaf 6,,13,31,0
+27/06/2015,11:11:02 AM,red baron b,,,,Landward - Creek,Low,76,quarter 2,2.5,0.38,2.5,stem 7,TRUE,,,,,,Leaf 5,,0,5,0
+27/06/2015,11:11:32 AM,red baron b,,,,Landward - Creek,Low,76,quarter 2,2.5,0.38,2.5,stem 8,TRUE,,,,,,Leaf 1,,0,11,0
+27/06/2015,11:11:41 AM,red baron b,,,,Landward - Creek,Low,76,quarter 2,2.5,0.38,2.5,stem 8,TRUE,,,,,,Leaf 2,,0,2,0
+27/06/2015,11:11:49 AM,red baron b,,,,Landward - Creek,Low,76,quarter 2,2.5,0.38,2.5,stem 8,TRUE,,,,,,Leaf 3,,0,0,0
+27/06/2015,11:11:58 AM,red baron b,,,,Landward - Creek,Low,76,quarter 2,2.5,0.38,2.5,stem 8,TRUE,,,,,,Leaf 4,,0,9,0
+27/06/2015,11:12:18 AM,red baron b,,,,Landward - Creek,Low,76,quarter 2,2.5,0.38,2.5,stem 8,TRUE,,,,,,Leaf 5,,0,24,0
+27/06/2015,11:12:26 AM,red baron b,,,,Landward - Creek,Low,76,quarter 2,2.5,0.38,2.5,stem 8,TRUE,,,,,,Leaf 6,,0,2,0
+27/06/2015,11:16:45 AM,red baron b,,,,Landward - Creek,Low,76,quarter 3,0.49,1.82,15,stem 1,,TRUE,,TRUE,,,Leaf 1,,0,3,0
+27/06/2015,11:17:02 AM,red baron b,,,,Landward - Creek,Low,76,quarter 3,0.49,1.82,15,stem 1,,TRUE,,TRUE,,,Leaf 2,TRUE,5,4,0
+27/06/2015,11:17:13 AM,red baron b,,,,Landward - Creek,Low,76,quarter 3,0.49,1.82,15,stem 1,,TRUE,,TRUE,,,Leaf 3,,0,19,0
+27/06/2015,11:17:25 AM,red baron b,,,,Landward - Creek,Low,76,quarter 3,0.49,1.82,15,stem 1,,TRUE,,TRUE,,,Leaf 4,TRUE,0,1,0
+27/06/2015,11:17:39 AM,red baron b,,,,Landward - Creek,Low,76,quarter 3,0.49,1.82,15,stem 1,,TRUE,,TRUE,,,Leaf 5,TRUE,0,13,0
+27/06/2015,11:17:51 AM,red baron b,,,,Landward - Creek,Low,76,quarter 3,0.49,1.82,15,stem 1,,TRUE,,TRUE,,,Leaf 6,,0,17,0
+27/06/2015,11:18:24 AM,red baron b,,,,Landward - Creek,Low,76,quarter 3,0.49,1.82,15,stem 2,TRUE,,TRUE,,,TRUE,Leaf 1,TRUE,3,8,0
+27/06/2015,11:18:36 AM,red baron b,,,,Landward - Creek,Low,76,quarter 3,0.49,1.82,15,stem 2,TRUE,,TRUE,,,TRUE,Leaf 2,TRUE,8,9,0
+27/06/2015,11:18:49 AM,red baron b,,,,Landward - Creek,Low,76,quarter 3,0.49,1.82,15,stem 2,TRUE,,TRUE,,,TRUE,Leaf 3,,0,6,0
+27/06/2015,11:19:08 AM,red baron b,,,,Landward - Creek,Low,76,quarter 3,0.49,1.82,15,stem 2,TRUE,,TRUE,,,TRUE,Leaf 5,,0,15,0
+27/06/2015,11:19:21 AM,red baron b,,,,Landward - Creek,Low,76,quarter 3,0.49,1.82,15,stem 2,TRUE,,TRUE,,,TRUE,Leaf 6,,0,11,0
+27/06/2015,11:19:45 AM,red baron b,,,,Landward - Creek,Low,76,quarter 3,0.49,1.82,15,stem 3,TRUE,,TRUE,,,,Leaf 1,TRUE,5,2,0
+27/06/2015,11:19:59 AM,red baron b,,,,Landward - Creek,Low,76,quarter 3,0.49,1.82,15,stem 3,TRUE,,TRUE,,,,Leaf 2,,0,16,0
+27/06/2015,11:20:09 AM,red baron b,,,,Landward - Creek,Low,76,quarter 3,0.49,1.82,15,stem 3,TRUE,,TRUE,,,,Leaf 3,,0,9,0
+27/06/2015,11:20:22 AM,red baron b,,,,Landward - Creek,Low,76,quarter 3,0.49,1.82,15,stem 3,TRUE,,TRUE,,,,Leaf 4,TRUE,5,2,0
+27/06/2015,11:20:37 AM,red baron b,,,,Landward - Creek,Low,76,quarter 3,0.49,1.82,15,stem 3,TRUE,,TRUE,,,,Leaf 5,,0,13,0
+27/06/2015,11:21:17 AM,red baron b,,,,Landward - Creek,Low,76,quarter 3,0.49,1.82,15,stem 4,TRUE,,TRUE,,,,Leaf 1,TRUE,5,4,0
+27/06/2015,11:21:25 AM,red baron b,,,,Landward - Creek,Low,76,quarter 3,0.49,1.82,15,stem 4,TRUE,,TRUE,,,,Leaf 2,,0,10,0
+27/06/2015,11:21:35 AM,red baron b,,,,Landward - Creek,Low,76,quarter 3,0.49,1.82,15,stem 4,TRUE,,TRUE,,,,Leaf 3,,0,8,0
+27/06/2015,11:21:45 AM,red baron b,,,,Landward - Creek,Low,76,quarter 3,0.49,1.82,15,stem 4,TRUE,,TRUE,,,,Leaf 4,,0,5,0
+27/06/2015,11:21:52 AM,red baron b,,,,Landward - Creek,Low,76,quarter 3,0.49,1.82,15,stem 4,TRUE,,TRUE,,,,Leaf 5,,0,3,0
+27/06/2015,11:22:03 AM,red baron b,,,,Landward - Creek,Low,76,quarter 3,0.49,1.82,15,stem 4,TRUE,,TRUE,,,,Leaf 6,,0,4,0
+27/06/2015,11:22:24 AM,red baron b,,,,Landward - Creek,Low,76,quarter 3,0.49,1.82,15,stem 5,,TRUE,,TRUE,TRUE,,Leaf 1,,0,3,0
+27/06/2015,11:22:32 AM,red baron b,,,,Landward - Creek,Low,76,quarter 3,0.49,1.82,15,stem 5,,TRUE,,TRUE,TRUE,,Leaf 2,,0,0,0
+27/06/2015,11:22:41 AM,red baron b,,,,Landward - Creek,Low,76,quarter 3,0.49,1.82,15,stem 5,,TRUE,,TRUE,TRUE,,Leaf 3,,0,6,0
+27/06/2015,11:22:49 AM,red baron b,,,,Landward - Creek,Low,76,quarter 3,0.49,1.82,15,stem 5,,TRUE,,TRUE,TRUE,,Leaf 4,,0,3,0
+27/06/2015,11:22:59 AM,red baron b,,,,Landward - Creek,Low,76,quarter 3,0.49,1.82,15,stem 5,,TRUE,,TRUE,TRUE,,Leaf 5,,0,7,0
+27/06/2015,11:23:17 AM,red baron b,,,,Landward - Creek,Low,76,quarter 3,0.49,1.82,15,stem 5,,TRUE,,TRUE,TRUE,,Leaf 6,TRUE,0,5,9
+27/06/2015,11:23:44 AM,red baron b,,,,Landward - Creek,Low,76,quarter 3,0.49,1.82,15,stem 6,TRUE,,,TRUE,,,Leaf 1,,0,12,0
+27/06/2015,11:23:53 AM,red baron b,,,,Landward - Creek,Low,76,quarter 3,0.49,1.82,15,stem 6,TRUE,,,TRUE,,,Leaf 2,,0,8,0
+27/06/2015,11:24:07 AM,red baron b,,,,Landward - Creek,Low,76,quarter 3,0.49,1.82,15,stem 6,TRUE,,,TRUE,,,Leaf 3,TRUE,2,5,0
+27/06/2015,11:24:14 AM,red baron b,,,,Landward - Creek,Low,76,quarter 3,0.49,1.82,15,stem 6,TRUE,,,TRUE,,,Leaf 4,,0,2,0
+27/06/2015,11:24:27 AM,red baron b,,,,Landward - Creek,Low,76,quarter 3,0.49,1.82,15,stem 6,TRUE,,,TRUE,,,Leaf 5,,0,18,0
+27/06/2015,11:24:40 AM,red baron b,,,,Landward - Creek,Low,76,quarter 3,0.49,1.82,15,stem 6,TRUE,,,TRUE,,,Leaf 6,,0,9,0
+27/06/2015,11:25:03 AM,red baron b,,,,Landward - Creek,Low,76,quarter 3,0.49,1.82,15,stem 7,TRUE,,TRUE,,,,Leaf 1,,0,2,0
+27/06/2015,11:25:10 AM,red baron b,,,,Landward - Creek,Low,76,quarter 3,0.49,1.82,15,stem 7,TRUE,,TRUE,,,,Leaf 2,,0,4,0
+27/06/2015,11:25:18 AM,red baron b,,,,Landward - Creek,Low,76,quarter 3,0.49,1.82,15,stem 7,TRUE,,TRUE,,,,Leaf 3,,0,15,0
+27/06/2015,11:25:28 AM,red baron b,,,,Landward - Creek,Low,76,quarter 3,0.49,1.82,15,stem 7,TRUE,,TRUE,,,,Leaf 4,TRUE,0,2,0
+27/06/2015,11:25:36 AM,red baron b,,,,Landward - Creek,Low,76,quarter 3,0.49,1.82,15,stem 7,TRUE,,TRUE,,,,Leaf 5,,0,2,1
+27/06/2015,11:25:45 AM,red baron b,,,,Landward - Creek,Low,76,quarter 3,0.49,1.82,15,stem 7,TRUE,,TRUE,,,,Leaf 6,,0,3,0
+27/06/2015,11:26:04 AM,red baron b,,,,Landward - Creek,Low,76,quarter 3,0.49,1.82,15,stem 8,TRUE,,TRUE,,,,Leaf 1,,0,1,0
+27/06/2015,11:26:11 AM,red baron b,,,,Landward - Creek,Low,76,quarter 3,0.49,1.82,15,stem 8,TRUE,,TRUE,,,,Leaf 2,,0,3,0
+27/06/2015,11:26:20 AM,red baron b,,,,Landward - Creek,Low,76,quarter 3,0.49,1.82,15,stem 8,TRUE,,TRUE,,,,Leaf 3,,0,5,0
+27/06/2015,11:26:27 AM,red baron b,,,,Landward - Creek,Low,76,quarter 3,0.49,1.82,15,stem 8,TRUE,,TRUE,,,,Leaf 4,,0,0,0
+27/06/2015,11:26:36 AM,red baron b,,,,Landward - Creek,Low,76,quarter 3,0.49,1.82,15,stem 8,TRUE,,TRUE,,,,Leaf 5,,0,0,0
+27/06/2015,11:26:44 AM,red baron b,,,,Landward - Creek,Low,76,quarter 3,0.49,1.82,15,stem 8,TRUE,,TRUE,,,,Leaf 6,TRUE,0,0,0
+27/06/2015,11:28:51 AM,red baron b,,,,Landward - Creek,Low,76,quarter 4,5.2,0.89,10,stem 1,TRUE,,TRUE,,,,Leaf 1,,0,16,0
+27/06/2015,11:28:59 AM,red baron b,,,,Landward - Creek,Low,76,quarter 4,5.2,0.89,10,stem 1,TRUE,,TRUE,,,,Leaf 2,,0,1,0
+27/06/2015,11:29:11 AM,red baron b,,,,Landward - Creek,Low,76,quarter 4,5.2,0.89,10,stem 1,TRUE,,TRUE,,,,Leaf 3,,0,14,0
+27/06/2015,11:29:19 AM,red baron b,,,,Landward - Creek,Low,76,quarter 4,5.2,0.89,10,stem 1,TRUE,,TRUE,,,,Leaf 4,,0,1,0
+27/06/2015,11:29:35 AM,red baron b,,,,Landward - Creek,Low,76,quarter 4,5.2,0.89,10,stem 1,TRUE,,TRUE,,,,Leaf 5,,5,4,0
+27/06/2015,11:29:45 AM,red baron b,,,,Landward - Creek,Low,76,quarter 4,5.2,0.89,10,stem 1,TRUE,,TRUE,,,,Leaf 6,,0,3,0
+27/06/2015,11:30:05 AM,red baron b,,,,Landward - Creek,Low,76,quarter 4,5.2,0.89,10,stem 2,TRUE,,,,,,Leaf 1,,0,0,0
+27/06/2015,11:30:12 AM,red baron b,,,,Landward - Creek,Low,76,quarter 4,5.2,0.89,10,stem 2,TRUE,,,,,,Leaf 2,,0,0,0
+27/06/2015,11:30:20 AM,red baron b,,,,Landward - Creek,Low,76,quarter 4,5.2,0.89,10,stem 2,TRUE,,,,,,Leaf 3,,0,0,0
+27/06/2015,11:30:30 AM,red baron b,,,,Landward - Creek,Low,76,quarter 4,5.2,0.89,10,stem 2,TRUE,,,,,,Leaf 4,TRUE,0,0,0
+27/06/2015,11:30:39 AM,red baron b,,,,Landward - Creek,Low,76,quarter 4,5.2,0.89,10,stem 2,TRUE,,,,,,Leaf 5,TRUE,0,2,0
+27/06/2015,11:30:47 AM,red baron b,,,,Landward - Creek,Low,76,quarter 4,5.2,0.89,10,stem 2,TRUE,,,,,,Leaf 6,,0,7,0
+27/06/2015,11:31:01 AM,red baron b,,,,Landward - Creek,Low,76,quarter 4,5.2,0.89,10,stem 3,TRUE,,,,,,Leaf 1,,0,0,0
+27/06/2015,11:31:09 AM,red baron b,,,,Landward - Creek,Low,76,quarter 4,5.2,0.89,10,stem 3,TRUE,,,,,,Leaf 2,,0,1,0
+27/06/2015,11:31:17 AM,red baron b,,,,Landward - Creek,Low,76,quarter 4,5.2,0.89,10,stem 3,TRUE,,,,,,Leaf 3,,0,5,0
+27/06/2015,11:31:29 AM,red baron b,,,,Landward - Creek,Low,76,quarter 4,5.2,0.89,10,stem 3,TRUE,,,,,,Leaf 4,TRUE,0,0,0
+27/06/2015,11:31:36 AM,red baron b,,,,Landward - Creek,Low,76,quarter 4,5.2,0.89,10,stem 3,TRUE,,,,,,Leaf 5,,0,0,0
+27/06/2015,11:31:45 AM,red baron b,,,,Landward - Creek,Low,76,quarter 4,5.2,0.89,10,stem 3,TRUE,,,,,,Leaf 6,,0,0,0
+27/06/2015,11:32:07 AM,red baron b,,,,Landward - Creek,Low,76,quarter 4,5.2,0.89,10,stem 4,TRUE,,,TRUE,,,Leaf 1,,0,6,0
+27/06/2015,11:32:14 AM,red baron b,,,,Landward - Creek,Low,76,quarter 4,5.2,0.89,10,stem 4,TRUE,,,TRUE,,,Leaf 2,,0,11,0
+27/06/2015,11:32:23 AM,red baron b,,,,Landward - Creek,Low,76,quarter 4,5.2,0.89,10,stem 4,TRUE,,,TRUE,,,Leaf 3,,0,18,0
+27/06/2015,11:32:33 AM,red baron b,,,,Landward - Creek,Low,76,quarter 4,5.2,0.89,10,stem 4,TRUE,,,TRUE,,,Leaf 4,,0,10,0
+27/06/2015,11:32:44 AM,red baron b,,,,Landward - Creek,Low,76,quarter 4,5.2,0.89,10,stem 4,TRUE,,,TRUE,,,Leaf 5,,0,11,0
+27/06/2015,11:32:55 AM,red baron b,,,,Landward - Creek,Low,76,quarter 4,5.2,0.89,10,stem 4,TRUE,,,TRUE,,,Leaf 6,,0,5,0
+27/06/2015,11:33:09 AM,red baron b,,,,Landward - Creek,Low,76,quarter 4,5.2,0.89,10,stem 5,TRUE,,,,,,Leaf 1,,0,0,0
+27/06/2015,11:33:21 AM,red baron b,,,,Landward - Creek,Low,76,quarter 4,5.2,0.89,10,stem 5,TRUE,,,,,,Leaf 2,TRUE,30,4,0
+27/06/2015,11:33:31 AM,red baron b,,,,Landward - Creek,Low,76,quarter 4,5.2,0.89,10,stem 5,TRUE,,,,,,Leaf 3,,5,3,0
+27/06/2015,11:33:40 AM,red baron b,,,,Landward - Creek,Low,76,quarter 4,5.2,0.89,10,stem 5,TRUE,,,,,,Leaf 4,,0,2,0
+27/06/2015,11:33:46 AM,red baron b,,,,Landward - Creek,Low,76,quarter 4,5.2,0.89,10,stem 5,TRUE,,,,,,Leaf 5,,0,1,0
+27/06/2015,11:34:01 AM,red baron b,,,,Landward - Creek,Low,76,quarter 4,5.2,0.89,10,stem 5,TRUE,,,,,,Leaf 6,TRUE,40,10,0
+27/06/2015,11:34:32 AM,red baron b,,,,Landward - Creek,Low,76,quarter 4,5.2,0.89,10,stem 6,TRUE,,,TRUE,,,Leaf 1,,0,2,0
+27/06/2015,11:34:39 AM,red baron b,,,,Landward - Creek,Low,76,quarter 4,5.2,0.89,10,stem 6,TRUE,,,TRUE,,,Leaf 2,,0,0,0
+27/06/2015,11:34:48 AM,red baron b,,,,Landward - Creek,Low,76,quarter 4,5.2,0.89,10,stem 6,TRUE,,,TRUE,,,Leaf 3,,0,3,0
+27/06/2015,11:34:57 AM,red baron b,,,,Landward - Creek,Low,76,quarter 4,5.2,0.89,10,stem 6,TRUE,,,TRUE,,,Leaf 4,TRUE,20,0,0
+27/06/2015,11:35:03 AM,red baron b,,,,Landward - Creek,Low,76,quarter 4,5.2,0.89,10,stem 6,TRUE,,,TRUE,,,Leaf 5,,0,2,0
+27/06/2015,11:35:11 AM,red baron b,,,,Landward - Creek,Low,76,quarter 4,5.2,0.89,10,stem 6,TRUE,,,TRUE,,,Leaf 6,,0,0,0
+27/06/2015,11:35:28 AM,red baron b,,,,Landward - Creek,Low,76,quarter 4,5.2,0.89,10,stem 7,TRUE,,,,,,Leaf 1,,0,1,0
+27/06/2015,11:35:35 AM,red baron b,,,,Landward - Creek,Low,76,quarter 4,5.2,0.89,10,stem 7,TRUE,,,,,,Leaf 2,,0,0,0
+27/06/2015,11:35:43 AM,red baron b,,,,Landward - Creek,Low,76,quarter 4,5.2,0.89,10,stem 7,TRUE,,,,,,Leaf 3,,0,2,0
+27/06/2015,11:35:50 AM,red baron b,,,,Landward - Creek,Low,76,quarter 4,5.2,0.89,10,stem 7,TRUE,,,,,,Leaf 4,,0,0,0
+27/06/2015,11:35:58 AM,red baron b,,,,Landward - Creek,Low,76,quarter 4,5.2,0.89,10,stem 7,TRUE,,,,,,Leaf 5,TRUE,5,0,0
+27/06/2015,11:36:06 AM,red baron b,,,,Landward - Creek,Low,76,quarter 4,5.2,0.89,10,stem 7,TRUE,,,,,,Leaf 6,,0,1,0
+27/06/2015,11:36:28 AM,red baron b,,,,Landward - Creek,Low,76,quarter 4,5.2,0.89,10,stem 8,TRUE,,,,,,Leaf 1,,5,1,0
+27/06/2015,11:36:36 AM,red baron b,,,,Landward - Creek,Low,76,quarter 4,5.2,0.89,10,stem 8,TRUE,,,,,,Leaf 2,TRUE,0,1,0
+27/06/2015,11:36:44 AM,red baron b,,,,Landward - Creek,Low,76,quarter 4,5.2,0.89,10,stem 8,TRUE,,,,,,Leaf 3,,0,1,0
+27/06/2015,11:36:54 AM,red baron b,,,,Landward - Creek,Low,76,quarter 4,5.2,0.89,10,stem 8,TRUE,,,,,,Leaf 4,TRUE,0,1,0
+27/06/2015,11:37:06 AM,red baron b,,,,Landward - Creek,Low,76,quarter 4,5.2,0.89,10,stem 8,TRUE,,,,,,Leaf 5,,0,0,0
+27/06/2015,11:37:22 AM,red baron b,,,,Landward - Creek,Low,76,quarter 4,5.2,0.89,10,stem 8,TRUE,,,,,,Leaf 6,,20,6,0
+27/06/2015,11:37:33 AM,red baron b,,,,Landward - Creek,Low,76,quarter 4,5.2,0.89,10,stem 8,TRUE,,,,,,Leaf 5,,0,2,0
+27/06/2015,12:03:36 PM,red baron b,,,,,Low,76,return to transect point,5.2,0.89,10,return>quarter,TRUE,,,,,,return to stem,,,,
+27/06/2015,1:11:46 PM,derek 2,,,,,,,,,,,,,,,,,,,,,,
+27/06/2015,1:12:01 PM,derek 2,-25.44842804,152.9888755,,,,,,,,,,,,,,,,,,,,
+27/06/2015,1:18:19 PM,derek 2,-25.44846589,152.9889298,,Landward - Creek,Low,88,,,,,,,,,,,,,,,,
+27/06/2015,1:26:16 PM,derek 2,,,,Landward - Creek,Low,88,quarter 1,1.3,0.32,15,stem 1,TRUE,,TRUE,,,,Leaf 1,TRUE,0,0,0
+27/06/2015,1:27:12 PM,derek 2,,,,Landward - Creek,Low,88,quarter 1,1.3,0.32,15,stem 1,TRUE,,TRUE,,,,Leaf 2,,0,0,0
+27/06/2015,1:27:23 PM,derek 2,,,,Landward - Creek,Low,88,quarter 1,1.3,0.32,15,stem 1,TRUE,,TRUE,,,,Leaf 2,,0,0,0
+27/06/2015,1:28:03 PM,derek 2,,,,Landward - Creek,Low,88,quarter 1,1.3,0.32,15,stem 1,TRUE,,TRUE,,,,Leaf 3,,0,1,0
+27/06/2015,1:29:04 PM,derek 2,,,,Landward - Creek,Low,88,quarter 1,1.3,0.32,15,stem 1,TRUE,,TRUE,,,,Leaf 4,,1,12,0
+27/06/2015,1:29:50 PM,derek 2,,,,Landward - Creek,Low,88,quarter 1,1.3,0.32,15,stem 1,TRUE,,TRUE,,,,Leaf 5,,0,30,0
+27/06/2015,1:30:23 PM,derek 2,,,,Landward - Creek,Low,88,quarter 1,1.3,0.32,15,stem 1,TRUE,,TRUE,,,,Leaf 6,,0,26,0
+27/06/2015,1:39:16 PM,derek 2,,,,Landward - Creek,Low,88,quarter 1,1.3,0.32,15,stem 2,TRUE,,TRUE,,,TRUE,Leaf 1,,0,1,0
+27/06/2015,1:39:59 PM,derek 2,,,,Landward - Creek,Low,88,quarter 1,1.3,0.32,15,stem 2,TRUE,,TRUE,,,TRUE,Leaf 2,,0,0,5
+27/06/2015,1:41:12 PM,derek 2,,,,Landward - Creek,Low,88,quarter 1,1.3,0.32,15,stem 2,TRUE,,TRUE,,,TRUE,Leaf 3,TRUE,0,3,0
+27/06/2015,1:41:33 PM,derek 2,,,,Landward - Creek,Low,88,quarter 1,1.3,0.32,15,stem 2,TRUE,,TRUE,,,TRUE,Leaf 4,TRUE,0,1,0
+27/06/2015,1:41:59 PM,derek 2,,,,Landward - Creek,Low,88,quarter 1,1.3,0.32,15,stem 2,TRUE,,TRUE,,,TRUE,Leaf 5,,0,0,0
+27/06/2015,1:42:18 PM,derek 2,,,,Landward - Creek,Low,88,quarter 1,1.3,0.32,15,stem 2,TRUE,,TRUE,,,TRUE,Leaf 6,TRUE,0,0,0
+27/06/2015,1:44:23 PM,derek 2,,,,Landward - Creek,Low,88,quarter 1,1.3,0.32,15,stem 3,,TRUE,,,,,Leaf 1,TRUE,5,1,1
+27/06/2015,1:45:01 PM,derek 2,,,,Landward - Creek,Low,88,quarter 1,1.3,0.32,15,stem 3,,TRUE,,,,,Leaf 2,TRUE,1,0,2
+27/06/2015,1:45:18 PM,derek 2,,,,Landward - Creek,Low,88,quarter 1,1.3,0.32,15,stem 3,,TRUE,,,,,Leaf 3,TRUE,0,0,3
+27/06/2015,1:45:49 PM,derek 2,,,,Landward - Creek,Low,88,quarter 1,1.3,0.32,15,stem 3,,TRUE,,,,,Leaf 4,TRUE,0,0,1
+27/06/2015,1:46:09 PM,derek 2,,,,Landward - Creek,Low,88,quarter 1,1.3,0.32,15,stem 3,,TRUE,,,,,Leaf 5,TRUE,0,0,1
+27/06/2015,1:46:32 PM,derek 2,,,,Landward - Creek,Low,88,quarter 1,1.3,0.32,15,stem 3,,TRUE,,,,,Leaf 6,,0,0,3
+27/06/2015,1:47:49 PM,derek 2,,,,Landward - Creek,Low,88,quarter 1,1.3,0.32,15,stem 4,TRUE,,TRUE,,TRUE,,Leaf 1,,5,0,0
+27/06/2015,1:48:08 PM,derek 2,,,,Landward - Creek,Low,88,quarter 1,1.3,0.32,15,stem 4,TRUE,,TRUE,,TRUE,,Leaf 2,TRUE,10,0,1
+27/06/2015,1:48:25 PM,derek 2,,,,Landward - Creek,Low,88,quarter 1,1.3,0.32,15,stem 4,TRUE,,TRUE,,TRUE,,Leaf 3,,0,0,5
+27/06/2015,1:48:40 PM,derek 2,,,,Landward - Creek,Low,88,quarter 1,1.3,0.32,15,stem 4,TRUE,,TRUE,,TRUE,,Leaf 4,TRUE,0,0,3
+27/06/2015,1:48:59 PM,derek 2,,,,Landward - Creek,Low,88,quarter 1,1.3,0.32,15,stem 4,TRUE,,TRUE,,TRUE,,Leaf 5,,0,1,2
+27/06/2015,1:49:12 PM,derek 2,,,,Landward - Creek,Low,88,quarter 1,1.3,0.32,15,stem 4,TRUE,,TRUE,,TRUE,,Leaf 6,TRUE,0,0,2
+27/06/2015,1:50:08 PM,derek 2,,,,Landward - Creek,Low,88,quarter 1,1.3,0.32,15,stem 5,TRUE,,,,,,Leaf 1,TRUE,0,1,1
+27/06/2015,1:50:19 PM,derek 2,,,,Landward - Creek,Low,88,quarter 1,1.3,0.32,15,stem 5,TRUE,,,,,,Leaf 2,TRUE,0,2,0
+27/06/2015,1:50:34 PM,derek 2,,,,Landward - Creek,Low,88,quarter 1,1.3,0.32,15,stem 5,TRUE,,,,,,Leaf 3,TRUE,0,0,0
+27/06/2015,1:50:59 PM,derek 2,,,,Landward - Creek,Low,88,quarter 1,1.3,0.32,15,stem 5,TRUE,,,,,,Leaf 4,TRUE,0,0,4
+27/06/2015,1:51:14 PM,derek 2,,,,Landward - Creek,Low,88,quarter 1,1.3,0.32,15,stem 5,TRUE,,,,,,Leaf 5,TRUE,0,0,2
+27/06/2015,1:51:24 PM,derek 2,,,,Landward - Creek,Low,88,quarter 1,1.3,0.32,15,stem 5,TRUE,,,,,,Leaf 6,,0,0,0
+27/06/2015,1:52:01 PM,derek 2,,,,Landward - Creek,Low,88,quarter 1,1.3,0.32,15,stem 6,,TRUE,,,,,Leaf 1,TRUE,50,0,0
+27/06/2015,1:52:20 PM,derek 2,,,,Landward - Creek,Low,88,quarter 1,1.3,0.32,15,stem 6,,TRUE,,,,,Leaf 2,TRUE,20,1,1
+27/06/2015,1:52:32 PM,derek 2,,,,Landward - Creek,Low,88,quarter 1,1.3,0.32,15,stem 6,,TRUE,,,,,Leaf 3,TRUE,2,1,2
+27/06/2015,1:52:50 PM,derek 2,,,,Landward - Creek,Low,88,quarter 1,1.3,0.32,15,stem 6,,TRUE,,,,,Leaf 4,TRUE,5,1,2
+27/06/2015,1:53:13 PM,derek 2,,,,Landward - Creek,Low,88,quarter 1,1.3,0.32,15,stem 6,,TRUE,,,,,Leaf 5,TRUE,0,2,1
+27/06/2015,1:53:29 PM,derek 2,,,,Landward - Creek,Low,88,quarter 1,1.3,0.32,15,stem 6,,TRUE,,,,,Leaf 6,TRUE,0,3,0
+27/06/2015,1:55:53 PM,derek 2,,,,Landward - Creek,Low,88,quarter 1,1.3,0.32,15,stem 7,,TRUE,,TRUE,,TRUE,Leaf 1,TRUE,10,0,0
+27/06/2015,1:56:05 PM,derek 2,,,,Landward - Creek,Low,88,quarter 1,1.3,0.32,15,stem 7,,TRUE,,TRUE,,TRUE,Leaf 2,TRUE,2,0,1
+27/06/2015,1:56:17 PM,derek 2,,,,Landward - Creek,Low,88,quarter 1,1.3,0.32,15,stem 7,,TRUE,,TRUE,,TRUE,Leaf 3,TRUE,0,1,1
+27/06/2015,1:56:28 PM,derek 2,,,,Landward - Creek,Low,88,quarter 1,1.3,0.32,15,stem 7,,TRUE,,TRUE,,TRUE,Leaf 4,TRUE,0,2,0
+27/06/2015,1:56:40 PM,derek 2,,,,Landward - Creek,Low,88,quarter 1,1.3,0.32,15,stem 7,,TRUE,,TRUE,,TRUE,Leaf 5,TRUE,0,2,0
+27/06/2015,1:56:53 PM,derek 2,,,,Landward - Creek,Low,88,quarter 1,1.3,0.32,15,stem 7,,TRUE,,TRUE,,TRUE,Leaf 6,TRUE,0,1,4
+27/06/2015,1:57:19 PM,derek 2,,,,Landward - Creek,Low,88,quarter 1,1.3,0.32,15,stem 8,TRUE,,,TRUE,,,Leaf 1,TRUE,0,0,0
+27/06/2015,1:57:26 PM,derek 2,,,,Landward - Creek,Low,88,quarter 1,1.3,0.32,15,stem 8,TRUE,,,TRUE,,,Leaf 2,TRUE,0,0,0
+27/06/2015,1:57:35 PM,derek 2,,,,Landward - Creek,Low,88,quarter 1,1.3,0.32,15,stem 8,TRUE,,,TRUE,,,Leaf 3,TRUE,0,0,0
+27/06/2015,1:57:49 PM,derek 2,,,,Landward - Creek,Low,88,quarter 1,1.3,0.32,15,stem 8,TRUE,,,TRUE,,,Leaf 4,TRUE,40,0,0
+27/06/2015,1:58:12 PM,derek 2,,,,Landward - Creek,Low,88,quarter 1,1.3,0.32,15,stem 8,TRUE,,,TRUE,,,Leaf 5,TRUE,0,1,0
+27/06/2015,1:58:20 PM,derek 2,,,,Landward - Creek,Low,88,quarter 1,1.3,0.32,15,stem 8,TRUE,,,TRUE,,,Leaf 6,TRUE,0,0,0
+27/06/2015,2:02:35 PM,derek 2,,,,Landward - Creek,Low,88,quarter 2,4.8,0.5,3,stem 1,,TRUE,,TRUE,,,Leaf 1,TRUE,10,,
+27/06/2015,2:03:09 PM,derek 2,,,,Landward - Creek,Low,88,quarter 2,4.8,0.5,3,stem 1,,TRUE,,TRUE,,,Leaf 2,TRUE,20,,2
+27/06/2015,2:03:28 PM,derek 2,,,,Landward - Creek,Low,88,quarter 2,4.8,0.5,3,stem 1,,TRUE,,TRUE,,,Leaf 3,,10,,
+27/06/2015,2:03:42 PM,derek 2,,,,Landward - Creek,Low,88,quarter 2,4.8,0.5,3,stem 1,,TRUE,,TRUE,,,Leaf 4,,1,,1
+27/06/2015,2:03:59 PM,derek 2,,,,Landward - Creek,Low,88,quarter 2,4.8,0.5,3,stem 1,,TRUE,,TRUE,,,Leaf 5,TRUE,50,,
+27/06/2015,2:04:10 PM,derek 2,,,,Landward - Creek,Low,88,quarter 2,4.8,0.5,3,stem 1,,TRUE,,TRUE,,,Leaf 6,TRUE,5,,
+27/06/2015,2:05:01 PM,derek 2,,,,Landward - Creek,Low,88,quarter 2,4.8,0.5,3,stem 2,TRUE,,TRUE,,,,Leaf 1,,,,
+27/06/2015,2:05:10 PM,derek 2,,,,Landward - Creek,Low,88,quarter 2,4.8,0.5,3,stem 2,TRUE,,TRUE,,,,Leaf 2,TRUE,,,
+27/06/2015,2:05:30 PM,derek 2,,,,Landward - Creek,Low,88,quarter 2,4.8,0.5,3,stem 2,TRUE,,TRUE,,,,Leaf 3,TRUE,1,,1
+27/06/2015,2:05:43 PM,derek 2,,,,Landward - Creek,Low,88,quarter 2,4.8,0.5,3,stem 2,TRUE,,TRUE,,,,Leaf 4,,,,1
+27/06/2015,2:06:36 PM,derek 2,,,,Landward - Creek,Low,88,quarter 2,4.8,0.5,3,stem 2,TRUE,,TRUE,,,,Leaf 5,,0,,
+27/06/2015,2:06:45 PM,derek 2,,,,Landward - Creek,Low,88,quarter 2,4.8,0.5,3,stem 2,TRUE,,TRUE,,,,Leaf 6,,0,,
+27/06/2015,2:07:32 PM,derek 2,,,,Landward - Creek,Low,88,quarter 2,4.8,0.5,3,stem 3,TRUE,,TRUE,,,,Leaf 1,TRUE,0,1,0
+27/06/2015,2:07:49 PM,derek 2,,,,Landward - Creek,Low,88,quarter 2,4.8,0.5,3,stem 3,TRUE,,TRUE,,,,Leaf 2,TRUE,1,0,1
+27/06/2015,2:08:15 PM,derek 2,,,,Landward - Creek,Low,88,quarter 2,4.8,0.5,3,stem 3,TRUE,,TRUE,,,,Leaf 3,,0,0,1
+27/06/2015,2:08:25 PM,derek 2,,,,Landward - Creek,Low,88,quarter 2,4.8,0.5,3,stem 3,TRUE,,TRUE,,,,Leaf 4,,0,0,0
+27/06/2015,2:08:36 PM,derek 2,,,,Landward - Creek,Low,88,quarter 2,4.8,0.5,3,stem 3,TRUE,,TRUE,,,,Leaf 5,TRUE,0,0,0
+27/06/2015,2:09:19 PM,derek 2,,,,Landward - Creek,Low,88,quarter 2,4.8,0.5,3,stem 3,TRUE,,TRUE,,,,Leaf 6,TRUE,0,0,0
+27/06/2015,2:11:12 PM,derek 2,,,,Landward - Creek,Low,88,quarter 2,4.8,0.5,3,stem 4,TRUE,,,TRUE,,TRUE,Leaf 1,TRUE,0,0,1
+27/06/2015,2:11:23 PM,derek 2,,,,Landward - Creek,Low,88,quarter 2,4.8,0.5,3,stem 4,TRUE,,,TRUE,,TRUE,Leaf 2,TRUE,5,1,0
+27/06/2015,2:11:43 PM,derek 2,,,,Landward - Creek,Low,88,quarter 2,4.8,0.5,3,stem 4,TRUE,,,TRUE,,TRUE,Leaf 3,TRUE,0,0,0
+27/06/2015,2:11:55 PM,derek 2,,,,Landward - Creek,Low,88,quarter 2,4.8,0.5,3,stem 4,TRUE,,,TRUE,,TRUE,Leaf 4,TRUE,0,0,0
+27/06/2015,2:12:21 PM,derek 2,,,,Landward - Creek,Low,88,quarter 2,4.8,0.5,3,stem 4,TRUE,,,TRUE,,TRUE,Leaf 6,TRUE,5,0,1
+27/06/2015,2:12:36 PM,derek 2,,,,Landward - Creek,Low,88,quarter 2,4.8,0.5,3,stem 4,TRUE,,,TRUE,,TRUE,Leaf 5,TRUE,0,,
+27/06/2015,2:13:35 PM,derek 2,,,,Landward - Creek,Low,88,quarter 2,4.8,0.5,3,stem 5,TRUE,,TRUE,,,,Leaf 1,TRUE,50,0,0
+27/06/2015,2:13:47 PM,derek 2,,,,Landward - Creek,Low,88,quarter 2,4.8,0.5,3,stem 5,TRUE,,TRUE,,,,Leaf 2,TRUE,50,0,0
+27/06/2015,2:14:04 PM,derek 2,,,,Landward - Creek,Low,88,quarter 2,4.8,0.5,3,stem 5,TRUE,,TRUE,,,,Leaf 3,TRUE,1,0,0
+27/06/2015,2:14:29 PM,derek 2,,,,Landward - Creek,Low,88,quarter 2,4.8,0.5,3,stem 5,TRUE,,TRUE,,,,Leaf 4,,0,0,0
+27/06/2015,2:14:41 PM,derek 2,,,,Landward - Creek,Low,88,quarter 2,4.8,0.5,3,stem 5,TRUE,,TRUE,,,,Leaf 5,TRUE,5,0,0
+27/06/2015,2:15:04 PM,derek 2,,,,Landward - Creek,Low,88,quarter 2,4.8,0.5,3,stem 5,TRUE,,TRUE,,,,Leaf 6,TRUE,1,0,0
+27/06/2015,2:16:32 PM,derek 2,,,,Landward - Creek,Low,88,quarter 2,4.8,0.5,3,stem 5,TRUE,,,,,,Leaf 1,TRUE,10,0,0
+27/06/2015,2:16:42 PM,derek 2,,,,Landward - Creek,Low,88,quarter 2,4.8,0.5,3,stem 5,TRUE,,,,,,Leaf 2,TRUE,50,0,0
+27/06/2015,2:17:01 PM,derek 2,,,,Landward - Creek,Low,88,quarter 2,4.8,0.5,3,stem 5,TRUE,,,,,,Leaf 3,TRUE,0,0,2
+27/06/2015,2:17:10 PM,derek 2,,,,Landward - Creek,Low,88,quarter 2,4.8,0.5,3,stem 5,TRUE,,,,,,Leaf 4,TRUE,0,0,0
+27/06/2015,2:17:21 PM,derek 2,,,,Landward - Creek,Low,88,quarter 2,4.8,0.5,3,stem 5,TRUE,,,,,,Leaf 6,TRUE,1,0,0
+27/06/2015,2:17:40 PM,derek 2,,,,Landward - Creek,Low,88,quarter 2,4.8,0.5,3,stem 5,TRUE,,,,,,Leaf 6,TRUE,0,0,0
+27/06/2015,2:18:22 PM,derek 2,,,,Landward - Creek,Low,88,quarter 2,4.8,0.5,3,stem 6,TRUE,,,,,,Leaf 1,TRUE,0,0,0
+27/06/2015,2:18:37 PM,derek 2,,,,Landward - Creek,Low,88,quarter 2,4.8,0.5,3,stem 6,TRUE,,,,,,Leaf 2,,1,0,0
+27/06/2015,2:18:49 PM,derek 2,,,,Landward - Creek,Low,88,quarter 2,4.8,0.5,3,stem 6,TRUE,,,,,,Leaf 3,TRUE,2,2,2
+27/06/2015,2:19:00 PM,derek 2,,,,Landward - Creek,Low,88,quarter 2,4.8,0.5,3,stem 6,TRUE,,,,,,Leaf 4,TRUE,10,0,5
+27/06/2015,2:19:20 PM,derek 2,,,,Landward - Creek,Low,88,quarter 2,4.8,0.5,3,stem 6,TRUE,,,,,,Leaf 5,TRUE,0,0,1
+27/06/2015,2:19:30 PM,derek 2,,,,Landward - Creek,Low,88,quarter 2,4.8,0.5,3,stem 6,TRUE,,,,,,Leaf 6,TRUE,0,0,1
+27/06/2015,2:20:14 PM,derek 2,,,,Landward - Creek,Low,88,quarter 2,4.8,0.5,3,stem 7,,TRUE,TRUE,,,,Leaf 1,TRUE,1,0,13
+27/06/2015,2:20:37 PM,derek 2,,,,Landward - Creek,Low,88,quarter 2,4.8,0.5,3,stem 7,,TRUE,TRUE,,,,Leaf 2,TRUE,1,0,15
+27/06/2015,2:20:59 PM,derek 2,,,,Landward - Creek,Low,88,quarter 2,4.8,0.5,3,stem 7,,TRUE,TRUE,,,,Leaf 3,TRUE,1,0,2
+27/06/2015,2:21:25 PM,derek 2,,,,Landward - Creek,Low,88,quarter 2,4.8,0.5,3,stem 7,,TRUE,TRUE,,,,Leaf 4,TRUE,5,0,0
+27/06/2015,2:21:46 PM,derek 2,,,,Landward - Creek,Low,88,quarter 2,4.8,0.5,3,stem 7,,TRUE,TRUE,,,,Leaf 5,TRUE,10,0,1
+27/06/2015,2:22:21 PM,derek 2,,,,Landward - Creek,Low,88,quarter 2,4.8,0.5,3,stem 7,,TRUE,TRUE,,,,Leaf 6,TRUE,1,0,2
+27/06/2015,2:23:18 PM,derek 2,,,,Landward - Creek,Low,88,quarter 2,4.8,0.5,3,stem 8,TRUE,,TRUE,,TRUE,,Leaf 1,TRUE,50,0,0
+27/06/2015,2:23:28 PM,derek 2,,,,Landward - Creek,Low,88,quarter 2,4.8,0.5,3,stem 8,TRUE,,TRUE,,TRUE,,Leaf 2,TRUE,40,0,11
+27/06/2015,2:23:48 PM,derek 2,,,,Landward - Creek,Low,88,quarter 2,4.8,0.5,3,stem 8,TRUE,,TRUE,,TRUE,,Leaf 3,TRUE,50,0,0
+27/06/2015,2:24:00 PM,derek 2,,,,Landward - Creek,Low,88,quarter 2,4.8,0.5,3,stem 8,TRUE,,TRUE,,TRUE,,Leaf 4,TRUE,50,0,1
+27/06/2015,2:24:09 PM,derek 2,,,,Landward - Creek,Low,88,quarter 2,4.8,0.5,3,stem 8,TRUE,,TRUE,,TRUE,,Leaf 5,,1,0,0
+27/06/2015,2:24:35 PM,derek 2,,,,Landward - Creek,Low,88,quarter 2,4.8,0.5,3,stem 8,TRUE,,TRUE,,TRUE,,Leaf 6,,1,0,0
+27/06/2015,2:27:39 PM,derek 2,,,,Landward - Creek,Low,88,quarter 3,6.1,4.8,48,stem 1,,TRUE,,TRUE,,TRUE,Leaf 1,TRUE,0,0,0
+27/06/2015,2:27:55 PM,derek 2,,,,Landward - Creek,Low,88,quarter 3,6.1,4.8,48,stem 1,,TRUE,,TRUE,,TRUE,Leaf 2,TRUE,0,1,0
+27/06/2015,2:28:18 PM,derek 2,,,,Landward - Creek,Low,88,quarter 3,6.1,4.8,48,stem 1,,TRUE,,TRUE,,TRUE,Leaf 3,TRUE,10,0,2
+27/06/2015,2:29:26 PM,derek 2,,,,Landward - Creek,Low,88,quarter 3,6.1,4.8,48,stem 1,,TRUE,,TRUE,,TRUE,Leaf 4,TRUE,0,0,0
+27/06/2015,2:29:45 PM,derek 2,,,,Landward - Creek,Low,88,quarter 3,6.1,4.8,48,stem 1,,TRUE,,TRUE,,TRUE,Leaf 5,TRUE,20,0,0
+27/06/2015,2:30:09 PM,derek 2,,,,Landward - Creek,Low,88,quarter 3,6.1,4.8,48,stem 1,,TRUE,,TRUE,,TRUE,Leaf 6,,0,3,0
+27/06/2015,2:31:07 PM,derek 2,,,,Landward - Creek,Low,88,quarter 3,6.1,4.8,48,stem 2,TRUE,,,TRUE,,,Leaf 1,TRUE,2,0,0
+27/06/2015,2:31:29 PM,derek 2,,,,Landward - Creek,Low,88,quarter 3,6.1,4.8,48,stem 2,TRUE,,,TRUE,,,Leaf 2,TRUE,2,0,0
+27/06/2015,2:31:55 PM,derek 2,,,,Landward - Creek,Low,88,quarter 3,6.1,4.8,48,stem 2,TRUE,,,TRUE,,,Leaf 3,TRUE,0,0,0
+27/06/2015,2:32:12 PM,derek 2,,,,Landward - Creek,Low,88,quarter 3,6.1,4.8,48,stem 2,TRUE,,,TRUE,,,Leaf 4,,1,0,5
+27/06/2015,2:32:28 PM,derek 2,,,,Landward - Creek,Low,88,quarter 3,6.1,4.8,48,stem 2,TRUE,,,TRUE,,,Leaf 5,,2,0,0
+27/06/2015,2:32:43 PM,derek 2,,,,Landward - Creek,Low,88,quarter 3,6.1,4.8,48,stem 2,TRUE,,,TRUE,,,Leaf 6,,0,0,0
+27/06/2015,2:33:24 PM,derek 2,,,,Landward - Creek,Low,88,quarter 3,6.1,4.8,48,stem 2,TRUE,,,TRUE,,,Leaf 6,,0,0,4
+27/06/2015,2:34:03 PM,derek 2,,,,Landward - Creek,Low,88,quarter 3,6.1,4.8,48,stem 3,,TRUE,,TRUE,,TRUE,Leaf 1,TRUE,5,0,0
+27/06/2015,2:34:16 PM,derek 2,,,,Landward - Creek,Low,88,quarter 3,6.1,4.8,48,stem 3,,TRUE,,TRUE,,TRUE,Leaf 2,TRUE,5,0,0
+27/06/2015,2:34:32 PM,derek 2,,,,Landward - Creek,Low,88,quarter 3,6.1,4.8,48,stem 3,,TRUE,,TRUE,,TRUE,Leaf 3,TRUE,15,0,0
+27/06/2015,2:34:58 PM,derek 2,,,,Landward - Creek,Low,88,quarter 3,6.1,4.8,48,stem 3,,TRUE,,TRUE,,TRUE,Leaf 4,TRUE,0,0,0
+27/06/2015,2:35:23 PM,derek 2,,,,Landward - Creek,Low,88,quarter 3,6.1,4.8,48,stem 3,,TRUE,,TRUE,,TRUE,Leaf 5,TRUE,0,1,0
+27/06/2015,2:35:43 PM,derek 2,,,,Landward - Creek,Low,88,quarter 3,6.1,4.8,48,stem 3,,TRUE,,TRUE,,TRUE,Leaf 6,TRUE,0,0,0
+27/06/2015,2:36:25 PM,derek 2,,,,Landward - Creek,Low,88,quarter 3,6.1,4.8,48,stem 4,,TRUE,,TRUE,,TRUE,Leaf 1,TRUE,15,0,2
+27/06/2015,2:36:40 PM,derek 2,,,,Landward - Creek,Low,88,quarter 3,6.1,4.8,48,stem 4,,TRUE,,TRUE,,TRUE,Leaf 2,,10,0,0
+27/06/2015,2:36:53 PM,derek 2,,,,Landward - Creek,Low,88,quarter 3,6.1,4.8,48,stem 4,,TRUE,,TRUE,,TRUE,Leaf 3,TRUE,0,2,0
+27/06/2015,2:37:09 PM,derek 2,,,,Landward - Creek,Low,88,quarter 3,6.1,4.8,48,stem 4,,TRUE,,TRUE,,TRUE,Leaf 4,,8,0,0
+27/06/2015,2:37:26 PM,derek 2,,,,Landward - Creek,Low,88,quarter 3,6.1,4.8,48,stem 4,,TRUE,,TRUE,,TRUE,Leaf 5,TRUE,30,0,0
+27/06/2015,2:37:36 PM,derek 2,,,,Landward - Creek,Low,88,quarter 3,6.1,4.8,48,stem 4,,TRUE,,TRUE,,TRUE,Leaf 6,TRUE,3,0,0
+27/06/2015,2:38:09 PM,derek 2,,,,Landward - Creek,Low,88,quarter 3,6.1,4.8,48,stem 5,TRUE,,TRUE,,TRUE,,Leaf 1,,0,0,0
+27/06/2015,2:38:24 PM,derek 2,,,,Landward - Creek,Low,88,quarter 3,6.1,4.8,48,stem 5,TRUE,,TRUE,,TRUE,,Leaf 2,TRUE,0,0,0
+27/06/2015,2:38:37 PM,derek 2,,,,Landward - Creek,Low,88,quarter 3,6.1,4.8,48,stem 5,TRUE,,TRUE,,TRUE,,Leaf 3,,0,0,0
+27/06/2015,2:38:46 PM,derek 2,,,,Landward - Creek,Low,88,quarter 3,6.1,4.8,48,stem 5,TRUE,,TRUE,,TRUE,,Leaf 4,TRUE,0,2,0
+27/06/2015,2:39:12 PM,derek 2,,,,Landward - Creek,Low,88,quarter 3,6.1,4.8,48,stem 5,TRUE,,TRUE,,TRUE,,Leaf 5,,0,0,0
+27/06/2015,2:39:22 PM,derek 2,,,,Landward - Creek,Low,88,quarter 3,6.1,4.8,48,stem 5,TRUE,,TRUE,,TRUE,,Leaf 6,,0,0,0
+27/06/2015,2:39:51 PM,derek 2,,,,Landward - Creek,Low,88,quarter 3,6.1,4.8,48,stem 6,TRUE,,TRUE,,,TRUE,Leaf 1,TRUE,0,0,2
+27/06/2015,2:40:03 PM,derek 2,,,,Landward - Creek,Low,88,quarter 3,6.1,4.8,48,stem 6,TRUE,,TRUE,,,TRUE,Leaf 2,,2,0,0
+27/06/2015,2:40:27 PM,derek 2,,,,Landward - Creek,Low,88,quarter 3,6.1,4.8,48,stem 6,TRUE,,TRUE,,,TRUE,Leaf 3,TRUE,15,0,0
+27/06/2015,2:40:42 PM,derek 2,,,,Landward - Creek,Low,88,quarter 3,6.1,4.8,48,stem 6,TRUE,,TRUE,,,TRUE,Leaf 4,TRUE,0,0,0
+27/06/2015,2:41:04 PM,derek 2,,,,Landward - Creek,Low,88,quarter 3,6.1,4.8,48,stem 6,TRUE,,TRUE,,,TRUE,Leaf 5,,0,0,1
+27/06/2015,2:41:30 PM,derek 2,,,,Landward - Creek,Low,88,quarter 3,6.1,4.8,48,stem 6,TRUE,,TRUE,,,TRUE,Leaf 6,,0,0,0
+27/06/2015,2:41:52 PM,derek 2,,,,Landward - Creek,Low,88,quarter 3,6.1,4.8,48,stem 7,,TRUE,,TRUE,,TRUE,Leaf 1,,5,0,0
+27/06/2015,2:42:00 PM,derek 2,,,,Landward - Creek,Low,88,quarter 3,6.1,4.8,48,stem 7,,TRUE,,TRUE,,TRUE,Leaf 2,,0,6,0
+27/06/2015,2:42:19 PM,derek 2,,,,Landward - Creek,Low,88,quarter 3,6.1,4.8,48,stem 7,,TRUE,,TRUE,,TRUE,Leaf 3,TRUE,0,0,0
+27/06/2015,2:42:31 PM,derek 2,,,,Landward - Creek,Low,88,quarter 3,6.1,4.8,48,stem 7,,TRUE,,TRUE,,TRUE,Leaf 4,TRUE,0,3,0
+27/06/2015,2:42:54 PM,derek 2,,,,Landward - Creek,Low,88,quarter 3,6.1,4.8,48,stem 7,,TRUE,,TRUE,,TRUE,Leaf 4,TRUE,0,0,20
+27/06/2015,2:43:14 PM,derek 2,,,,Landward - Creek,Low,88,quarter 3,6.1,4.8,48,stem 7,,TRUE,,TRUE,,TRUE,Leaf 6,,0,0,0
+27/06/2015,2:43:46 PM,derek 2,,,,Landward - Creek,Low,88,quarter 3,6.1,4.8,48,stem 8,,TRUE,,,,,Leaf 1,,0,2,0
+27/06/2015,2:43:59 PM,derek 2,,,,Landward - Creek,Low,88,quarter 3,6.1,4.8,48,stem 8,,TRUE,,,,,Leaf 2,TRUE,5,0,0
+27/06/2015,2:44:09 PM,derek 2,,,,Landward - Creek,Low,88,quarter 3,6.1,4.8,48,stem 8,,TRUE,,,,,Leaf 3,,0,1,0
+27/06/2015,2:44:22 PM,derek 2,,,,Landward - Creek,Low,88,quarter 3,6.1,4.8,48,stem 8,,TRUE,,,,,Leaf 4,,0,0,0
+27/06/2015,2:44:39 PM,derek 2,,,,Landward - Creek,Low,88,quarter 3,6.1,4.8,48,stem 8,,TRUE,,,,,Leaf 5,TRUE,2,3,0
+27/06/2015,2:44:57 PM,derek 2,,,,Landward - Creek,Low,88,quarter 3,6.1,4.8,48,stem 8,,TRUE,,,,,Leaf 6,TRUE,0,2,0
+27/06/2015,9:40:53 AM,Toby practice,,,,,,,,,,,,,,,,,,,,,,
+27/06/2015,9:41:26 AM,Toby practice,,,,,,,,,,,,,,,,,,,,,,
+27/06/2015,9:42:04 AM,Toby practice,,,,Seaward,High,2,,,,,,,,,,,,,,,,
+27/06/2015,2:30:28 PM,Toby practice,-25.44837348,152.9889125,,,High,2,return to transect point,5.3,1,38,return>quarter,TRUE,,TRUE,,,TRUE,return to stem,,,,
+27/06/2015,6:53:17 PM,anthony,,,,,,,,,,,,,,,,,,,,,,
+27/06/2015,6:53:27 PM,anthony,-25.59919188,153.091562,,,,,,,,,,,,,,,,,,,,
+27/06/2015,6:53:42 PM,anthony,-25.59906715,153.0915288,,,,,,,,,,,,,,,,,,,,
+27/06/2015,6:53:50 PM,anthony,-25.59908118,153.0915258,,Seaward,High,1,,,,,,,,,,,,,,,,
+27/06/2015,6:54:35 PM,anthony,,,,Seaward,High,1,quarter 1,2,5,30,stem 1,TRUE,,TRUE,,,,Leaf 1,TRUE,75,6,3
+27/06/2015,7:06:24 PM,Toby dinner,,,,,,,,,,,,,,,,,,,,,,
+27/06/2015,7:06:53 PM,Toby dinner,-25.59921068,153.0917172,,,,,,,,,,,,,,,,,,,,
+27/06/2015,7:07:02 PM,Toby dinner,-25.59915772,153.0917634,,Seaward,High,15,,,,,,,,,,,,,,,,
+27/06/2015,7:07:20 PM,Toby dinner,,,,Seaward,High,15,quarter 1,3,5,35,stem 1,TRUE,,TRUE,,,,Leaf 1,TRUE,,0,
+27/06/2015,7:07:33 PM,Toby dinner,,,,Seaward,High,15,quarter 1,3,5,35,stem 1,TRUE,,TRUE,,,,Leaf 2,TRUE,,,0
+27/06/2015,7:08:02 PM,Toby dinner,,,,,,,,,,,,,,,,,,,,,,
+27/06/2015,7:08:09 PM,Toby dinner,-25.59922159,153.0916576,,,,,,,,,,,,,,,,,,,,
+27/06/2015,7:08:18 PM,Toby dinner,-25.59922081,153.0916539,,Seaward,High,15,,,,,,,,,,,,,,,,
+27/06/2015,7:08:35 PM,Toby dinner,,,,Seaward,High,15,quarter 1,3,5,35,stem 2,,,,,,,Leaf 1,TRUE,,0,
+27/06/2015,7:08:37 PM,Toby dinner,,,,Seaward,High,15,quarter 1,3,5,35,stem 2,,,,,,,Leaf 2,,,0,
+27/06/2015,7:08:41 PM,Toby dinner,,,,Seaward,High,15,quarter 1,3,5,35,stem 2,,,,,,,Leaf 3,TRUE,,0,0
+27/06/2015,7:08:45 PM,Toby dinner,,,,Seaward,High,15,quarter 1,3,5,35,stem 2,,,,,,,Leaf 4,TRUE,0,0,0
+27/06/2015,7:08:48 PM,Toby dinner,,,,Seaward,High,15,quarter 1,3,5,35,stem 2,,,,,,,Leaf 5,,0,,
+27/06/2015,7:09:04 PM,Toby dinner,,,,Seaward,High,15,quarter 1,3,5,35,stem 2,,,,,,,Leaf 6,,36,35,35
+27/06/2015,7:09:13 PM,Toby dinner,,,,Seaward,High,15,quarter 1,3,5,35,stem 2,,,,,,,Leaf 3,,6,,3
+27/06/2015,7:09:23 PM,Toby dinner,,,,Seaward,High,15,quarter 1,3,5,35,stem 2,,,,,,,Leaf 1,,,,6
